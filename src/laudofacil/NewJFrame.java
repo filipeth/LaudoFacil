@@ -27,7 +27,7 @@ public class NewJFrame extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        panelInicial1 = new javax.swing.JPanel();
+        panelInicial = new javax.swing.JPanel();
         jLabel8 = new javax.swing.JLabel();
         nomePaciente = new javax.swing.JTextField();
         jLabel9 = new javax.swing.JLabel();
@@ -115,40 +115,178 @@ public class NewJFrame extends javax.swing.JFrame {
         proximo4 = new javax.swing.JButton();
         voltar4 = new javax.swing.JButton();
         jLabel2 = new javax.swing.JLabel();
+        panelRaizResidual = new javax.swing.JPanel();
+        jLabel146 = new javax.swing.JLabel();
+        jRadio19 = new javax.swing.JRadioButton();
+        jRadio20 = new javax.swing.JRadioButton();
+        jRadio29 = new javax.swing.JRadioButton();
+        jRadio30 = new javax.swing.JRadioButton();
+        jRadio39 = new javax.swing.JRadioButton();
+        jRadio40 = new javax.swing.JRadioButton();
+        jRadio49 = new javax.swing.JRadioButton();
+        jRadio50 = new javax.swing.JRadioButton();
+        jRadio51 = new javax.swing.JRadioButton();
+        jRadio52 = new javax.swing.JRadioButton();
+        jRadio53 = new javax.swing.JRadioButton();
+        jRadio54 = new javax.swing.JRadioButton();
+        jRadio55 = new javax.swing.JRadioButton();
+        jRadio56 = new javax.swing.JRadioButton();
+        jRadio57 = new javax.swing.JRadioButton();
+        jRadio58 = new javax.swing.JRadioButton();
+        jRadio59 = new javax.swing.JRadioButton();
+        jRadio60 = new javax.swing.JRadioButton();
+        jRadio61 = new javax.swing.JRadioButton();
+        jRadio62 = new javax.swing.JRadioButton();
+        jRadio63 = new javax.swing.JRadioButton();
+        jRadio64 = new javax.swing.JRadioButton();
+        jRadio65 = new javax.swing.JRadioButton();
+        jRadio66 = new javax.swing.JRadioButton();
+        jRadio67 = new javax.swing.JRadioButton();
+        jRadio68 = new javax.swing.JRadioButton();
+        jRadio69 = new javax.swing.JRadioButton();
+        jRadio70 = new javax.swing.JRadioButton();
+        jRadio71 = new javax.swing.JRadioButton();
+        jRadio72 = new javax.swing.JRadioButton();
+        jRadio73 = new javax.swing.JRadioButton();
+        jRadio74 = new javax.swing.JRadioButton();
+        jLabel147 = new javax.swing.JLabel();
+        jLabel148 = new javax.swing.JLabel();
+        jLabel149 = new javax.swing.JLabel();
+        jLabel150 = new javax.swing.JLabel();
+        jLabel151 = new javax.swing.JLabel();
+        jLabel152 = new javax.swing.JLabel();
+        jLabel153 = new javax.swing.JLabel();
+        jLabel154 = new javax.swing.JLabel();
+        jLabel155 = new javax.swing.JLabel();
+        jLabel156 = new javax.swing.JLabel();
+        jLabel157 = new javax.swing.JLabel();
+        jLabel158 = new javax.swing.JLabel();
+        jLabel159 = new javax.swing.JLabel();
+        jLabel160 = new javax.swing.JLabel();
+        jLabel161 = new javax.swing.JLabel();
+        jLabel162 = new javax.swing.JLabel();
+        jLabel163 = new javax.swing.JLabel();
+        jLabel164 = new javax.swing.JLabel();
+        jLabel165 = new javax.swing.JLabel();
+        jLabel166 = new javax.swing.JLabel();
+        jLabel167 = new javax.swing.JLabel();
+        jLabel168 = new javax.swing.JLabel();
+        jLabel169 = new javax.swing.JLabel();
+        jLabel170 = new javax.swing.JLabel();
+        jLabel171 = new javax.swing.JLabel();
+        jLabel172 = new javax.swing.JLabel();
+        jLabel173 = new javax.swing.JLabel();
+        jLabel174 = new javax.swing.JLabel();
+        jLabel175 = new javax.swing.JLabel();
+        jLabel176 = new javax.swing.JLabel();
+        jLabel177 = new javax.swing.JLabel();
+        jLabel178 = new javax.swing.JLabel();
+        proximo6 = new javax.swing.JButton();
+        voltar6 = new javax.swing.JButton();
+        jLabel4 = new javax.swing.JLabel();
+        panelImplantes = new javax.swing.JPanel();
+        jLabel179 = new javax.swing.JLabel();
+        jRadio75 = new javax.swing.JRadioButton();
+        jRadio76 = new javax.swing.JRadioButton();
+        jRadio77 = new javax.swing.JRadioButton();
+        jRadio78 = new javax.swing.JRadioButton();
+        jRadio79 = new javax.swing.JRadioButton();
+        jRadio80 = new javax.swing.JRadioButton();
+        jRadio81 = new javax.swing.JRadioButton();
+        jRadio82 = new javax.swing.JRadioButton();
+        jRadio83 = new javax.swing.JRadioButton();
+        jRadio84 = new javax.swing.JRadioButton();
+        jRadio85 = new javax.swing.JRadioButton();
+        jRadio86 = new javax.swing.JRadioButton();
+        jRadio87 = new javax.swing.JRadioButton();
+        jRadio88 = new javax.swing.JRadioButton();
+        jRadio89 = new javax.swing.JRadioButton();
+        jRadio90 = new javax.swing.JRadioButton();
+        jRadio91 = new javax.swing.JRadioButton();
+        jRadio92 = new javax.swing.JRadioButton();
+        jRadio93 = new javax.swing.JRadioButton();
+        jRadio94 = new javax.swing.JRadioButton();
+        jRadio95 = new javax.swing.JRadioButton();
+        jRadio96 = new javax.swing.JRadioButton();
+        jRadio97 = new javax.swing.JRadioButton();
+        jRadio98 = new javax.swing.JRadioButton();
+        jRadio99 = new javax.swing.JRadioButton();
+        jRadio100 = new javax.swing.JRadioButton();
+        jRadio101 = new javax.swing.JRadioButton();
+        jRadio102 = new javax.swing.JRadioButton();
+        jRadio103 = new javax.swing.JRadioButton();
+        jRadio104 = new javax.swing.JRadioButton();
+        jRadio105 = new javax.swing.JRadioButton();
+        jRadio106 = new javax.swing.JRadioButton();
+        jLabel180 = new javax.swing.JLabel();
+        jLabel181 = new javax.swing.JLabel();
+        jLabel182 = new javax.swing.JLabel();
+        jLabel183 = new javax.swing.JLabel();
+        jLabel184 = new javax.swing.JLabel();
+        jLabel185 = new javax.swing.JLabel();
+        jLabel186 = new javax.swing.JLabel();
+        jLabel187 = new javax.swing.JLabel();
+        jLabel188 = new javax.swing.JLabel();
+        jLabel189 = new javax.swing.JLabel();
+        jLabel190 = new javax.swing.JLabel();
+        jLabel191 = new javax.swing.JLabel();
+        jLabel192 = new javax.swing.JLabel();
+        jLabel193 = new javax.swing.JLabel();
+        jLabel194 = new javax.swing.JLabel();
+        jLabel195 = new javax.swing.JLabel();
+        jLabel196 = new javax.swing.JLabel();
+        jLabel197 = new javax.swing.JLabel();
+        jLabel198 = new javax.swing.JLabel();
+        jLabel199 = new javax.swing.JLabel();
+        jLabel200 = new javax.swing.JLabel();
+        jLabel201 = new javax.swing.JLabel();
+        jLabel202 = new javax.swing.JLabel();
+        jLabel203 = new javax.swing.JLabel();
+        jLabel204 = new javax.swing.JLabel();
+        jLabel205 = new javax.swing.JLabel();
+        jLabel206 = new javax.swing.JLabel();
+        jLabel207 = new javax.swing.JLabel();
+        jLabel208 = new javax.swing.JLabel();
+        jLabel209 = new javax.swing.JLabel();
+        jLabel210 = new javax.swing.JLabel();
+        jLabel211 = new javax.swing.JLabel();
+        proximo7 = new javax.swing.JButton();
+        voltar7 = new javax.swing.JButton();
+        jLabel5 = new javax.swing.JLabel();
         panelDentesCarie = new javax.swing.JPanel();
         jLabel113 = new javax.swing.JLabel();
-        jRadioButton107 = new javax.swing.JRadioButton();
-        jRadioButton108 = new javax.swing.JRadioButton();
-        jRadioButton109 = new javax.swing.JRadioButton();
-        jRadioButton110 = new javax.swing.JRadioButton();
-        jRadioButton111 = new javax.swing.JRadioButton();
-        jRadioButton112 = new javax.swing.JRadioButton();
-        jRadioButton113 = new javax.swing.JRadioButton();
-        jRadioButton114 = new javax.swing.JRadioButton();
-        jRadioButton115 = new javax.swing.JRadioButton();
-        jRadioButton116 = new javax.swing.JRadioButton();
-        jRadioButton117 = new javax.swing.JRadioButton();
-        jRadioButton118 = new javax.swing.JRadioButton();
-        jRadioButton119 = new javax.swing.JRadioButton();
-        jRadioButton120 = new javax.swing.JRadioButton();
-        jRadioButton121 = new javax.swing.JRadioButton();
-        jRadioButton122 = new javax.swing.JRadioButton();
-        jRadioButton123 = new javax.swing.JRadioButton();
-        jRadioButton124 = new javax.swing.JRadioButton();
-        jRadioButton125 = new javax.swing.JRadioButton();
-        jRadioButton126 = new javax.swing.JRadioButton();
-        jRadioButton127 = new javax.swing.JRadioButton();
-        jRadioButton128 = new javax.swing.JRadioButton();
-        jRadioButton129 = new javax.swing.JRadioButton();
-        jRadioButton130 = new javax.swing.JRadioButton();
-        jRadioButton131 = new javax.swing.JRadioButton();
-        jRadioButton132 = new javax.swing.JRadioButton();
-        jRadioButton133 = new javax.swing.JRadioButton();
-        jRadioButton134 = new javax.swing.JRadioButton();
-        jRadioButton135 = new javax.swing.JRadioButton();
-        jRadioButton136 = new javax.swing.JRadioButton();
-        jRadioButton137 = new javax.swing.JRadioButton();
-        jRadioButton138 = new javax.swing.JRadioButton();
+        jRadio18 = new javax.swing.JRadioButton();
+        jRadio17 = new javax.swing.JRadioButton();
+        jRadio16 = new javax.swing.JRadioButton();
+        jRadio15 = new javax.swing.JRadioButton();
+        jRadio14 = new javax.swing.JRadioButton();
+        jRadio13 = new javax.swing.JRadioButton();
+        jRadio12 = new javax.swing.JRadioButton();
+        jRadio11 = new javax.swing.JRadioButton();
+        jRadio28 = new javax.swing.JRadioButton();
+        jRadio27 = new javax.swing.JRadioButton();
+        jRadio26 = new javax.swing.JRadioButton();
+        jRadio25 = new javax.swing.JRadioButton();
+        jRadio24 = new javax.swing.JRadioButton();
+        jRadio23 = new javax.swing.JRadioButton();
+        jRadio22 = new javax.swing.JRadioButton();
+        jRadio21 = new javax.swing.JRadioButton();
+        jRadio48 = new javax.swing.JRadioButton();
+        jRadio47 = new javax.swing.JRadioButton();
+        jRadio46 = new javax.swing.JRadioButton();
+        jRadio45 = new javax.swing.JRadioButton();
+        jRadio44 = new javax.swing.JRadioButton();
+        jRadio43 = new javax.swing.JRadioButton();
+        jRadio42 = new javax.swing.JRadioButton();
+        jRadio41 = new javax.swing.JRadioButton();
+        jRadio38 = new javax.swing.JRadioButton();
+        jRadio37 = new javax.swing.JRadioButton();
+        jRadio36 = new javax.swing.JRadioButton();
+        jRadio35 = new javax.swing.JRadioButton();
+        jRadio34 = new javax.swing.JRadioButton();
+        jRadio33 = new javax.swing.JRadioButton();
+        jRadio32 = new javax.swing.JRadioButton();
+        jRadio31 = new javax.swing.JRadioButton();
         jLabel114 = new javax.swing.JLabel();
         jLabel115 = new javax.swing.JLabel();
         jLabel116 = new javax.swing.JLabel();
@@ -184,6 +322,903 @@ public class NewJFrame extends javax.swing.JFrame {
         proximo5 = new javax.swing.JButton();
         voltar5 = new javax.swing.JButton();
         jLabel3 = new javax.swing.JLabel();
+        panelTratamentoEndodôntico = new javax.swing.JPanel();
+        jLabel212 = new javax.swing.JLabel();
+        jRadio107 = new javax.swing.JRadioButton();
+        jRadio108 = new javax.swing.JRadioButton();
+        jRadio109 = new javax.swing.JRadioButton();
+        jRadio110 = new javax.swing.JRadioButton();
+        jRadio111 = new javax.swing.JRadioButton();
+        jRadio112 = new javax.swing.JRadioButton();
+        jRadio113 = new javax.swing.JRadioButton();
+        jRadio114 = new javax.swing.JRadioButton();
+        jRadio115 = new javax.swing.JRadioButton();
+        jRadio116 = new javax.swing.JRadioButton();
+        jRadio117 = new javax.swing.JRadioButton();
+        jRadio118 = new javax.swing.JRadioButton();
+        jRadio119 = new javax.swing.JRadioButton();
+        jRadio120 = new javax.swing.JRadioButton();
+        jRadio121 = new javax.swing.JRadioButton();
+        jRadio122 = new javax.swing.JRadioButton();
+        jRadio123 = new javax.swing.JRadioButton();
+        jRadio124 = new javax.swing.JRadioButton();
+        jRadio125 = new javax.swing.JRadioButton();
+        jRadio126 = new javax.swing.JRadioButton();
+        jRadio127 = new javax.swing.JRadioButton();
+        jRadio128 = new javax.swing.JRadioButton();
+        jRadio129 = new javax.swing.JRadioButton();
+        jRadio130 = new javax.swing.JRadioButton();
+        jRadio131 = new javax.swing.JRadioButton();
+        jRadio132 = new javax.swing.JRadioButton();
+        jRadio133 = new javax.swing.JRadioButton();
+        jRadio134 = new javax.swing.JRadioButton();
+        jRadio135 = new javax.swing.JRadioButton();
+        jRadio136 = new javax.swing.JRadioButton();
+        jRadio137 = new javax.swing.JRadioButton();
+        jRadio138 = new javax.swing.JRadioButton();
+        jLabel213 = new javax.swing.JLabel();
+        jLabel214 = new javax.swing.JLabel();
+        jLabel215 = new javax.swing.JLabel();
+        jLabel216 = new javax.swing.JLabel();
+        jLabel217 = new javax.swing.JLabel();
+        jLabel218 = new javax.swing.JLabel();
+        jLabel219 = new javax.swing.JLabel();
+        jLabel220 = new javax.swing.JLabel();
+        jLabel221 = new javax.swing.JLabel();
+        jLabel222 = new javax.swing.JLabel();
+        jLabel223 = new javax.swing.JLabel();
+        jLabel224 = new javax.swing.JLabel();
+        jLabel225 = new javax.swing.JLabel();
+        jLabel226 = new javax.swing.JLabel();
+        jLabel227 = new javax.swing.JLabel();
+        jLabel228 = new javax.swing.JLabel();
+        jLabel229 = new javax.swing.JLabel();
+        jLabel230 = new javax.swing.JLabel();
+        jLabel231 = new javax.swing.JLabel();
+        jLabel232 = new javax.swing.JLabel();
+        jLabel233 = new javax.swing.JLabel();
+        jLabel234 = new javax.swing.JLabel();
+        jLabel235 = new javax.swing.JLabel();
+        jLabel236 = new javax.swing.JLabel();
+        jLabel237 = new javax.swing.JLabel();
+        jLabel238 = new javax.swing.JLabel();
+        jLabel239 = new javax.swing.JLabel();
+        jLabel240 = new javax.swing.JLabel();
+        jLabel241 = new javax.swing.JLabel();
+        jLabel242 = new javax.swing.JLabel();
+        jLabel243 = new javax.swing.JLabel();
+        jLabel244 = new javax.swing.JLabel();
+        proximo8 = new javax.swing.JButton();
+        voltar8 = new javax.swing.JButton();
+        jLabel6 = new javax.swing.JLabel();
+        panelNúcleoMetálicoIntraCanal = new javax.swing.JPanel();
+        jLabel245 = new javax.swing.JLabel();
+        jRadio139 = new javax.swing.JRadioButton();
+        jRadio140 = new javax.swing.JRadioButton();
+        jRadio141 = new javax.swing.JRadioButton();
+        jRadio142 = new javax.swing.JRadioButton();
+        jRadio143 = new javax.swing.JRadioButton();
+        jRadio144 = new javax.swing.JRadioButton();
+        jRadio145 = new javax.swing.JRadioButton();
+        jRadio146 = new javax.swing.JRadioButton();
+        jRadio147 = new javax.swing.JRadioButton();
+        jRadio148 = new javax.swing.JRadioButton();
+        jRadio149 = new javax.swing.JRadioButton();
+        jRadio150 = new javax.swing.JRadioButton();
+        jRadio151 = new javax.swing.JRadioButton();
+        jRadio152 = new javax.swing.JRadioButton();
+        jRadio153 = new javax.swing.JRadioButton();
+        jRadio154 = new javax.swing.JRadioButton();
+        jRadio155 = new javax.swing.JRadioButton();
+        jRadio156 = new javax.swing.JRadioButton();
+        jRadio157 = new javax.swing.JRadioButton();
+        jRadio158 = new javax.swing.JRadioButton();
+        jRadio159 = new javax.swing.JRadioButton();
+        jRadio160 = new javax.swing.JRadioButton();
+        jRadio161 = new javax.swing.JRadioButton();
+        jRadio162 = new javax.swing.JRadioButton();
+        jRadio163 = new javax.swing.JRadioButton();
+        jRadio164 = new javax.swing.JRadioButton();
+        jRadio165 = new javax.swing.JRadioButton();
+        jRadio166 = new javax.swing.JRadioButton();
+        jRadio167 = new javax.swing.JRadioButton();
+        jRadio168 = new javax.swing.JRadioButton();
+        jRadio169 = new javax.swing.JRadioButton();
+        jRadio170 = new javax.swing.JRadioButton();
+        jLabel246 = new javax.swing.JLabel();
+        jLabel247 = new javax.swing.JLabel();
+        jLabel248 = new javax.swing.JLabel();
+        jLabel249 = new javax.swing.JLabel();
+        jLabel250 = new javax.swing.JLabel();
+        jLabel251 = new javax.swing.JLabel();
+        jLabel252 = new javax.swing.JLabel();
+        jLabel253 = new javax.swing.JLabel();
+        jLabel254 = new javax.swing.JLabel();
+        jLabel255 = new javax.swing.JLabel();
+        jLabel256 = new javax.swing.JLabel();
+        jLabel257 = new javax.swing.JLabel();
+        jLabel258 = new javax.swing.JLabel();
+        jLabel259 = new javax.swing.JLabel();
+        jLabel260 = new javax.swing.JLabel();
+        jLabel261 = new javax.swing.JLabel();
+        jLabel262 = new javax.swing.JLabel();
+        jLabel263 = new javax.swing.JLabel();
+        jLabel264 = new javax.swing.JLabel();
+        jLabel265 = new javax.swing.JLabel();
+        jLabel266 = new javax.swing.JLabel();
+        jLabel267 = new javax.swing.JLabel();
+        jLabel268 = new javax.swing.JLabel();
+        jLabel269 = new javax.swing.JLabel();
+        jLabel270 = new javax.swing.JLabel();
+        jLabel271 = new javax.swing.JLabel();
+        jLabel272 = new javax.swing.JLabel();
+        jLabel273 = new javax.swing.JLabel();
+        jLabel274 = new javax.swing.JLabel();
+        jLabel275 = new javax.swing.JLabel();
+        jLabel276 = new javax.swing.JLabel();
+        jLabel277 = new javax.swing.JLabel();
+        proximo9 = new javax.swing.JButton();
+        voltar9 = new javax.swing.JButton();
+        jLabel7 = new javax.swing.JLabel();
+        panelLesãoOsseaPeriapical = new javax.swing.JPanel();
+        jLabel278 = new javax.swing.JLabel();
+        jRadio171 = new javax.swing.JRadioButton();
+        jRadio172 = new javax.swing.JRadioButton();
+        jRadio173 = new javax.swing.JRadioButton();
+        jRadio174 = new javax.swing.JRadioButton();
+        jRadio175 = new javax.swing.JRadioButton();
+        jRadio176 = new javax.swing.JRadioButton();
+        jRadio177 = new javax.swing.JRadioButton();
+        jRadio178 = new javax.swing.JRadioButton();
+        jRadio179 = new javax.swing.JRadioButton();
+        jRadio180 = new javax.swing.JRadioButton();
+        jRadio181 = new javax.swing.JRadioButton();
+        jRadio182 = new javax.swing.JRadioButton();
+        jRadio183 = new javax.swing.JRadioButton();
+        jRadio184 = new javax.swing.JRadioButton();
+        jRadio185 = new javax.swing.JRadioButton();
+        jRadio186 = new javax.swing.JRadioButton();
+        jRadio187 = new javax.swing.JRadioButton();
+        jRadio188 = new javax.swing.JRadioButton();
+        jRadio189 = new javax.swing.JRadioButton();
+        jRadio190 = new javax.swing.JRadioButton();
+        jRadio191 = new javax.swing.JRadioButton();
+        jRadio192 = new javax.swing.JRadioButton();
+        jRadio193 = new javax.swing.JRadioButton();
+        jRadio194 = new javax.swing.JRadioButton();
+        jRadio195 = new javax.swing.JRadioButton();
+        jRadio196 = new javax.swing.JRadioButton();
+        jRadio197 = new javax.swing.JRadioButton();
+        jRadio198 = new javax.swing.JRadioButton();
+        jRadio199 = new javax.swing.JRadioButton();
+        jRadio200 = new javax.swing.JRadioButton();
+        jRadio201 = new javax.swing.JRadioButton();
+        jRadio202 = new javax.swing.JRadioButton();
+        jLabel279 = new javax.swing.JLabel();
+        jLabel280 = new javax.swing.JLabel();
+        jLabel281 = new javax.swing.JLabel();
+        jLabel282 = new javax.swing.JLabel();
+        jLabel283 = new javax.swing.JLabel();
+        jLabel284 = new javax.swing.JLabel();
+        jLabel285 = new javax.swing.JLabel();
+        jLabel286 = new javax.swing.JLabel();
+        jLabel287 = new javax.swing.JLabel();
+        jLabel288 = new javax.swing.JLabel();
+        jLabel289 = new javax.swing.JLabel();
+        jLabel290 = new javax.swing.JLabel();
+        jLabel291 = new javax.swing.JLabel();
+        jLabel292 = new javax.swing.JLabel();
+        jLabel293 = new javax.swing.JLabel();
+        jLabel294 = new javax.swing.JLabel();
+        jLabel295 = new javax.swing.JLabel();
+        jLabel296 = new javax.swing.JLabel();
+        jLabel297 = new javax.swing.JLabel();
+        jLabel298 = new javax.swing.JLabel();
+        jLabel299 = new javax.swing.JLabel();
+        jLabel300 = new javax.swing.JLabel();
+        jLabel301 = new javax.swing.JLabel();
+        jLabel302 = new javax.swing.JLabel();
+        jLabel303 = new javax.swing.JLabel();
+        jLabel304 = new javax.swing.JLabel();
+        jLabel305 = new javax.swing.JLabel();
+        jLabel306 = new javax.swing.JLabel();
+        jLabel307 = new javax.swing.JLabel();
+        jLabel308 = new javax.swing.JLabel();
+        jLabel309 = new javax.swing.JLabel();
+        jLabel310 = new javax.swing.JLabel();
+        proximo10 = new javax.swing.JButton();
+        voltar10 = new javax.swing.JButton();
+        jLabel311 = new javax.swing.JLabel();
+        panelMésioAngulados = new javax.swing.JPanel();
+        jLabel312 = new javax.swing.JLabel();
+        jRadio203 = new javax.swing.JRadioButton();
+        jRadio204 = new javax.swing.JRadioButton();
+        jRadio205 = new javax.swing.JRadioButton();
+        jRadio206 = new javax.swing.JRadioButton();
+        jRadio207 = new javax.swing.JRadioButton();
+        jRadio208 = new javax.swing.JRadioButton();
+        jRadio209 = new javax.swing.JRadioButton();
+        jRadio210 = new javax.swing.JRadioButton();
+        jRadio211 = new javax.swing.JRadioButton();
+        jRadio212 = new javax.swing.JRadioButton();
+        jRadio213 = new javax.swing.JRadioButton();
+        jRadio214 = new javax.swing.JRadioButton();
+        jRadio215 = new javax.swing.JRadioButton();
+        jRadio216 = new javax.swing.JRadioButton();
+        jRadio217 = new javax.swing.JRadioButton();
+        jRadio218 = new javax.swing.JRadioButton();
+        jRadio219 = new javax.swing.JRadioButton();
+        jRadio220 = new javax.swing.JRadioButton();
+        jRadio221 = new javax.swing.JRadioButton();
+        jRadio222 = new javax.swing.JRadioButton();
+        jRadio223 = new javax.swing.JRadioButton();
+        jRadio224 = new javax.swing.JRadioButton();
+        jRadio225 = new javax.swing.JRadioButton();
+        jRadio226 = new javax.swing.JRadioButton();
+        jRadio227 = new javax.swing.JRadioButton();
+        jRadio228 = new javax.swing.JRadioButton();
+        jRadio229 = new javax.swing.JRadioButton();
+        jRadio230 = new javax.swing.JRadioButton();
+        jRadio231 = new javax.swing.JRadioButton();
+        jRadio232 = new javax.swing.JRadioButton();
+        jRadio233 = new javax.swing.JRadioButton();
+        jRadio234 = new javax.swing.JRadioButton();
+        jLabel313 = new javax.swing.JLabel();
+        jLabel314 = new javax.swing.JLabel();
+        jLabel315 = new javax.swing.JLabel();
+        jLabel316 = new javax.swing.JLabel();
+        jLabel317 = new javax.swing.JLabel();
+        jLabel318 = new javax.swing.JLabel();
+        jLabel319 = new javax.swing.JLabel();
+        jLabel320 = new javax.swing.JLabel();
+        jLabel321 = new javax.swing.JLabel();
+        jLabel322 = new javax.swing.JLabel();
+        jLabel323 = new javax.swing.JLabel();
+        jLabel324 = new javax.swing.JLabel();
+        jLabel325 = new javax.swing.JLabel();
+        jLabel326 = new javax.swing.JLabel();
+        jLabel327 = new javax.swing.JLabel();
+        jLabel328 = new javax.swing.JLabel();
+        jLabel329 = new javax.swing.JLabel();
+        jLabel330 = new javax.swing.JLabel();
+        jLabel331 = new javax.swing.JLabel();
+        jLabel332 = new javax.swing.JLabel();
+        jLabel333 = new javax.swing.JLabel();
+        jLabel334 = new javax.swing.JLabel();
+        jLabel335 = new javax.swing.JLabel();
+        jLabel336 = new javax.swing.JLabel();
+        jLabel337 = new javax.swing.JLabel();
+        jLabel338 = new javax.swing.JLabel();
+        jLabel339 = new javax.swing.JLabel();
+        jLabel340 = new javax.swing.JLabel();
+        jLabel341 = new javax.swing.JLabel();
+        jLabel342 = new javax.swing.JLabel();
+        jLabel343 = new javax.swing.JLabel();
+        jLabel344 = new javax.swing.JLabel();
+        proximo11 = new javax.swing.JButton();
+        voltar11 = new javax.swing.JButton();
+        jLabel345 = new javax.swing.JLabel();
+        panelGiroversão = new javax.swing.JPanel();
+        jLabel346 = new javax.swing.JLabel();
+        jRadio235 = new javax.swing.JRadioButton();
+        jRadio236 = new javax.swing.JRadioButton();
+        jRadio237 = new javax.swing.JRadioButton();
+        jRadio238 = new javax.swing.JRadioButton();
+        jRadio239 = new javax.swing.JRadioButton();
+        jRadio240 = new javax.swing.JRadioButton();
+        jRadio241 = new javax.swing.JRadioButton();
+        jRadio242 = new javax.swing.JRadioButton();
+        jRadio243 = new javax.swing.JRadioButton();
+        jRadio244 = new javax.swing.JRadioButton();
+        jRadio245 = new javax.swing.JRadioButton();
+        jRadio246 = new javax.swing.JRadioButton();
+        jRadio247 = new javax.swing.JRadioButton();
+        jRadio248 = new javax.swing.JRadioButton();
+        jRadio249 = new javax.swing.JRadioButton();
+        jRadio250 = new javax.swing.JRadioButton();
+        jRadio251 = new javax.swing.JRadioButton();
+        jRadio252 = new javax.swing.JRadioButton();
+        jRadio253 = new javax.swing.JRadioButton();
+        jRadio254 = new javax.swing.JRadioButton();
+        jRadio255 = new javax.swing.JRadioButton();
+        jRadio256 = new javax.swing.JRadioButton();
+        jRadio257 = new javax.swing.JRadioButton();
+        jRadio258 = new javax.swing.JRadioButton();
+        jRadio259 = new javax.swing.JRadioButton();
+        jRadio260 = new javax.swing.JRadioButton();
+        jRadio261 = new javax.swing.JRadioButton();
+        jRadio262 = new javax.swing.JRadioButton();
+        jRadio263 = new javax.swing.JRadioButton();
+        jRadio264 = new javax.swing.JRadioButton();
+        jRadio265 = new javax.swing.JRadioButton();
+        jRadio266 = new javax.swing.JRadioButton();
+        jLabel347 = new javax.swing.JLabel();
+        jLabel348 = new javax.swing.JLabel();
+        jLabel349 = new javax.swing.JLabel();
+        jLabel350 = new javax.swing.JLabel();
+        jLabel351 = new javax.swing.JLabel();
+        jLabel352 = new javax.swing.JLabel();
+        jLabel353 = new javax.swing.JLabel();
+        jLabel354 = new javax.swing.JLabel();
+        jLabel355 = new javax.swing.JLabel();
+        jLabel356 = new javax.swing.JLabel();
+        jLabel357 = new javax.swing.JLabel();
+        jLabel358 = new javax.swing.JLabel();
+        jLabel359 = new javax.swing.JLabel();
+        jLabel360 = new javax.swing.JLabel();
+        jLabel361 = new javax.swing.JLabel();
+        jLabel362 = new javax.swing.JLabel();
+        jLabel363 = new javax.swing.JLabel();
+        jLabel364 = new javax.swing.JLabel();
+        jLabel365 = new javax.swing.JLabel();
+        jLabel366 = new javax.swing.JLabel();
+        jLabel367 = new javax.swing.JLabel();
+        jLabel368 = new javax.swing.JLabel();
+        jLabel369 = new javax.swing.JLabel();
+        jLabel370 = new javax.swing.JLabel();
+        jLabel371 = new javax.swing.JLabel();
+        jLabel372 = new javax.swing.JLabel();
+        jLabel373 = new javax.swing.JLabel();
+        jLabel374 = new javax.swing.JLabel();
+        jLabel375 = new javax.swing.JLabel();
+        jLabel376 = new javax.swing.JLabel();
+        jLabel377 = new javax.swing.JLabel();
+        jLabel378 = new javax.swing.JLabel();
+        proximo12 = new javax.swing.JButton();
+        voltar12 = new javax.swing.JButton();
+        jLabel379 = new javax.swing.JLabel();
+        panelDilaceraçãoRadicular = new javax.swing.JPanel();
+        jLabel380 = new javax.swing.JLabel();
+        jRadio267 = new javax.swing.JRadioButton();
+        jRadio268 = new javax.swing.JRadioButton();
+        jRadio269 = new javax.swing.JRadioButton();
+        jRadio270 = new javax.swing.JRadioButton();
+        jRadio271 = new javax.swing.JRadioButton();
+        jRadio272 = new javax.swing.JRadioButton();
+        jRadio273 = new javax.swing.JRadioButton();
+        jRadio274 = new javax.swing.JRadioButton();
+        jRadio275 = new javax.swing.JRadioButton();
+        jRadio276 = new javax.swing.JRadioButton();
+        jRadio277 = new javax.swing.JRadioButton();
+        jRadio278 = new javax.swing.JRadioButton();
+        jRadio279 = new javax.swing.JRadioButton();
+        jRadio280 = new javax.swing.JRadioButton();
+        jRadio281 = new javax.swing.JRadioButton();
+        jRadio282 = new javax.swing.JRadioButton();
+        jRadio283 = new javax.swing.JRadioButton();
+        jRadio284 = new javax.swing.JRadioButton();
+        jRadio285 = new javax.swing.JRadioButton();
+        jRadio286 = new javax.swing.JRadioButton();
+        jRadio287 = new javax.swing.JRadioButton();
+        jRadio288 = new javax.swing.JRadioButton();
+        jRadio289 = new javax.swing.JRadioButton();
+        jRadio290 = new javax.swing.JRadioButton();
+        jRadio291 = new javax.swing.JRadioButton();
+        jRadio292 = new javax.swing.JRadioButton();
+        jRadio293 = new javax.swing.JRadioButton();
+        jRadio294 = new javax.swing.JRadioButton();
+        jRadio295 = new javax.swing.JRadioButton();
+        jRadio296 = new javax.swing.JRadioButton();
+        jRadio297 = new javax.swing.JRadioButton();
+        jRadio298 = new javax.swing.JRadioButton();
+        jLabel381 = new javax.swing.JLabel();
+        jLabel382 = new javax.swing.JLabel();
+        jLabel383 = new javax.swing.JLabel();
+        jLabel384 = new javax.swing.JLabel();
+        jLabel385 = new javax.swing.JLabel();
+        jLabel386 = new javax.swing.JLabel();
+        jLabel387 = new javax.swing.JLabel();
+        jLabel388 = new javax.swing.JLabel();
+        jLabel389 = new javax.swing.JLabel();
+        jLabel390 = new javax.swing.JLabel();
+        jLabel391 = new javax.swing.JLabel();
+        jLabel392 = new javax.swing.JLabel();
+        jLabel393 = new javax.swing.JLabel();
+        jLabel394 = new javax.swing.JLabel();
+        jLabel395 = new javax.swing.JLabel();
+        jLabel396 = new javax.swing.JLabel();
+        jLabel397 = new javax.swing.JLabel();
+        jLabel398 = new javax.swing.JLabel();
+        jLabel399 = new javax.swing.JLabel();
+        jLabel400 = new javax.swing.JLabel();
+        jLabel401 = new javax.swing.JLabel();
+        jLabel402 = new javax.swing.JLabel();
+        jLabel403 = new javax.swing.JLabel();
+        jLabel404 = new javax.swing.JLabel();
+        jLabel405 = new javax.swing.JLabel();
+        jLabel406 = new javax.swing.JLabel();
+        jLabel407 = new javax.swing.JLabel();
+        jLabel408 = new javax.swing.JLabel();
+        jLabel409 = new javax.swing.JLabel();
+        jLabel410 = new javax.swing.JLabel();
+        jLabel411 = new javax.swing.JLabel();
+        jLabel412 = new javax.swing.JLabel();
+        proximo13 = new javax.swing.JButton();
+        voltar13 = new javax.swing.JButton();
+        jLabel413 = new javax.swing.JLabel();
+        panelApinhamento = new javax.swing.JPanel();
+        jLabel414 = new javax.swing.JLabel();
+        jRadio299 = new javax.swing.JRadioButton();
+        jRadio300 = new javax.swing.JRadioButton();
+        jRadio301 = new javax.swing.JRadioButton();
+        jRadio302 = new javax.swing.JRadioButton();
+        jRadio303 = new javax.swing.JRadioButton();
+        jRadio304 = new javax.swing.JRadioButton();
+        jRadio305 = new javax.swing.JRadioButton();
+        jRadio306 = new javax.swing.JRadioButton();
+        jRadio307 = new javax.swing.JRadioButton();
+        jRadio308 = new javax.swing.JRadioButton();
+        jRadio309 = new javax.swing.JRadioButton();
+        jRadio310 = new javax.swing.JRadioButton();
+        jRadio311 = new javax.swing.JRadioButton();
+        jRadio312 = new javax.swing.JRadioButton();
+        jRadio313 = new javax.swing.JRadioButton();
+        jRadio314 = new javax.swing.JRadioButton();
+        jRadio315 = new javax.swing.JRadioButton();
+        jRadio316 = new javax.swing.JRadioButton();
+        jRadio317 = new javax.swing.JRadioButton();
+        jRadio318 = new javax.swing.JRadioButton();
+        jRadio319 = new javax.swing.JRadioButton();
+        jRadio320 = new javax.swing.JRadioButton();
+        jRadio321 = new javax.swing.JRadioButton();
+        jRadio322 = new javax.swing.JRadioButton();
+        jRadio323 = new javax.swing.JRadioButton();
+        jRadio324 = new javax.swing.JRadioButton();
+        jRadio325 = new javax.swing.JRadioButton();
+        jRadio326 = new javax.swing.JRadioButton();
+        jRadio327 = new javax.swing.JRadioButton();
+        jRadio328 = new javax.swing.JRadioButton();
+        jRadio329 = new javax.swing.JRadioButton();
+        jRadio330 = new javax.swing.JRadioButton();
+        jLabel415 = new javax.swing.JLabel();
+        jLabel416 = new javax.swing.JLabel();
+        jLabel417 = new javax.swing.JLabel();
+        jLabel418 = new javax.swing.JLabel();
+        jLabel419 = new javax.swing.JLabel();
+        jLabel420 = new javax.swing.JLabel();
+        jLabel421 = new javax.swing.JLabel();
+        jLabel422 = new javax.swing.JLabel();
+        jLabel423 = new javax.swing.JLabel();
+        jLabel424 = new javax.swing.JLabel();
+        jLabel425 = new javax.swing.JLabel();
+        jLabel426 = new javax.swing.JLabel();
+        jLabel427 = new javax.swing.JLabel();
+        jLabel428 = new javax.swing.JLabel();
+        jLabel429 = new javax.swing.JLabel();
+        jLabel430 = new javax.swing.JLabel();
+        jLabel431 = new javax.swing.JLabel();
+        jLabel432 = new javax.swing.JLabel();
+        jLabel433 = new javax.swing.JLabel();
+        jLabel434 = new javax.swing.JLabel();
+        jLabel435 = new javax.swing.JLabel();
+        jLabel436 = new javax.swing.JLabel();
+        jLabel437 = new javax.swing.JLabel();
+        jLabel438 = new javax.swing.JLabel();
+        jLabel439 = new javax.swing.JLabel();
+        jLabel440 = new javax.swing.JLabel();
+        jLabel441 = new javax.swing.JLabel();
+        jLabel442 = new javax.swing.JLabel();
+        jLabel443 = new javax.swing.JLabel();
+        jLabel444 = new javax.swing.JLabel();
+        jLabel445 = new javax.swing.JLabel();
+        jLabel446 = new javax.swing.JLabel();
+        proximo14 = new javax.swing.JButton();
+        voltar14 = new javax.swing.JButton();
+        jLabel447 = new javax.swing.JLabel();
+        panelExtrusão = new javax.swing.JPanel();
+        jLabel448 = new javax.swing.JLabel();
+        jRadio331 = new javax.swing.JRadioButton();
+        jRadio332 = new javax.swing.JRadioButton();
+        jRadio333 = new javax.swing.JRadioButton();
+        jRadio334 = new javax.swing.JRadioButton();
+        jRadio335 = new javax.swing.JRadioButton();
+        jRadio336 = new javax.swing.JRadioButton();
+        jRadio337 = new javax.swing.JRadioButton();
+        jRadio338 = new javax.swing.JRadioButton();
+        jRadio339 = new javax.swing.JRadioButton();
+        jRadio340 = new javax.swing.JRadioButton();
+        jRadio341 = new javax.swing.JRadioButton();
+        jRadio342 = new javax.swing.JRadioButton();
+        jRadio343 = new javax.swing.JRadioButton();
+        jRadio344 = new javax.swing.JRadioButton();
+        jRadio345 = new javax.swing.JRadioButton();
+        jRadio346 = new javax.swing.JRadioButton();
+        jRadio347 = new javax.swing.JRadioButton();
+        jRadio348 = new javax.swing.JRadioButton();
+        jRadio349 = new javax.swing.JRadioButton();
+        jRadio350 = new javax.swing.JRadioButton();
+        jRadio351 = new javax.swing.JRadioButton();
+        jRadio352 = new javax.swing.JRadioButton();
+        jRadio353 = new javax.swing.JRadioButton();
+        jRadio354 = new javax.swing.JRadioButton();
+        jRadio355 = new javax.swing.JRadioButton();
+        jRadio356 = new javax.swing.JRadioButton();
+        jRadio357 = new javax.swing.JRadioButton();
+        jRadio358 = new javax.swing.JRadioButton();
+        jRadio359 = new javax.swing.JRadioButton();
+        jRadio360 = new javax.swing.JRadioButton();
+        jRadio361 = new javax.swing.JRadioButton();
+        jRadio362 = new javax.swing.JRadioButton();
+        jLabel449 = new javax.swing.JLabel();
+        jLabel450 = new javax.swing.JLabel();
+        jLabel451 = new javax.swing.JLabel();
+        jLabel452 = new javax.swing.JLabel();
+        jLabel453 = new javax.swing.JLabel();
+        jLabel454 = new javax.swing.JLabel();
+        jLabel455 = new javax.swing.JLabel();
+        jLabel456 = new javax.swing.JLabel();
+        jLabel457 = new javax.swing.JLabel();
+        jLabel458 = new javax.swing.JLabel();
+        jLabel459 = new javax.swing.JLabel();
+        jLabel460 = new javax.swing.JLabel();
+        jLabel461 = new javax.swing.JLabel();
+        jLabel462 = new javax.swing.JLabel();
+        jLabel463 = new javax.swing.JLabel();
+        jLabel464 = new javax.swing.JLabel();
+        jLabel465 = new javax.swing.JLabel();
+        jLabel466 = new javax.swing.JLabel();
+        jLabel467 = new javax.swing.JLabel();
+        jLabel468 = new javax.swing.JLabel();
+        jLabel469 = new javax.swing.JLabel();
+        jLabel470 = new javax.swing.JLabel();
+        jLabel471 = new javax.swing.JLabel();
+        jLabel472 = new javax.swing.JLabel();
+        jLabel473 = new javax.swing.JLabel();
+        jLabel474 = new javax.swing.JLabel();
+        jLabel475 = new javax.swing.JLabel();
+        jLabel476 = new javax.swing.JLabel();
+        jLabel477 = new javax.swing.JLabel();
+        jLabel478 = new javax.swing.JLabel();
+        jLabel479 = new javax.swing.JLabel();
+        jLabel480 = new javax.swing.JLabel();
+        proximo15 = new javax.swing.JButton();
+        voltar15 = new javax.swing.JButton();
+        jLabel481 = new javax.swing.JLabel();
+        panelRemodelamentoApical = new javax.swing.JPanel();
+        jLabel482 = new javax.swing.JLabel();
+        jRadio363 = new javax.swing.JRadioButton();
+        jRadio364 = new javax.swing.JRadioButton();
+        jRadio365 = new javax.swing.JRadioButton();
+        jRadio366 = new javax.swing.JRadioButton();
+        jRadio367 = new javax.swing.JRadioButton();
+        jRadio368 = new javax.swing.JRadioButton();
+        jRadio369 = new javax.swing.JRadioButton();
+        jRadio370 = new javax.swing.JRadioButton();
+        jRadio371 = new javax.swing.JRadioButton();
+        jRadio372 = new javax.swing.JRadioButton();
+        jRadio373 = new javax.swing.JRadioButton();
+        jRadio374 = new javax.swing.JRadioButton();
+        jRadio375 = new javax.swing.JRadioButton();
+        jRadio376 = new javax.swing.JRadioButton();
+        jRadio377 = new javax.swing.JRadioButton();
+        jRadio378 = new javax.swing.JRadioButton();
+        jRadio379 = new javax.swing.JRadioButton();
+        jRadio380 = new javax.swing.JRadioButton();
+        jRadio381 = new javax.swing.JRadioButton();
+        jRadio382 = new javax.swing.JRadioButton();
+        jRadio383 = new javax.swing.JRadioButton();
+        jRadio384 = new javax.swing.JRadioButton();
+        jRadio385 = new javax.swing.JRadioButton();
+        jRadio386 = new javax.swing.JRadioButton();
+        jRadio387 = new javax.swing.JRadioButton();
+        jRadio388 = new javax.swing.JRadioButton();
+        jRadio389 = new javax.swing.JRadioButton();
+        jRadio390 = new javax.swing.JRadioButton();
+        jRadio391 = new javax.swing.JRadioButton();
+        jRadio392 = new javax.swing.JRadioButton();
+        jRadio393 = new javax.swing.JRadioButton();
+        jRadio394 = new javax.swing.JRadioButton();
+        jLabel483 = new javax.swing.JLabel();
+        jLabel484 = new javax.swing.JLabel();
+        jLabel485 = new javax.swing.JLabel();
+        jLabel486 = new javax.swing.JLabel();
+        jLabel487 = new javax.swing.JLabel();
+        jLabel488 = new javax.swing.JLabel();
+        jLabel489 = new javax.swing.JLabel();
+        jLabel490 = new javax.swing.JLabel();
+        jLabel491 = new javax.swing.JLabel();
+        jLabel492 = new javax.swing.JLabel();
+        jLabel493 = new javax.swing.JLabel();
+        jLabel494 = new javax.swing.JLabel();
+        jLabel495 = new javax.swing.JLabel();
+        jLabel496 = new javax.swing.JLabel();
+        jLabel497 = new javax.swing.JLabel();
+        jLabel498 = new javax.swing.JLabel();
+        jLabel499 = new javax.swing.JLabel();
+        jLabel500 = new javax.swing.JLabel();
+        jLabel501 = new javax.swing.JLabel();
+        jLabel502 = new javax.swing.JLabel();
+        jLabel503 = new javax.swing.JLabel();
+        jLabel504 = new javax.swing.JLabel();
+        jLabel505 = new javax.swing.JLabel();
+        jLabel506 = new javax.swing.JLabel();
+        jLabel507 = new javax.swing.JLabel();
+        jLabel508 = new javax.swing.JLabel();
+        jLabel509 = new javax.swing.JLabel();
+        jLabel510 = new javax.swing.JLabel();
+        jLabel511 = new javax.swing.JLabel();
+        jLabel512 = new javax.swing.JLabel();
+        jLabel513 = new javax.swing.JLabel();
+        jLabel514 = new javax.swing.JLabel();
+        proximo16 = new javax.swing.JButton();
+        voltar16 = new javax.swing.JButton();
+        jLabel515 = new javax.swing.JLabel();
+        panelEscleroseOssea = new javax.swing.JPanel();
+        jLabel516 = new javax.swing.JLabel();
+        jRadio395 = new javax.swing.JRadioButton();
+        jRadio396 = new javax.swing.JRadioButton();
+        jRadio397 = new javax.swing.JRadioButton();
+        jRadio398 = new javax.swing.JRadioButton();
+        jRadio399 = new javax.swing.JRadioButton();
+        jRadio400 = new javax.swing.JRadioButton();
+        jRadio401 = new javax.swing.JRadioButton();
+        jRadio402 = new javax.swing.JRadioButton();
+        jRadio403 = new javax.swing.JRadioButton();
+        jRadio404 = new javax.swing.JRadioButton();
+        jRadio405 = new javax.swing.JRadioButton();
+        jRadio406 = new javax.swing.JRadioButton();
+        jRadio407 = new javax.swing.JRadioButton();
+        jRadio408 = new javax.swing.JRadioButton();
+        jRadio409 = new javax.swing.JRadioButton();
+        jRadio410 = new javax.swing.JRadioButton();
+        jRadio411 = new javax.swing.JRadioButton();
+        jRadio412 = new javax.swing.JRadioButton();
+        jRadio413 = new javax.swing.JRadioButton();
+        jRadio414 = new javax.swing.JRadioButton();
+        jRadio415 = new javax.swing.JRadioButton();
+        jRadio416 = new javax.swing.JRadioButton();
+        jRadio417 = new javax.swing.JRadioButton();
+        jRadio418 = new javax.swing.JRadioButton();
+        jRadio419 = new javax.swing.JRadioButton();
+        jRadio420 = new javax.swing.JRadioButton();
+        jRadio421 = new javax.swing.JRadioButton();
+        jRadio422 = new javax.swing.JRadioButton();
+        jRadio423 = new javax.swing.JRadioButton();
+        jRadio424 = new javax.swing.JRadioButton();
+        jRadio425 = new javax.swing.JRadioButton();
+        jRadio426 = new javax.swing.JRadioButton();
+        jLabel517 = new javax.swing.JLabel();
+        jLabel518 = new javax.swing.JLabel();
+        jLabel519 = new javax.swing.JLabel();
+        jLabel520 = new javax.swing.JLabel();
+        jLabel521 = new javax.swing.JLabel();
+        jLabel522 = new javax.swing.JLabel();
+        jLabel523 = new javax.swing.JLabel();
+        jLabel524 = new javax.swing.JLabel();
+        jLabel525 = new javax.swing.JLabel();
+        jLabel526 = new javax.swing.JLabel();
+        jLabel527 = new javax.swing.JLabel();
+        jLabel528 = new javax.swing.JLabel();
+        jLabel529 = new javax.swing.JLabel();
+        jLabel530 = new javax.swing.JLabel();
+        jLabel531 = new javax.swing.JLabel();
+        jLabel532 = new javax.swing.JLabel();
+        jLabel533 = new javax.swing.JLabel();
+        jLabel534 = new javax.swing.JLabel();
+        jLabel535 = new javax.swing.JLabel();
+        jLabel536 = new javax.swing.JLabel();
+        jLabel537 = new javax.swing.JLabel();
+        jLabel538 = new javax.swing.JLabel();
+        jLabel539 = new javax.swing.JLabel();
+        jLabel540 = new javax.swing.JLabel();
+        jLabel541 = new javax.swing.JLabel();
+        jLabel542 = new javax.swing.JLabel();
+        jLabel543 = new javax.swing.JLabel();
+        jLabel544 = new javax.swing.JLabel();
+        jLabel545 = new javax.swing.JLabel();
+        jLabel546 = new javax.swing.JLabel();
+        jLabel547 = new javax.swing.JLabel();
+        jLabel548 = new javax.swing.JLabel();
+        proximo17 = new javax.swing.JButton();
+        voltar17 = new javax.swing.JButton();
+        jLabel549 = new javax.swing.JLabel();
+        panelPresençaCálculo = new javax.swing.JPanel();
+        jLabel550 = new javax.swing.JLabel();
+        jRadio427 = new javax.swing.JRadioButton();
+        jRadio428 = new javax.swing.JRadioButton();
+        jRadio429 = new javax.swing.JRadioButton();
+        jRadio430 = new javax.swing.JRadioButton();
+        jRadio431 = new javax.swing.JRadioButton();
+        jRadio432 = new javax.swing.JRadioButton();
+        jRadio433 = new javax.swing.JRadioButton();
+        jRadio434 = new javax.swing.JRadioButton();
+        jRadio435 = new javax.swing.JRadioButton();
+        jRadio436 = new javax.swing.JRadioButton();
+        jRadio437 = new javax.swing.JRadioButton();
+        jRadio438 = new javax.swing.JRadioButton();
+        jRadio439 = new javax.swing.JRadioButton();
+        jRadio440 = new javax.swing.JRadioButton();
+        jRadio441 = new javax.swing.JRadioButton();
+        jRadio442 = new javax.swing.JRadioButton();
+        jRadio443 = new javax.swing.JRadioButton();
+        jRadio444 = new javax.swing.JRadioButton();
+        jRadio445 = new javax.swing.JRadioButton();
+        jRadio446 = new javax.swing.JRadioButton();
+        jRadio447 = new javax.swing.JRadioButton();
+        jRadio448 = new javax.swing.JRadioButton();
+        jRadio449 = new javax.swing.JRadioButton();
+        jRadio450 = new javax.swing.JRadioButton();
+        jRadio451 = new javax.swing.JRadioButton();
+        jRadio452 = new javax.swing.JRadioButton();
+        jRadio453 = new javax.swing.JRadioButton();
+        jRadio454 = new javax.swing.JRadioButton();
+        jRadio455 = new javax.swing.JRadioButton();
+        jRadio456 = new javax.swing.JRadioButton();
+        jRadio457 = new javax.swing.JRadioButton();
+        jRadio458 = new javax.swing.JRadioButton();
+        jLabel551 = new javax.swing.JLabel();
+        jLabel552 = new javax.swing.JLabel();
+        jLabel553 = new javax.swing.JLabel();
+        jLabel554 = new javax.swing.JLabel();
+        jLabel555 = new javax.swing.JLabel();
+        jLabel556 = new javax.swing.JLabel();
+        jLabel557 = new javax.swing.JLabel();
+        jLabel558 = new javax.swing.JLabel();
+        jLabel559 = new javax.swing.JLabel();
+        jLabel560 = new javax.swing.JLabel();
+        jLabel561 = new javax.swing.JLabel();
+        jLabel562 = new javax.swing.JLabel();
+        jLabel563 = new javax.swing.JLabel();
+        jLabel564 = new javax.swing.JLabel();
+        jLabel565 = new javax.swing.JLabel();
+        jLabel566 = new javax.swing.JLabel();
+        jLabel567 = new javax.swing.JLabel();
+        jLabel568 = new javax.swing.JLabel();
+        jLabel569 = new javax.swing.JLabel();
+        jLabel570 = new javax.swing.JLabel();
+        jLabel571 = new javax.swing.JLabel();
+        jLabel572 = new javax.swing.JLabel();
+        jLabel573 = new javax.swing.JLabel();
+        jLabel574 = new javax.swing.JLabel();
+        jLabel575 = new javax.swing.JLabel();
+        jLabel576 = new javax.swing.JLabel();
+        jLabel577 = new javax.swing.JLabel();
+        jLabel578 = new javax.swing.JLabel();
+        jLabel579 = new javax.swing.JLabel();
+        jLabel580 = new javax.swing.JLabel();
+        jLabel581 = new javax.swing.JLabel();
+        jLabel582 = new javax.swing.JLabel();
+        proximo18 = new javax.swing.JButton();
+        voltar18 = new javax.swing.JButton();
+        jLabel583 = new javax.swing.JLabel();
+        panelExtraçãoDentáriaAlvéolo = new javax.swing.JPanel();
+        jLabel584 = new javax.swing.JLabel();
+        jRadio459 = new javax.swing.JRadioButton();
+        jRadio460 = new javax.swing.JRadioButton();
+        jRadio461 = new javax.swing.JRadioButton();
+        jRadio462 = new javax.swing.JRadioButton();
+        jRadio463 = new javax.swing.JRadioButton();
+        jRadio464 = new javax.swing.JRadioButton();
+        jRadio465 = new javax.swing.JRadioButton();
+        jRadio466 = new javax.swing.JRadioButton();
+        jRadio467 = new javax.swing.JRadioButton();
+        jRadio468 = new javax.swing.JRadioButton();
+        jRadio469 = new javax.swing.JRadioButton();
+        jRadio470 = new javax.swing.JRadioButton();
+        jRadio471 = new javax.swing.JRadioButton();
+        jRadio472 = new javax.swing.JRadioButton();
+        jRadio473 = new javax.swing.JRadioButton();
+        jRadio474 = new javax.swing.JRadioButton();
+        jRadio475 = new javax.swing.JRadioButton();
+        jRadio476 = new javax.swing.JRadioButton();
+        jRadio477 = new javax.swing.JRadioButton();
+        jRadio478 = new javax.swing.JRadioButton();
+        jRadio479 = new javax.swing.JRadioButton();
+        jRadio480 = new javax.swing.JRadioButton();
+        jRadio481 = new javax.swing.JRadioButton();
+        jRadio482 = new javax.swing.JRadioButton();
+        jRadio483 = new javax.swing.JRadioButton();
+        jRadio484 = new javax.swing.JRadioButton();
+        jRadio485 = new javax.swing.JRadioButton();
+        jRadio486 = new javax.swing.JRadioButton();
+        jRadio487 = new javax.swing.JRadioButton();
+        jRadio488 = new javax.swing.JRadioButton();
+        jRadio489 = new javax.swing.JRadioButton();
+        jRadio490 = new javax.swing.JRadioButton();
+        jLabel585 = new javax.swing.JLabel();
+        jLabel586 = new javax.swing.JLabel();
+        jLabel587 = new javax.swing.JLabel();
+        jLabel588 = new javax.swing.JLabel();
+        jLabel589 = new javax.swing.JLabel();
+        jLabel590 = new javax.swing.JLabel();
+        jLabel591 = new javax.swing.JLabel();
+        jLabel592 = new javax.swing.JLabel();
+        jLabel593 = new javax.swing.JLabel();
+        jLabel594 = new javax.swing.JLabel();
+        jLabel595 = new javax.swing.JLabel();
+        jLabel596 = new javax.swing.JLabel();
+        jLabel597 = new javax.swing.JLabel();
+        jLabel598 = new javax.swing.JLabel();
+        jLabel599 = new javax.swing.JLabel();
+        jLabel600 = new javax.swing.JLabel();
+        jLabel601 = new javax.swing.JLabel();
+        jLabel602 = new javax.swing.JLabel();
+        jLabel603 = new javax.swing.JLabel();
+        jLabel604 = new javax.swing.JLabel();
+        jLabel605 = new javax.swing.JLabel();
+        jLabel606 = new javax.swing.JLabel();
+        jLabel607 = new javax.swing.JLabel();
+        jLabel608 = new javax.swing.JLabel();
+        jLabel609 = new javax.swing.JLabel();
+        jLabel610 = new javax.swing.JLabel();
+        jLabel611 = new javax.swing.JLabel();
+        jLabel612 = new javax.swing.JLabel();
+        jLabel613 = new javax.swing.JLabel();
+        jLabel614 = new javax.swing.JLabel();
+        jLabel615 = new javax.swing.JLabel();
+        jLabel616 = new javax.swing.JLabel();
+        proximo19 = new javax.swing.JButton();
+        voltar19 = new javax.swing.JButton();
+        jLabel617 = new javax.swing.JLabel();
+        panelRemodelamentoApical4 = new javax.swing.JPanel();
+        jLabel618 = new javax.swing.JLabel();
+        jRadio491 = new javax.swing.JRadioButton();
+        jRadio492 = new javax.swing.JRadioButton();
+        jRadio493 = new javax.swing.JRadioButton();
+        jRadio494 = new javax.swing.JRadioButton();
+        jRadio495 = new javax.swing.JRadioButton();
+        jRadio496 = new javax.swing.JRadioButton();
+        jRadio497 = new javax.swing.JRadioButton();
+        jRadio498 = new javax.swing.JRadioButton();
+        jRadio499 = new javax.swing.JRadioButton();
+        jRadio500 = new javax.swing.JRadioButton();
+        jRadio501 = new javax.swing.JRadioButton();
+        jRadio502 = new javax.swing.JRadioButton();
+        jRadio503 = new javax.swing.JRadioButton();
+        jRadio504 = new javax.swing.JRadioButton();
+        jRadio505 = new javax.swing.JRadioButton();
+        jRadio506 = new javax.swing.JRadioButton();
+        jRadio507 = new javax.swing.JRadioButton();
+        jRadio508 = new javax.swing.JRadioButton();
+        jRadio509 = new javax.swing.JRadioButton();
+        jRadio510 = new javax.swing.JRadioButton();
+        jRadio511 = new javax.swing.JRadioButton();
+        jRadio512 = new javax.swing.JRadioButton();
+        jRadio513 = new javax.swing.JRadioButton();
+        jRadio514 = new javax.swing.JRadioButton();
+        jRadio515 = new javax.swing.JRadioButton();
+        jRadio516 = new javax.swing.JRadioButton();
+        jRadio517 = new javax.swing.JRadioButton();
+        jRadio518 = new javax.swing.JRadioButton();
+        jRadio519 = new javax.swing.JRadioButton();
+        jRadio520 = new javax.swing.JRadioButton();
+        jRadio521 = new javax.swing.JRadioButton();
+        jRadio522 = new javax.swing.JRadioButton();
+        jLabel619 = new javax.swing.JLabel();
+        jLabel620 = new javax.swing.JLabel();
+        jLabel621 = new javax.swing.JLabel();
+        jLabel622 = new javax.swing.JLabel();
+        jLabel623 = new javax.swing.JLabel();
+        jLabel624 = new javax.swing.JLabel();
+        jLabel625 = new javax.swing.JLabel();
+        jLabel626 = new javax.swing.JLabel();
+        jLabel627 = new javax.swing.JLabel();
+        jLabel628 = new javax.swing.JLabel();
+        jLabel629 = new javax.swing.JLabel();
+        jLabel630 = new javax.swing.JLabel();
+        jLabel631 = new javax.swing.JLabel();
+        jLabel632 = new javax.swing.JLabel();
+        jLabel633 = new javax.swing.JLabel();
+        jLabel634 = new javax.swing.JLabel();
+        jLabel635 = new javax.swing.JLabel();
+        jLabel636 = new javax.swing.JLabel();
+        jLabel637 = new javax.swing.JLabel();
+        jLabel638 = new javax.swing.JLabel();
+        jLabel639 = new javax.swing.JLabel();
+        jLabel640 = new javax.swing.JLabel();
+        jLabel641 = new javax.swing.JLabel();
+        jLabel642 = new javax.swing.JLabel();
+        jLabel643 = new javax.swing.JLabel();
+        jLabel644 = new javax.swing.JLabel();
+        jLabel645 = new javax.swing.JLabel();
+        jLabel646 = new javax.swing.JLabel();
+        jLabel647 = new javax.swing.JLabel();
+        jLabel648 = new javax.swing.JLabel();
+        jLabel649 = new javax.swing.JLabel();
+        jLabel650 = new javax.swing.JLabel();
+        proximo20 = new javax.swing.JButton();
+        voltar20 = new javax.swing.JButton();
+        jLabel651 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new java.awt.CardLayout());
@@ -226,22 +1261,22 @@ public class NewJFrame extends javax.swing.JFrame {
         jLabel1.setFont(new java.awt.Font("Lucida Grande", 0, 48)); // NOI18N
         jLabel1.setText("Laudo Fácil");
 
-        javax.swing.GroupLayout panelInicial1Layout = new javax.swing.GroupLayout(panelInicial1);
-        panelInicial1.setLayout(panelInicial1Layout);
-        panelInicial1Layout.setHorizontalGroup(
-            panelInicial1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panelInicial1Layout.createSequentialGroup()
+        javax.swing.GroupLayout panelInicialLayout = new javax.swing.GroupLayout(panelInicial);
+        panelInicial.setLayout(panelInicialLayout);
+        panelInicialLayout.setHorizontalGroup(
+            panelInicialLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panelInicialLayout.createSequentialGroup()
                 .addContainerGap(410, Short.MAX_VALUE)
                 .addComponent(proximo1, javax.swing.GroupLayout.PREFERRED_SIZE, 166, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
-            .addGroup(panelInicial1Layout.createSequentialGroup()
+            .addGroup(panelInicialLayout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(panelInicial1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(panelInicial1Layout.createSequentialGroup()
+                .addGroup(panelInicialLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(panelInicialLayout.createSequentialGroup()
                         .addComponent(jLabel45)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(tipoExame, javax.swing.GroupLayout.PREFERRED_SIZE, 124, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(panelInicial1Layout.createSequentialGroup()
+                    .addGroup(panelInicialLayout.createSequentialGroup()
                         .addComponent(jLabel46)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(diaExame, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -249,16 +1284,16 @@ public class NewJFrame extends javax.swing.JFrame {
                         .addComponent(mesExame, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(anoExame, javax.swing.GroupLayout.PREFERRED_SIZE, 54, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(panelInicial1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                        .addGroup(panelInicial1Layout.createSequentialGroup()
+                    .addGroup(panelInicialLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                        .addGroup(panelInicialLayout.createSequentialGroup()
                             .addComponent(jLabel44)
                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                             .addComponent(nomeDoutor))
-                        .addGroup(panelInicial1Layout.createSequentialGroup()
+                        .addGroup(panelInicialLayout.createSequentialGroup()
                             .addComponent(jLabel8)
                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                             .addComponent(nomePaciente))
-                        .addGroup(panelInicial1Layout.createSequentialGroup()
+                        .addGroup(panelInicialLayout.createSequentialGroup()
                             .addComponent(jLabel9)
                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                             .addComponent(sexoPaciente, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -271,20 +1306,20 @@ public class NewJFrame extends javax.swing.JFrame {
                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                             .addComponent(anoPaciente, javax.swing.GroupLayout.PREFERRED_SIZE, 54, javax.swing.GroupLayout.PREFERRED_SIZE))))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-            .addGroup(panelInicial1Layout.createSequentialGroup()
+            .addGroup(panelInicialLayout.createSequentialGroup()
                 .addComponent(jLabel1)
                 .addGap(0, 0, Short.MAX_VALUE))
         );
-        panelInicial1Layout.setVerticalGroup(
-            panelInicial1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panelInicial1Layout.createSequentialGroup()
+        panelInicialLayout.setVerticalGroup(
+            panelInicialLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panelInicialLayout.createSequentialGroup()
                 .addComponent(jLabel1)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 23, Short.MAX_VALUE)
-                .addGroup(panelInicial1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                .addGroup(panelInicialLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, 26, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(nomePaciente, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(10, 10, 10)
-                .addGroup(panelInicial1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                .addGroup(panelInicialLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel9)
                     .addComponent(sexoPaciente, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel43)
@@ -292,15 +1327,15 @@ public class NewJFrame extends javax.swing.JFrame {
                     .addComponent(mesPaciente, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(anoPaciente, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(panelInicial1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                .addGroup(panelInicialLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel44)
                     .addComponent(nomeDoutor, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(panelInicial1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                .addGroup(panelInicialLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel45)
                     .addComponent(tipoExame, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(panelInicial1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                .addGroup(panelInicialLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel46)
                     .addComponent(diaExame, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(mesExame, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -310,7 +1345,7 @@ public class NewJFrame extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        getContentPane().add(panelInicial1, "card2");
+        getContentPane().add(panelInicial, "card2");
 
         jLabel80.setFont(new java.awt.Font("Lucida Grande", 0, 18)); // NOI18N
         jLabel80.setText("Elementos dentarios ausentes:");
@@ -413,7 +1448,7 @@ public class NewJFrame extends javax.swing.JFrame {
         panelDentesAusentes2Layout.setHorizontalGroup(
             panelDentesAusentes2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(panelDentesAusentes2Layout.createSequentialGroup()
-                .addContainerGap(210, Short.MAX_VALUE)
+                .addContainerGap(238, Short.MAX_VALUE)
                 .addComponent(voltar4, javax.swing.GroupLayout.PREFERRED_SIZE, 166, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(proximo4, javax.swing.GroupLayout.PREFERRED_SIZE, 166, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -642,18 +1677,696 @@ public class NewJFrame extends javax.swing.JFrame {
 
         getContentPane().add(panelDentesAusentes2, "card3");
 
-        jLabel113.setFont(new java.awt.Font("Lucida Grande", 0, 18)); // NOI18N
-        jLabel113.setText("Elementos dentarios com cárie:");
+        jLabel146.setFont(new java.awt.Font("Lucida Grande", 0, 18)); // NOI18N
+        jLabel146.setText(" Imagem radiopaca sugerindo presença de raiz residual na região dos dentes: ");
 
-        jRadioButton115.addActionListener(new java.awt.event.ActionListener() {
+        jRadio53.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton115ActionPerformed(evt);
+                jRadio53ActionPerformed(evt);
             }
         });
 
-        jRadioButton127.addActionListener(new java.awt.event.ActionListener() {
+        jRadio57.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton127ActionPerformed(evt);
+                jRadio57ActionPerformed(evt);
+            }
+        });
+
+        jRadio65.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jRadio65ActionPerformed(evt);
+            }
+        });
+
+        jLabel147.setText(" 48");
+
+        jLabel148.setText("47");
+
+        jLabel149.setText("46");
+
+        jLabel150.setText("45");
+
+        jLabel151.setText("44");
+
+        jLabel152.setText("43");
+
+        jLabel153.setText("42");
+
+        jLabel154.setText("41");
+
+        jLabel155.setText("31");
+
+        jLabel156.setText("32");
+
+        jLabel157.setText("33");
+
+        jLabel158.setText("34");
+
+        jLabel159.setText("35");
+
+        jLabel160.setText("36");
+
+        jLabel161.setText("37");
+
+        jLabel162.setText("38");
+
+        jLabel163.setText("18");
+
+        jLabel164.setText("17");
+
+        jLabel165.setText("16");
+
+        jLabel166.setText("15");
+
+        jLabel167.setText("14");
+
+        jLabel168.setText("13");
+
+        jLabel169.setText("12");
+
+        jLabel170.setText("11");
+
+        jLabel171.setText("21");
+
+        jLabel172.setText("22");
+
+        jLabel173.setText("23");
+
+        jLabel174.setText("24");
+
+        jLabel175.setText("25");
+
+        jLabel176.setText("26");
+
+        jLabel177.setText("27");
+
+        jLabel178.setText("28");
+
+        proximo6.setText("Próximo");
+        proximo6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                proximo6ActionPerformed(evt);
+            }
+        });
+
+        voltar6.setText("Voltar");
+        voltar6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                voltar6ActionPerformed(evt);
+            }
+        });
+
+        jLabel4.setFont(new java.awt.Font("Lucida Grande", 0, 48)); // NOI18N
+        jLabel4.setText("Laudo Fácil");
+
+        javax.swing.GroupLayout panelRaizResidualLayout = new javax.swing.GroupLayout(panelRaizResidual);
+        panelRaizResidual.setLayout(panelRaizResidualLayout);
+        panelRaizResidualLayout.setHorizontalGroup(
+            panelRaizResidualLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panelRaizResidualLayout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(voltar6, javax.swing.GroupLayout.PREFERRED_SIZE, 166, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(proximo6, javax.swing.GroupLayout.PREFERRED_SIZE, 166, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
+            .addGroup(panelRaizResidualLayout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(panelRaizResidualLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel146)
+                    .addGroup(panelRaizResidualLayout.createSequentialGroup()
+                        .addGroup(panelRaizResidualLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jLabel147)
+                            .addComponent(jRadio59))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelRaizResidualLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio60)
+                            .addComponent(jLabel148))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelRaizResidualLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio61)
+                            .addComponent(jLabel149))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelRaizResidualLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio62)
+                            .addComponent(jLabel150))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelRaizResidualLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio63)
+                            .addComponent(jLabel151))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelRaizResidualLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio64)
+                            .addComponent(jLabel152))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelRaizResidualLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio65)
+                            .addComponent(jLabel153))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelRaizResidualLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio66)
+                            .addComponent(jLabel154))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelRaizResidualLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio74)
+                            .addComponent(jLabel155))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelRaizResidualLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio73)
+                            .addComponent(jLabel156))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelRaizResidualLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio72)
+                            .addComponent(jLabel157))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelRaizResidualLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio71)
+                            .addComponent(jLabel158))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelRaizResidualLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio70)
+                            .addComponent(jLabel159))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelRaizResidualLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio69)
+                            .addComponent(jLabel160))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelRaizResidualLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio68)
+                            .addComponent(jLabel161))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelRaizResidualLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio67)
+                            .addComponent(jLabel162)))
+                    .addGroup(panelRaizResidualLayout.createSequentialGroup()
+                        .addGroup(panelRaizResidualLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jLabel163)
+                            .addComponent(jRadio19))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelRaizResidualLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio20)
+                            .addComponent(jLabel164))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelRaizResidualLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio29)
+                            .addComponent(jLabel165))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelRaizResidualLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio30)
+                            .addComponent(jLabel166))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelRaizResidualLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio39)
+                            .addComponent(jLabel167))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelRaizResidualLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio40)
+                            .addComponent(jLabel168))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelRaizResidualLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio49)
+                            .addComponent(jLabel169))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelRaizResidualLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio50)
+                            .addComponent(jLabel170))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelRaizResidualLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio58)
+                            .addComponent(jLabel171))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelRaizResidualLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio57)
+                            .addComponent(jLabel172))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelRaizResidualLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio56)
+                            .addComponent(jLabel173))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelRaizResidualLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio55)
+                            .addComponent(jLabel174))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelRaizResidualLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio54)
+                            .addComponent(jLabel175))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelRaizResidualLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio53)
+                            .addComponent(jLabel176))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelRaizResidualLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio52)
+                            .addComponent(jLabel177))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelRaizResidualLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio51)
+                            .addComponent(jLabel178))))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(panelRaizResidualLayout.createSequentialGroup()
+                .addComponent(jLabel4)
+                .addGap(0, 0, Short.MAX_VALUE))
+        );
+        panelRaizResidualLayout.setVerticalGroup(
+            panelRaizResidualLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panelRaizResidualLayout.createSequentialGroup()
+                .addComponent(jLabel4)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 45, Short.MAX_VALUE)
+                .addComponent(jLabel146)
+                .addGap(6, 6, 6)
+                .addGroup(panelRaizResidualLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel163)
+                    .addComponent(jLabel164)
+                    .addComponent(jLabel165)
+                    .addComponent(jLabel166)
+                    .addComponent(jLabel167)
+                    .addComponent(jLabel168)
+                    .addComponent(jLabel169)
+                    .addComponent(jLabel170)
+                    .addComponent(jLabel171)
+                    .addComponent(jLabel172)
+                    .addComponent(jLabel173)
+                    .addComponent(jLabel174)
+                    .addComponent(jLabel175)
+                    .addComponent(jLabel176)
+                    .addComponent(jLabel177)
+                    .addComponent(jLabel178))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(panelRaizResidualLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jRadio19)
+                    .addComponent(jRadio20)
+                    .addComponent(jRadio29)
+                    .addComponent(jRadio30)
+                    .addComponent(jRadio39)
+                    .addComponent(jRadio40)
+                    .addComponent(jRadio49)
+                    .addComponent(jRadio50)
+                    .addComponent(jRadio58)
+                    .addComponent(jRadio57)
+                    .addComponent(jRadio56)
+                    .addComponent(jRadio55)
+                    .addComponent(jRadio54)
+                    .addComponent(jRadio53)
+                    .addComponent(jRadio52)
+                    .addComponent(jRadio51))
+                .addGap(17, 17, 17)
+                .addGroup(panelRaizResidualLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jRadio59)
+                    .addComponent(jRadio60)
+                    .addComponent(jRadio61)
+                    .addComponent(jRadio62)
+                    .addComponent(jRadio63)
+                    .addComponent(jRadio64)
+                    .addComponent(jRadio65)
+                    .addComponent(jRadio66)
+                    .addComponent(jRadio74)
+                    .addComponent(jRadio73)
+                    .addComponent(jRadio72)
+                    .addComponent(jRadio71)
+                    .addComponent(jRadio70)
+                    .addComponent(jRadio69)
+                    .addComponent(jRadio68)
+                    .addComponent(jRadio67))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(panelRaizResidualLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel147)
+                    .addComponent(jLabel148)
+                    .addComponent(jLabel149)
+                    .addComponent(jLabel150)
+                    .addComponent(jLabel151)
+                    .addComponent(jLabel152)
+                    .addComponent(jLabel153)
+                    .addComponent(jLabel154)
+                    .addComponent(jLabel155)
+                    .addComponent(jLabel156)
+                    .addComponent(jLabel157)
+                    .addComponent(jLabel158)
+                    .addComponent(jLabel159)
+                    .addComponent(jLabel160)
+                    .addComponent(jLabel161)
+                    .addComponent(jLabel162))
+                .addGap(18, 18, 18)
+                .addGroup(panelRaizResidualLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(voltar6, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(proximo6, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap())
+        );
+
+        getContentPane().add(panelRaizResidual, "card4");
+
+        jLabel179.setFont(new java.awt.Font("Lucida Grande", 0, 18)); // NOI18N
+        jLabel179.setText("Imagem radiopaca sugerindo presença de implantes dentários nas regiões dos dentes:");
+
+        jRadio85.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jRadio85ActionPerformed(evt);
+            }
+        });
+
+        jRadio89.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jRadio89ActionPerformed(evt);
+            }
+        });
+
+        jRadio97.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jRadio97ActionPerformed(evt);
+            }
+        });
+
+        jLabel180.setText(" 48");
+
+        jLabel181.setText("47");
+
+        jLabel182.setText("46");
+
+        jLabel183.setText("45");
+
+        jLabel184.setText("44");
+
+        jLabel185.setText("43");
+
+        jLabel186.setText("42");
+
+        jLabel187.setText("41");
+
+        jLabel188.setText("31");
+
+        jLabel189.setText("32");
+
+        jLabel190.setText("33");
+
+        jLabel191.setText("34");
+
+        jLabel192.setText("35");
+
+        jLabel193.setText("36");
+
+        jLabel194.setText("37");
+
+        jLabel195.setText("38");
+
+        jLabel196.setText("18");
+
+        jLabel197.setText("17");
+
+        jLabel198.setText("16");
+
+        jLabel199.setText("15");
+
+        jLabel200.setText("14");
+
+        jLabel201.setText("13");
+
+        jLabel202.setText("12");
+
+        jLabel203.setText("11");
+
+        jLabel204.setText("21");
+
+        jLabel205.setText("22");
+
+        jLabel206.setText("23");
+
+        jLabel207.setText("24");
+
+        jLabel208.setText("25");
+
+        jLabel209.setText("26");
+
+        jLabel210.setText("27");
+
+        jLabel211.setText("28");
+
+        proximo7.setText("Próximo");
+        proximo7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                proximo7ActionPerformed(evt);
+            }
+        });
+
+        voltar7.setText("Voltar");
+        voltar7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                voltar7ActionPerformed(evt);
+            }
+        });
+
+        jLabel5.setFont(new java.awt.Font("Lucida Grande", 0, 48)); // NOI18N
+        jLabel5.setText("Laudo Fácil");
+
+        javax.swing.GroupLayout panelImplantesLayout = new javax.swing.GroupLayout(panelImplantes);
+        panelImplantes.setLayout(panelImplantesLayout);
+        panelImplantesLayout.setHorizontalGroup(
+            panelImplantesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panelImplantesLayout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(voltar7, javax.swing.GroupLayout.PREFERRED_SIZE, 166, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(proximo7, javax.swing.GroupLayout.PREFERRED_SIZE, 166, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
+            .addGroup(panelImplantesLayout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(panelImplantesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel179)
+                    .addGroup(panelImplantesLayout.createSequentialGroup()
+                        .addGroup(panelImplantesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jLabel180)
+                            .addComponent(jRadio91))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelImplantesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio92)
+                            .addComponent(jLabel181))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelImplantesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio93)
+                            .addComponent(jLabel182))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelImplantesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio94)
+                            .addComponent(jLabel183))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelImplantesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio95)
+                            .addComponent(jLabel184))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelImplantesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio96)
+                            .addComponent(jLabel185))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelImplantesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio97)
+                            .addComponent(jLabel186))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelImplantesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio98)
+                            .addComponent(jLabel187))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelImplantesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio106)
+                            .addComponent(jLabel188))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelImplantesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio105)
+                            .addComponent(jLabel189))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelImplantesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio104)
+                            .addComponent(jLabel190))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelImplantesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio103)
+                            .addComponent(jLabel191))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelImplantesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio102)
+                            .addComponent(jLabel192))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelImplantesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio101)
+                            .addComponent(jLabel193))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelImplantesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio100)
+                            .addComponent(jLabel194))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelImplantesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio99)
+                            .addComponent(jLabel195)))
+                    .addGroup(panelImplantesLayout.createSequentialGroup()
+                        .addGroup(panelImplantesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jLabel196)
+                            .addComponent(jRadio75))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelImplantesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio76)
+                            .addComponent(jLabel197))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelImplantesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio77)
+                            .addComponent(jLabel198))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelImplantesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio78)
+                            .addComponent(jLabel199))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelImplantesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio79)
+                            .addComponent(jLabel200))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelImplantesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio80)
+                            .addComponent(jLabel201))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelImplantesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio81)
+                            .addComponent(jLabel202))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelImplantesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio82)
+                            .addComponent(jLabel203))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelImplantesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio90)
+                            .addComponent(jLabel204))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelImplantesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio89)
+                            .addComponent(jLabel205))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelImplantesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio88)
+                            .addComponent(jLabel206))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelImplantesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio87)
+                            .addComponent(jLabel207))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelImplantesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio86)
+                            .addComponent(jLabel208))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelImplantesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio85)
+                            .addComponent(jLabel209))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelImplantesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio84)
+                            .addComponent(jLabel210))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelImplantesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio83)
+                            .addComponent(jLabel211))))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(panelImplantesLayout.createSequentialGroup()
+                .addComponent(jLabel5)
+                .addGap(0, 0, Short.MAX_VALUE))
+        );
+        panelImplantesLayout.setVerticalGroup(
+            panelImplantesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panelImplantesLayout.createSequentialGroup()
+                .addComponent(jLabel5)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 45, Short.MAX_VALUE)
+                .addComponent(jLabel179)
+                .addGap(6, 6, 6)
+                .addGroup(panelImplantesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel196)
+                    .addComponent(jLabel197)
+                    .addComponent(jLabel198)
+                    .addComponent(jLabel199)
+                    .addComponent(jLabel200)
+                    .addComponent(jLabel201)
+                    .addComponent(jLabel202)
+                    .addComponent(jLabel203)
+                    .addComponent(jLabel204)
+                    .addComponent(jLabel205)
+                    .addComponent(jLabel206)
+                    .addComponent(jLabel207)
+                    .addComponent(jLabel208)
+                    .addComponent(jLabel209)
+                    .addComponent(jLabel210)
+                    .addComponent(jLabel211))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(panelImplantesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jRadio75)
+                    .addComponent(jRadio76)
+                    .addComponent(jRadio77)
+                    .addComponent(jRadio78)
+                    .addComponent(jRadio79)
+                    .addComponent(jRadio80)
+                    .addComponent(jRadio81)
+                    .addComponent(jRadio82)
+                    .addComponent(jRadio90)
+                    .addComponent(jRadio89)
+                    .addComponent(jRadio88)
+                    .addComponent(jRadio87)
+                    .addComponent(jRadio86)
+                    .addComponent(jRadio85)
+                    .addComponent(jRadio84)
+                    .addComponent(jRadio83))
+                .addGap(17, 17, 17)
+                .addGroup(panelImplantesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jRadio91)
+                    .addComponent(jRadio92)
+                    .addComponent(jRadio93)
+                    .addComponent(jRadio94)
+                    .addComponent(jRadio95)
+                    .addComponent(jRadio96)
+                    .addComponent(jRadio97)
+                    .addComponent(jRadio98)
+                    .addComponent(jRadio106)
+                    .addComponent(jRadio105)
+                    .addComponent(jRadio104)
+                    .addComponent(jRadio103)
+                    .addComponent(jRadio102)
+                    .addComponent(jRadio101)
+                    .addComponent(jRadio100)
+                    .addComponent(jRadio99))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(panelImplantesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel180)
+                    .addComponent(jLabel181)
+                    .addComponent(jLabel182)
+                    .addComponent(jLabel183)
+                    .addComponent(jLabel184)
+                    .addComponent(jLabel185)
+                    .addComponent(jLabel186)
+                    .addComponent(jLabel187)
+                    .addComponent(jLabel188)
+                    .addComponent(jLabel189)
+                    .addComponent(jLabel190)
+                    .addComponent(jLabel191)
+                    .addComponent(jLabel192)
+                    .addComponent(jLabel193)
+                    .addComponent(jLabel194)
+                    .addComponent(jLabel195))
+                .addGap(18, 18, 18)
+                .addGroup(panelImplantesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(voltar7, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(proximo7, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap())
+        );
+
+        getContentPane().add(panelImplantes, "card4");
+
+        jLabel113.setFont(new java.awt.Font("Lucida Grande", 0, 18)); // NOI18N
+        jLabel113.setText("Elementos dentarios com cárie:");
+
+        jRadio26.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jRadio26ActionPerformed(evt);
+            }
+        });
+
+        jRadio22.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jRadio22ActionPerformed(evt);
+            }
+        });
+
+        jRadio42.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jRadio42ActionPerformed(evt);
             }
         });
 
@@ -743,7 +2456,7 @@ public class NewJFrame extends javax.swing.JFrame {
         panelDentesCarieLayout.setHorizontalGroup(
             panelDentesCarieLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(panelDentesCarieLayout.createSequentialGroup()
-                .addContainerGap(210, Short.MAX_VALUE)
+                .addContainerGap(238, Short.MAX_VALUE)
                 .addComponent(voltar5, javax.swing.GroupLayout.PREFERRED_SIZE, 166, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(proximo5, javax.swing.GroupLayout.PREFERRED_SIZE, 166, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -755,130 +2468,130 @@ public class NewJFrame extends javax.swing.JFrame {
                     .addGroup(panelDentesCarieLayout.createSequentialGroup()
                         .addGroup(panelDentesCarieLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addComponent(jLabel114)
-                            .addComponent(jRadioButton121))
+                            .addComponent(jRadio48))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(panelDentesCarieLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(jRadioButton122)
+                            .addComponent(jRadio47)
                             .addComponent(jLabel115))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(panelDentesCarieLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(jRadioButton123)
+                            .addComponent(jRadio46)
                             .addComponent(jLabel116))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(panelDentesCarieLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(jRadioButton124)
+                            .addComponent(jRadio45)
                             .addComponent(jLabel117))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(panelDentesCarieLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(jRadioButton125)
+                            .addComponent(jRadio44)
                             .addComponent(jLabel118))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(panelDentesCarieLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(jRadioButton126)
+                            .addComponent(jRadio43)
                             .addComponent(jLabel119))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(panelDentesCarieLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(jRadioButton127)
+                            .addComponent(jRadio42)
                             .addComponent(jLabel120))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(panelDentesCarieLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(jRadioButton128)
+                            .addComponent(jRadio41)
                             .addComponent(jLabel121))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(panelDentesCarieLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(jRadioButton129)
+                            .addComponent(jRadio31)
                             .addComponent(jLabel122))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(panelDentesCarieLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(jRadioButton130)
+                            .addComponent(jRadio32)
                             .addComponent(jLabel123))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(panelDentesCarieLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(jRadioButton131)
+                            .addComponent(jRadio33)
                             .addComponent(jLabel124))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(panelDentesCarieLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(jRadioButton132)
+                            .addComponent(jRadio34)
                             .addComponent(jLabel125))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(panelDentesCarieLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(jRadioButton133)
+                            .addComponent(jRadio35)
                             .addComponent(jLabel126))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(panelDentesCarieLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(jRadioButton134)
+                            .addComponent(jRadio36)
                             .addComponent(jLabel127))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(panelDentesCarieLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(jRadioButton137)
+                            .addComponent(jRadio37)
                             .addComponent(jLabel128))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(panelDentesCarieLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(jRadioButton138)
+                            .addComponent(jRadio38)
                             .addComponent(jLabel129)))
                     .addGroup(panelDentesCarieLayout.createSequentialGroup()
                         .addGroup(panelDentesCarieLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addComponent(jLabel130)
-                            .addComponent(jRadioButton120))
+                            .addComponent(jRadio18))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(panelDentesCarieLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(jRadioButton119)
+                            .addComponent(jRadio17)
                             .addComponent(jLabel131))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(panelDentesCarieLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(jRadioButton107)
+                            .addComponent(jRadio16)
                             .addComponent(jLabel132))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(panelDentesCarieLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(jRadioButton108)
+                            .addComponent(jRadio15)
                             .addComponent(jLabel133))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(panelDentesCarieLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(jRadioButton109)
+                            .addComponent(jRadio14)
                             .addComponent(jLabel134))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(panelDentesCarieLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(jRadioButton110)
+                            .addComponent(jRadio13)
                             .addComponent(jLabel135))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(panelDentesCarieLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(jRadioButton114)
+                            .addComponent(jRadio12)
                             .addComponent(jLabel136))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(panelDentesCarieLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(jRadioButton113)
+                            .addComponent(jRadio11)
                             .addComponent(jLabel137))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(panelDentesCarieLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(jRadioButton112)
+                            .addComponent(jRadio21)
                             .addComponent(jLabel138))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(panelDentesCarieLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(jRadioButton111)
+                            .addComponent(jRadio22)
                             .addComponent(jLabel139))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(panelDentesCarieLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(jRadioButton118)
+                            .addComponent(jRadio23)
                             .addComponent(jLabel140))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(panelDentesCarieLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(jRadioButton117)
+                            .addComponent(jRadio24)
                             .addComponent(jLabel141))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(panelDentesCarieLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(jRadioButton116)
+                            .addComponent(jRadio25)
                             .addComponent(jLabel142))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(panelDentesCarieLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(jRadioButton115)
+                            .addComponent(jRadio26)
                             .addComponent(jLabel143))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(panelDentesCarieLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(jRadioButton135)
+                            .addComponent(jRadio27)
                             .addComponent(jLabel144))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(panelDentesCarieLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(jRadioButton136)
+                            .addComponent(jRadio28)
                             .addComponent(jLabel145))))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addGroup(panelDentesCarieLayout.createSequentialGroup()
@@ -911,40 +2624,40 @@ public class NewJFrame extends javax.swing.JFrame {
                     .addComponent(jLabel145))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(panelDentesCarieLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jRadioButton120)
-                    .addComponent(jRadioButton119)
-                    .addComponent(jRadioButton107)
-                    .addComponent(jRadioButton108)
-                    .addComponent(jRadioButton109)
-                    .addComponent(jRadioButton110)
-                    .addComponent(jRadioButton114)
-                    .addComponent(jRadioButton113)
-                    .addComponent(jRadioButton112)
-                    .addComponent(jRadioButton111)
-                    .addComponent(jRadioButton118)
-                    .addComponent(jRadioButton117)
-                    .addComponent(jRadioButton116)
-                    .addComponent(jRadioButton115)
-                    .addComponent(jRadioButton135)
-                    .addComponent(jRadioButton136))
+                    .addComponent(jRadio18)
+                    .addComponent(jRadio17)
+                    .addComponent(jRadio16)
+                    .addComponent(jRadio15)
+                    .addComponent(jRadio14)
+                    .addComponent(jRadio13)
+                    .addComponent(jRadio12)
+                    .addComponent(jRadio11)
+                    .addComponent(jRadio21)
+                    .addComponent(jRadio22)
+                    .addComponent(jRadio23)
+                    .addComponent(jRadio24)
+                    .addComponent(jRadio25)
+                    .addComponent(jRadio26)
+                    .addComponent(jRadio27)
+                    .addComponent(jRadio28))
                 .addGap(17, 17, 17)
                 .addGroup(panelDentesCarieLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jRadioButton121)
-                    .addComponent(jRadioButton122)
-                    .addComponent(jRadioButton123)
-                    .addComponent(jRadioButton124)
-                    .addComponent(jRadioButton125)
-                    .addComponent(jRadioButton126)
-                    .addComponent(jRadioButton127)
-                    .addComponent(jRadioButton128)
-                    .addComponent(jRadioButton129)
-                    .addComponent(jRadioButton130)
-                    .addComponent(jRadioButton131)
-                    .addComponent(jRadioButton132)
-                    .addComponent(jRadioButton133)
-                    .addComponent(jRadioButton134)
-                    .addComponent(jRadioButton137)
-                    .addComponent(jRadioButton138))
+                    .addComponent(jRadio48)
+                    .addComponent(jRadio47)
+                    .addComponent(jRadio46)
+                    .addComponent(jRadio45)
+                    .addComponent(jRadio44)
+                    .addComponent(jRadio43)
+                    .addComponent(jRadio42)
+                    .addComponent(jRadio41)
+                    .addComponent(jRadio31)
+                    .addComponent(jRadio32)
+                    .addComponent(jRadio33)
+                    .addComponent(jRadio34)
+                    .addComponent(jRadio35)
+                    .addComponent(jRadio36)
+                    .addComponent(jRadio37)
+                    .addComponent(jRadio38))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(panelDentesCarieLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel114)
@@ -972,11 +2685,4379 @@ public class NewJFrame extends javax.swing.JFrame {
 
         getContentPane().add(panelDentesCarie, "card4");
 
+        jLabel212.setFont(new java.awt.Font("Lucida Grande", 0, 18)); // NOI18N
+        jLabel212.setText("Imagem radiopaca nos condutos radiculares sugestiva de tratamento endodôntico:");
+
+        jRadio117.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jRadio117ActionPerformed(evt);
+            }
+        });
+
+        jRadio121.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jRadio121ActionPerformed(evt);
+            }
+        });
+
+        jRadio129.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jRadio129ActionPerformed(evt);
+            }
+        });
+
+        jLabel213.setText(" 48");
+
+        jLabel214.setText("47");
+
+        jLabel215.setText("46");
+
+        jLabel216.setText("45");
+
+        jLabel217.setText("44");
+
+        jLabel218.setText("43");
+
+        jLabel219.setText("42");
+
+        jLabel220.setText("41");
+
+        jLabel221.setText("31");
+
+        jLabel222.setText("32");
+
+        jLabel223.setText("33");
+
+        jLabel224.setText("34");
+
+        jLabel225.setText("35");
+
+        jLabel226.setText("36");
+
+        jLabel227.setText("37");
+
+        jLabel228.setText("38");
+
+        jLabel229.setText("18");
+
+        jLabel230.setText("17");
+
+        jLabel231.setText("16");
+
+        jLabel232.setText("15");
+
+        jLabel233.setText("14");
+
+        jLabel234.setText("13");
+
+        jLabel235.setText("12");
+
+        jLabel236.setText("11");
+
+        jLabel237.setText("21");
+
+        jLabel238.setText("22");
+
+        jLabel239.setText("23");
+
+        jLabel240.setText("24");
+
+        jLabel241.setText("25");
+
+        jLabel242.setText("26");
+
+        jLabel243.setText("27");
+
+        jLabel244.setText("28");
+
+        proximo8.setText("Próximo");
+        proximo8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                proximo8ActionPerformed(evt);
+            }
+        });
+
+        voltar8.setText("Voltar");
+        voltar8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                voltar8ActionPerformed(evt);
+            }
+        });
+
+        jLabel6.setFont(new java.awt.Font("Lucida Grande", 0, 48)); // NOI18N
+        jLabel6.setText("Laudo Fácil");
+
+        javax.swing.GroupLayout panelTratamentoEndodônticoLayout = new javax.swing.GroupLayout(panelTratamentoEndodôntico);
+        panelTratamentoEndodôntico.setLayout(panelTratamentoEndodônticoLayout);
+        panelTratamentoEndodônticoLayout.setHorizontalGroup(
+            panelTratamentoEndodônticoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panelTratamentoEndodônticoLayout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(voltar8, javax.swing.GroupLayout.PREFERRED_SIZE, 166, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(proximo8, javax.swing.GroupLayout.PREFERRED_SIZE, 166, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
+            .addGroup(panelTratamentoEndodônticoLayout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(panelTratamentoEndodônticoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel212)
+                    .addGroup(panelTratamentoEndodônticoLayout.createSequentialGroup()
+                        .addGroup(panelTratamentoEndodônticoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jLabel213)
+                            .addComponent(jRadio123))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelTratamentoEndodônticoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio124)
+                            .addComponent(jLabel214))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelTratamentoEndodônticoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio125)
+                            .addComponent(jLabel215))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelTratamentoEndodônticoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio126)
+                            .addComponent(jLabel216))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelTratamentoEndodônticoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio127)
+                            .addComponent(jLabel217))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelTratamentoEndodônticoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio128)
+                            .addComponent(jLabel218))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelTratamentoEndodônticoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio129)
+                            .addComponent(jLabel219))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelTratamentoEndodônticoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio130)
+                            .addComponent(jLabel220))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelTratamentoEndodônticoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio138)
+                            .addComponent(jLabel221))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelTratamentoEndodônticoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio137)
+                            .addComponent(jLabel222))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelTratamentoEndodônticoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio136)
+                            .addComponent(jLabel223))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelTratamentoEndodônticoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio135)
+                            .addComponent(jLabel224))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelTratamentoEndodônticoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio134)
+                            .addComponent(jLabel225))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelTratamentoEndodônticoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio133)
+                            .addComponent(jLabel226))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelTratamentoEndodônticoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio132)
+                            .addComponent(jLabel227))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelTratamentoEndodônticoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio131)
+                            .addComponent(jLabel228)))
+                    .addGroup(panelTratamentoEndodônticoLayout.createSequentialGroup()
+                        .addGroup(panelTratamentoEndodônticoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jLabel229)
+                            .addComponent(jRadio107))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelTratamentoEndodônticoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio108)
+                            .addComponent(jLabel230))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelTratamentoEndodônticoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio109)
+                            .addComponent(jLabel231))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelTratamentoEndodônticoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio110)
+                            .addComponent(jLabel232))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelTratamentoEndodônticoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio111)
+                            .addComponent(jLabel233))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelTratamentoEndodônticoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio112)
+                            .addComponent(jLabel234))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelTratamentoEndodônticoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio113)
+                            .addComponent(jLabel235))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelTratamentoEndodônticoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio114)
+                            .addComponent(jLabel236))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelTratamentoEndodônticoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio122)
+                            .addComponent(jLabel237))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelTratamentoEndodônticoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio121)
+                            .addComponent(jLabel238))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelTratamentoEndodônticoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio120)
+                            .addComponent(jLabel239))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelTratamentoEndodônticoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio119)
+                            .addComponent(jLabel240))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelTratamentoEndodônticoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio118)
+                            .addComponent(jLabel241))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelTratamentoEndodônticoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio117)
+                            .addComponent(jLabel242))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelTratamentoEndodônticoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio116)
+                            .addComponent(jLabel243))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelTratamentoEndodônticoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio115)
+                            .addComponent(jLabel244))))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(panelTratamentoEndodônticoLayout.createSequentialGroup()
+                .addComponent(jLabel6)
+                .addGap(0, 0, Short.MAX_VALUE))
+        );
+        panelTratamentoEndodônticoLayout.setVerticalGroup(
+            panelTratamentoEndodônticoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panelTratamentoEndodônticoLayout.createSequentialGroup()
+                .addComponent(jLabel6)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 45, Short.MAX_VALUE)
+                .addComponent(jLabel212)
+                .addGap(6, 6, 6)
+                .addGroup(panelTratamentoEndodônticoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel229)
+                    .addComponent(jLabel230)
+                    .addComponent(jLabel231)
+                    .addComponent(jLabel232)
+                    .addComponent(jLabel233)
+                    .addComponent(jLabel234)
+                    .addComponent(jLabel235)
+                    .addComponent(jLabel236)
+                    .addComponent(jLabel237)
+                    .addComponent(jLabel238)
+                    .addComponent(jLabel239)
+                    .addComponent(jLabel240)
+                    .addComponent(jLabel241)
+                    .addComponent(jLabel242)
+                    .addComponent(jLabel243)
+                    .addComponent(jLabel244))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(panelTratamentoEndodônticoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jRadio107)
+                    .addComponent(jRadio108)
+                    .addComponent(jRadio109)
+                    .addComponent(jRadio110)
+                    .addComponent(jRadio111)
+                    .addComponent(jRadio112)
+                    .addComponent(jRadio113)
+                    .addComponent(jRadio114)
+                    .addComponent(jRadio122)
+                    .addComponent(jRadio121)
+                    .addComponent(jRadio120)
+                    .addComponent(jRadio119)
+                    .addComponent(jRadio118)
+                    .addComponent(jRadio117)
+                    .addComponent(jRadio116)
+                    .addComponent(jRadio115))
+                .addGap(17, 17, 17)
+                .addGroup(panelTratamentoEndodônticoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jRadio123)
+                    .addComponent(jRadio124)
+                    .addComponent(jRadio125)
+                    .addComponent(jRadio126)
+                    .addComponent(jRadio127)
+                    .addComponent(jRadio128)
+                    .addComponent(jRadio129)
+                    .addComponent(jRadio130)
+                    .addComponent(jRadio138)
+                    .addComponent(jRadio137)
+                    .addComponent(jRadio136)
+                    .addComponent(jRadio135)
+                    .addComponent(jRadio134)
+                    .addComponent(jRadio133)
+                    .addComponent(jRadio132)
+                    .addComponent(jRadio131))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(panelTratamentoEndodônticoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel213)
+                    .addComponent(jLabel214)
+                    .addComponent(jLabel215)
+                    .addComponent(jLabel216)
+                    .addComponent(jLabel217)
+                    .addComponent(jLabel218)
+                    .addComponent(jLabel219)
+                    .addComponent(jLabel220)
+                    .addComponent(jLabel221)
+                    .addComponent(jLabel222)
+                    .addComponent(jLabel223)
+                    .addComponent(jLabel224)
+                    .addComponent(jLabel225)
+                    .addComponent(jLabel226)
+                    .addComponent(jLabel227)
+                    .addComponent(jLabel228))
+                .addGap(18, 18, 18)
+                .addGroup(panelTratamentoEndodônticoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(voltar8, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(proximo8, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap())
+        );
+
+        getContentPane().add(panelTratamentoEndodôntico, "card4");
+
+        jLabel245.setFont(new java.awt.Font("Lucida Grande", 0, 18)); // NOI18N
+        jLabel245.setText("Imagem radiopaca sugerindo presença de núcleo metálico intra-canal nos dentes");
+
+        jRadio149.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jRadio149ActionPerformed(evt);
+            }
+        });
+
+        jRadio153.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jRadio153ActionPerformed(evt);
+            }
+        });
+
+        jRadio161.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jRadio161ActionPerformed(evt);
+            }
+        });
+
+        jLabel246.setText(" 48");
+
+        jLabel247.setText("47");
+
+        jLabel248.setText("46");
+
+        jLabel249.setText("45");
+
+        jLabel250.setText("44");
+
+        jLabel251.setText("43");
+
+        jLabel252.setText("42");
+
+        jLabel253.setText("41");
+
+        jLabel254.setText("31");
+
+        jLabel255.setText("32");
+
+        jLabel256.setText("33");
+
+        jLabel257.setText("34");
+
+        jLabel258.setText("35");
+
+        jLabel259.setText("36");
+
+        jLabel260.setText("37");
+
+        jLabel261.setText("38");
+
+        jLabel262.setText("18");
+
+        jLabel263.setText("17");
+
+        jLabel264.setText("16");
+
+        jLabel265.setText("15");
+
+        jLabel266.setText("14");
+
+        jLabel267.setText("13");
+
+        jLabel268.setText("12");
+
+        jLabel269.setText("11");
+
+        jLabel270.setText("21");
+
+        jLabel271.setText("22");
+
+        jLabel272.setText("23");
+
+        jLabel273.setText("24");
+
+        jLabel274.setText("25");
+
+        jLabel275.setText("26");
+
+        jLabel276.setText("27");
+
+        jLabel277.setText("28");
+
+        proximo9.setText("Próximo");
+        proximo9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                proximo9ActionPerformed(evt);
+            }
+        });
+
+        voltar9.setText("Voltar");
+        voltar9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                voltar9ActionPerformed(evt);
+            }
+        });
+
+        jLabel7.setFont(new java.awt.Font("Lucida Grande", 0, 48)); // NOI18N
+        jLabel7.setText("Laudo Fácil");
+
+        javax.swing.GroupLayout panelNúcleoMetálicoIntraCanalLayout = new javax.swing.GroupLayout(panelNúcleoMetálicoIntraCanal);
+        panelNúcleoMetálicoIntraCanal.setLayout(panelNúcleoMetálicoIntraCanalLayout);
+        panelNúcleoMetálicoIntraCanalLayout.setHorizontalGroup(
+            panelNúcleoMetálicoIntraCanalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panelNúcleoMetálicoIntraCanalLayout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(voltar9, javax.swing.GroupLayout.PREFERRED_SIZE, 166, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(proximo9, javax.swing.GroupLayout.PREFERRED_SIZE, 166, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
+            .addGroup(panelNúcleoMetálicoIntraCanalLayout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(panelNúcleoMetálicoIntraCanalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel245)
+                    .addGroup(panelNúcleoMetálicoIntraCanalLayout.createSequentialGroup()
+                        .addGroup(panelNúcleoMetálicoIntraCanalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jLabel246)
+                            .addComponent(jRadio155))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelNúcleoMetálicoIntraCanalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio156)
+                            .addComponent(jLabel247))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelNúcleoMetálicoIntraCanalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio157)
+                            .addComponent(jLabel248))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelNúcleoMetálicoIntraCanalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio158)
+                            .addComponent(jLabel249))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelNúcleoMetálicoIntraCanalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio159)
+                            .addComponent(jLabel250))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelNúcleoMetálicoIntraCanalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio160)
+                            .addComponent(jLabel251))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelNúcleoMetálicoIntraCanalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio161)
+                            .addComponent(jLabel252))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelNúcleoMetálicoIntraCanalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio162)
+                            .addComponent(jLabel253))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelNúcleoMetálicoIntraCanalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio170)
+                            .addComponent(jLabel254))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelNúcleoMetálicoIntraCanalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio169)
+                            .addComponent(jLabel255))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelNúcleoMetálicoIntraCanalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio168)
+                            .addComponent(jLabel256))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelNúcleoMetálicoIntraCanalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio167)
+                            .addComponent(jLabel257))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelNúcleoMetálicoIntraCanalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio166)
+                            .addComponent(jLabel258))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelNúcleoMetálicoIntraCanalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio165)
+                            .addComponent(jLabel259))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelNúcleoMetálicoIntraCanalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio164)
+                            .addComponent(jLabel260))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelNúcleoMetálicoIntraCanalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio163)
+                            .addComponent(jLabel261)))
+                    .addGroup(panelNúcleoMetálicoIntraCanalLayout.createSequentialGroup()
+                        .addGroup(panelNúcleoMetálicoIntraCanalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jLabel262)
+                            .addComponent(jRadio139))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelNúcleoMetálicoIntraCanalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio140)
+                            .addComponent(jLabel263))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelNúcleoMetálicoIntraCanalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio141)
+                            .addComponent(jLabel264))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelNúcleoMetálicoIntraCanalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio142)
+                            .addComponent(jLabel265))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelNúcleoMetálicoIntraCanalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio143)
+                            .addComponent(jLabel266))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelNúcleoMetálicoIntraCanalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio144)
+                            .addComponent(jLabel267))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelNúcleoMetálicoIntraCanalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio145)
+                            .addComponent(jLabel268))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelNúcleoMetálicoIntraCanalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio146)
+                            .addComponent(jLabel269))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelNúcleoMetálicoIntraCanalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio154)
+                            .addComponent(jLabel270))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelNúcleoMetálicoIntraCanalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio153)
+                            .addComponent(jLabel271))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelNúcleoMetálicoIntraCanalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio152)
+                            .addComponent(jLabel272))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelNúcleoMetálicoIntraCanalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio151)
+                            .addComponent(jLabel273))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelNúcleoMetálicoIntraCanalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio150)
+                            .addComponent(jLabel274))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelNúcleoMetálicoIntraCanalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio149)
+                            .addComponent(jLabel275))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelNúcleoMetálicoIntraCanalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio148)
+                            .addComponent(jLabel276))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelNúcleoMetálicoIntraCanalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio147)
+                            .addComponent(jLabel277))))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(panelNúcleoMetálicoIntraCanalLayout.createSequentialGroup()
+                .addComponent(jLabel7)
+                .addGap(0, 0, Short.MAX_VALUE))
+        );
+        panelNúcleoMetálicoIntraCanalLayout.setVerticalGroup(
+            panelNúcleoMetálicoIntraCanalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panelNúcleoMetálicoIntraCanalLayout.createSequentialGroup()
+                .addComponent(jLabel7)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 45, Short.MAX_VALUE)
+                .addComponent(jLabel245)
+                .addGap(6, 6, 6)
+                .addGroup(panelNúcleoMetálicoIntraCanalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel262)
+                    .addComponent(jLabel263)
+                    .addComponent(jLabel264)
+                    .addComponent(jLabel265)
+                    .addComponent(jLabel266)
+                    .addComponent(jLabel267)
+                    .addComponent(jLabel268)
+                    .addComponent(jLabel269)
+                    .addComponent(jLabel270)
+                    .addComponent(jLabel271)
+                    .addComponent(jLabel272)
+                    .addComponent(jLabel273)
+                    .addComponent(jLabel274)
+                    .addComponent(jLabel275)
+                    .addComponent(jLabel276)
+                    .addComponent(jLabel277))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(panelNúcleoMetálicoIntraCanalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jRadio139)
+                    .addComponent(jRadio140)
+                    .addComponent(jRadio141)
+                    .addComponent(jRadio142)
+                    .addComponent(jRadio143)
+                    .addComponent(jRadio144)
+                    .addComponent(jRadio145)
+                    .addComponent(jRadio146)
+                    .addComponent(jRadio154)
+                    .addComponent(jRadio153)
+                    .addComponent(jRadio152)
+                    .addComponent(jRadio151)
+                    .addComponent(jRadio150)
+                    .addComponent(jRadio149)
+                    .addComponent(jRadio148)
+                    .addComponent(jRadio147))
+                .addGap(17, 17, 17)
+                .addGroup(panelNúcleoMetálicoIntraCanalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jRadio155)
+                    .addComponent(jRadio156)
+                    .addComponent(jRadio157)
+                    .addComponent(jRadio158)
+                    .addComponent(jRadio159)
+                    .addComponent(jRadio160)
+                    .addComponent(jRadio161)
+                    .addComponent(jRadio162)
+                    .addComponent(jRadio170)
+                    .addComponent(jRadio169)
+                    .addComponent(jRadio168)
+                    .addComponent(jRadio167)
+                    .addComponent(jRadio166)
+                    .addComponent(jRadio165)
+                    .addComponent(jRadio164)
+                    .addComponent(jRadio163))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(panelNúcleoMetálicoIntraCanalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel246)
+                    .addComponent(jLabel247)
+                    .addComponent(jLabel248)
+                    .addComponent(jLabel249)
+                    .addComponent(jLabel250)
+                    .addComponent(jLabel251)
+                    .addComponent(jLabel252)
+                    .addComponent(jLabel253)
+                    .addComponent(jLabel254)
+                    .addComponent(jLabel255)
+                    .addComponent(jLabel256)
+                    .addComponent(jLabel257)
+                    .addComponent(jLabel258)
+                    .addComponent(jLabel259)
+                    .addComponent(jLabel260)
+                    .addComponent(jLabel261))
+                .addGap(18, 18, 18)
+                .addGroup(panelNúcleoMetálicoIntraCanalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(voltar9, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(proximo9, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap())
+        );
+
+        getContentPane().add(panelNúcleoMetálicoIntraCanal, "card4");
+
+        jLabel278.setFont(new java.awt.Font("Lucida Grande", 0, 18)); // NOI18N
+        jLabel278.setText("   Imagem radiolúcida sugerindo lesão óssea periapical nos dentes:");
+
+        jRadio181.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jRadio181ActionPerformed(evt);
+            }
+        });
+
+        jRadio185.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jRadio185ActionPerformed(evt);
+            }
+        });
+
+        jRadio193.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jRadio193ActionPerformed(evt);
+            }
+        });
+
+        jLabel279.setText(" 48");
+
+        jLabel280.setText("47");
+
+        jLabel281.setText("46");
+
+        jLabel282.setText("45");
+
+        jLabel283.setText("44");
+
+        jLabel284.setText("43");
+
+        jLabel285.setText("42");
+
+        jLabel286.setText("41");
+
+        jLabel287.setText("31");
+
+        jLabel288.setText("32");
+
+        jLabel289.setText("33");
+
+        jLabel290.setText("34");
+
+        jLabel291.setText("35");
+
+        jLabel292.setText("36");
+
+        jLabel293.setText("37");
+
+        jLabel294.setText("38");
+
+        jLabel295.setText("18");
+
+        jLabel296.setText("17");
+
+        jLabel297.setText("16");
+
+        jLabel298.setText("15");
+
+        jLabel299.setText("14");
+
+        jLabel300.setText("13");
+
+        jLabel301.setText("12");
+
+        jLabel302.setText("11");
+
+        jLabel303.setText("21");
+
+        jLabel304.setText("22");
+
+        jLabel305.setText("23");
+
+        jLabel306.setText("24");
+
+        jLabel307.setText("25");
+
+        jLabel308.setText("26");
+
+        jLabel309.setText("27");
+
+        jLabel310.setText("28");
+
+        proximo10.setText("Próximo");
+        proximo10.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                proximo10ActionPerformed(evt);
+            }
+        });
+
+        voltar10.setText("Voltar");
+        voltar10.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                voltar10ActionPerformed(evt);
+            }
+        });
+
+        jLabel311.setFont(new java.awt.Font("Lucida Grande", 0, 48)); // NOI18N
+        jLabel311.setText("Laudo Fácil");
+
+        javax.swing.GroupLayout panelLesãoOsseaPeriapicalLayout = new javax.swing.GroupLayout(panelLesãoOsseaPeriapical);
+        panelLesãoOsseaPeriapical.setLayout(panelLesãoOsseaPeriapicalLayout);
+        panelLesãoOsseaPeriapicalLayout.setHorizontalGroup(
+            panelLesãoOsseaPeriapicalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panelLesãoOsseaPeriapicalLayout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(voltar10, javax.swing.GroupLayout.PREFERRED_SIZE, 166, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(proximo10, javax.swing.GroupLayout.PREFERRED_SIZE, 166, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
+            .addGroup(panelLesãoOsseaPeriapicalLayout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(panelLesãoOsseaPeriapicalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel278)
+                    .addGroup(panelLesãoOsseaPeriapicalLayout.createSequentialGroup()
+                        .addGroup(panelLesãoOsseaPeriapicalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jLabel279)
+                            .addComponent(jRadio187))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelLesãoOsseaPeriapicalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio188)
+                            .addComponent(jLabel280))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelLesãoOsseaPeriapicalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio189)
+                            .addComponent(jLabel281))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelLesãoOsseaPeriapicalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio190)
+                            .addComponent(jLabel282))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelLesãoOsseaPeriapicalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio191)
+                            .addComponent(jLabel283))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelLesãoOsseaPeriapicalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio192)
+                            .addComponent(jLabel284))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelLesãoOsseaPeriapicalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio193)
+                            .addComponent(jLabel285))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelLesãoOsseaPeriapicalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio194)
+                            .addComponent(jLabel286))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelLesãoOsseaPeriapicalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio202)
+                            .addComponent(jLabel287))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelLesãoOsseaPeriapicalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio201)
+                            .addComponent(jLabel288))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelLesãoOsseaPeriapicalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio200)
+                            .addComponent(jLabel289))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelLesãoOsseaPeriapicalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio199)
+                            .addComponent(jLabel290))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelLesãoOsseaPeriapicalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio198)
+                            .addComponent(jLabel291))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelLesãoOsseaPeriapicalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio197)
+                            .addComponent(jLabel292))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelLesãoOsseaPeriapicalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio196)
+                            .addComponent(jLabel293))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelLesãoOsseaPeriapicalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio195)
+                            .addComponent(jLabel294)))
+                    .addGroup(panelLesãoOsseaPeriapicalLayout.createSequentialGroup()
+                        .addGroup(panelLesãoOsseaPeriapicalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jLabel295)
+                            .addComponent(jRadio171))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelLesãoOsseaPeriapicalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio172)
+                            .addComponent(jLabel296))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelLesãoOsseaPeriapicalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio173)
+                            .addComponent(jLabel297))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelLesãoOsseaPeriapicalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio174)
+                            .addComponent(jLabel298))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelLesãoOsseaPeriapicalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio175)
+                            .addComponent(jLabel299))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelLesãoOsseaPeriapicalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio176)
+                            .addComponent(jLabel300))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelLesãoOsseaPeriapicalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio177)
+                            .addComponent(jLabel301))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelLesãoOsseaPeriapicalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio178)
+                            .addComponent(jLabel302))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelLesãoOsseaPeriapicalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio186)
+                            .addComponent(jLabel303))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelLesãoOsseaPeriapicalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio185)
+                            .addComponent(jLabel304))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelLesãoOsseaPeriapicalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio184)
+                            .addComponent(jLabel305))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelLesãoOsseaPeriapicalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio183)
+                            .addComponent(jLabel306))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelLesãoOsseaPeriapicalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio182)
+                            .addComponent(jLabel307))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelLesãoOsseaPeriapicalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio181)
+                            .addComponent(jLabel308))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelLesãoOsseaPeriapicalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio180)
+                            .addComponent(jLabel309))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelLesãoOsseaPeriapicalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio179)
+                            .addComponent(jLabel310))))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(panelLesãoOsseaPeriapicalLayout.createSequentialGroup()
+                .addComponent(jLabel311)
+                .addGap(0, 0, Short.MAX_VALUE))
+        );
+        panelLesãoOsseaPeriapicalLayout.setVerticalGroup(
+            panelLesãoOsseaPeriapicalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panelLesãoOsseaPeriapicalLayout.createSequentialGroup()
+                .addComponent(jLabel311)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 45, Short.MAX_VALUE)
+                .addComponent(jLabel278)
+                .addGap(6, 6, 6)
+                .addGroup(panelLesãoOsseaPeriapicalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel295)
+                    .addComponent(jLabel296)
+                    .addComponent(jLabel297)
+                    .addComponent(jLabel298)
+                    .addComponent(jLabel299)
+                    .addComponent(jLabel300)
+                    .addComponent(jLabel301)
+                    .addComponent(jLabel302)
+                    .addComponent(jLabel303)
+                    .addComponent(jLabel304)
+                    .addComponent(jLabel305)
+                    .addComponent(jLabel306)
+                    .addComponent(jLabel307)
+                    .addComponent(jLabel308)
+                    .addComponent(jLabel309)
+                    .addComponent(jLabel310))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(panelLesãoOsseaPeriapicalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jRadio171)
+                    .addComponent(jRadio172)
+                    .addComponent(jRadio173)
+                    .addComponent(jRadio174)
+                    .addComponent(jRadio175)
+                    .addComponent(jRadio176)
+                    .addComponent(jRadio177)
+                    .addComponent(jRadio178)
+                    .addComponent(jRadio186)
+                    .addComponent(jRadio185)
+                    .addComponent(jRadio184)
+                    .addComponent(jRadio183)
+                    .addComponent(jRadio182)
+                    .addComponent(jRadio181)
+                    .addComponent(jRadio180)
+                    .addComponent(jRadio179))
+                .addGap(17, 17, 17)
+                .addGroup(panelLesãoOsseaPeriapicalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jRadio187)
+                    .addComponent(jRadio188)
+                    .addComponent(jRadio189)
+                    .addComponent(jRadio190)
+                    .addComponent(jRadio191)
+                    .addComponent(jRadio192)
+                    .addComponent(jRadio193)
+                    .addComponent(jRadio194)
+                    .addComponent(jRadio202)
+                    .addComponent(jRadio201)
+                    .addComponent(jRadio200)
+                    .addComponent(jRadio199)
+                    .addComponent(jRadio198)
+                    .addComponent(jRadio197)
+                    .addComponent(jRadio196)
+                    .addComponent(jRadio195))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(panelLesãoOsseaPeriapicalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel279)
+                    .addComponent(jLabel280)
+                    .addComponent(jLabel281)
+                    .addComponent(jLabel282)
+                    .addComponent(jLabel283)
+                    .addComponent(jLabel284)
+                    .addComponent(jLabel285)
+                    .addComponent(jLabel286)
+                    .addComponent(jLabel287)
+                    .addComponent(jLabel288)
+                    .addComponent(jLabel289)
+                    .addComponent(jLabel290)
+                    .addComponent(jLabel291)
+                    .addComponent(jLabel292)
+                    .addComponent(jLabel293)
+                    .addComponent(jLabel294))
+                .addGap(18, 18, 18)
+                .addGroup(panelLesãoOsseaPeriapicalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(voltar10, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(proximo10, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap())
+        );
+
+        getContentPane().add(panelLesãoOsseaPeriapical, "card4");
+
+        jLabel312.setFont(new java.awt.Font("Lucida Grande", 0, 18)); // NOI18N
+        jLabel312.setText(" Dentes encontram-se mésio-angulados.");
+
+        jRadio213.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jRadio213ActionPerformed(evt);
+            }
+        });
+
+        jRadio217.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jRadio217ActionPerformed(evt);
+            }
+        });
+
+        jRadio225.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jRadio225ActionPerformed(evt);
+            }
+        });
+
+        jLabel313.setText(" 48");
+
+        jLabel314.setText("47");
+
+        jLabel315.setText("46");
+
+        jLabel316.setText("45");
+
+        jLabel317.setText("44");
+
+        jLabel318.setText("43");
+
+        jLabel319.setText("42");
+
+        jLabel320.setText("41");
+
+        jLabel321.setText("31");
+
+        jLabel322.setText("32");
+
+        jLabel323.setText("33");
+
+        jLabel324.setText("34");
+
+        jLabel325.setText("35");
+
+        jLabel326.setText("36");
+
+        jLabel327.setText("37");
+
+        jLabel328.setText("38");
+
+        jLabel329.setText("18");
+
+        jLabel330.setText("17");
+
+        jLabel331.setText("16");
+
+        jLabel332.setText("15");
+
+        jLabel333.setText("14");
+
+        jLabel334.setText("13");
+
+        jLabel335.setText("12");
+
+        jLabel336.setText("11");
+
+        jLabel337.setText("21");
+
+        jLabel338.setText("22");
+
+        jLabel339.setText("23");
+
+        jLabel340.setText("24");
+
+        jLabel341.setText("25");
+
+        jLabel342.setText("26");
+
+        jLabel343.setText("27");
+
+        jLabel344.setText("28");
+
+        proximo11.setText("Próximo");
+        proximo11.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                proximo11ActionPerformed(evt);
+            }
+        });
+
+        voltar11.setText("Voltar");
+        voltar11.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                voltar11ActionPerformed(evt);
+            }
+        });
+
+        jLabel345.setFont(new java.awt.Font("Lucida Grande", 0, 48)); // NOI18N
+        jLabel345.setText("Laudo Fácil");
+
+        javax.swing.GroupLayout panelMésioAnguladosLayout = new javax.swing.GroupLayout(panelMésioAngulados);
+        panelMésioAngulados.setLayout(panelMésioAnguladosLayout);
+        panelMésioAnguladosLayout.setHorizontalGroup(
+            panelMésioAnguladosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panelMésioAnguladosLayout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(voltar11, javax.swing.GroupLayout.PREFERRED_SIZE, 166, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(proximo11, javax.swing.GroupLayout.PREFERRED_SIZE, 166, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
+            .addGroup(panelMésioAnguladosLayout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(panelMésioAnguladosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel312)
+                    .addGroup(panelMésioAnguladosLayout.createSequentialGroup()
+                        .addGroup(panelMésioAnguladosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jLabel313)
+                            .addComponent(jRadio219))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelMésioAnguladosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio220)
+                            .addComponent(jLabel314))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelMésioAnguladosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio221)
+                            .addComponent(jLabel315))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelMésioAnguladosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio222)
+                            .addComponent(jLabel316))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelMésioAnguladosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio223)
+                            .addComponent(jLabel317))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelMésioAnguladosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio224)
+                            .addComponent(jLabel318))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelMésioAnguladosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio225)
+                            .addComponent(jLabel319))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelMésioAnguladosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio226)
+                            .addComponent(jLabel320))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelMésioAnguladosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio234)
+                            .addComponent(jLabel321))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelMésioAnguladosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio233)
+                            .addComponent(jLabel322))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelMésioAnguladosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio232)
+                            .addComponent(jLabel323))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelMésioAnguladosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio231)
+                            .addComponent(jLabel324))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelMésioAnguladosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio230)
+                            .addComponent(jLabel325))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelMésioAnguladosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio229)
+                            .addComponent(jLabel326))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelMésioAnguladosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio228)
+                            .addComponent(jLabel327))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelMésioAnguladosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio227)
+                            .addComponent(jLabel328)))
+                    .addGroup(panelMésioAnguladosLayout.createSequentialGroup()
+                        .addGroup(panelMésioAnguladosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jLabel329)
+                            .addComponent(jRadio203))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelMésioAnguladosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio204)
+                            .addComponent(jLabel330))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelMésioAnguladosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio205)
+                            .addComponent(jLabel331))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelMésioAnguladosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio206)
+                            .addComponent(jLabel332))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelMésioAnguladosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio207)
+                            .addComponent(jLabel333))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelMésioAnguladosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio208)
+                            .addComponent(jLabel334))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelMésioAnguladosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio209)
+                            .addComponent(jLabel335))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelMésioAnguladosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio210)
+                            .addComponent(jLabel336))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelMésioAnguladosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio218)
+                            .addComponent(jLabel337))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelMésioAnguladosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio217)
+                            .addComponent(jLabel338))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelMésioAnguladosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio216)
+                            .addComponent(jLabel339))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelMésioAnguladosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio215)
+                            .addComponent(jLabel340))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelMésioAnguladosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio214)
+                            .addComponent(jLabel341))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelMésioAnguladosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio213)
+                            .addComponent(jLabel342))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelMésioAnguladosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio212)
+                            .addComponent(jLabel343))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelMésioAnguladosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio211)
+                            .addComponent(jLabel344))))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(panelMésioAnguladosLayout.createSequentialGroup()
+                .addComponent(jLabel345)
+                .addGap(0, 0, Short.MAX_VALUE))
+        );
+        panelMésioAnguladosLayout.setVerticalGroup(
+            panelMésioAnguladosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panelMésioAnguladosLayout.createSequentialGroup()
+                .addComponent(jLabel345)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 45, Short.MAX_VALUE)
+                .addComponent(jLabel312)
+                .addGap(6, 6, 6)
+                .addGroup(panelMésioAnguladosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel329)
+                    .addComponent(jLabel330)
+                    .addComponent(jLabel331)
+                    .addComponent(jLabel332)
+                    .addComponent(jLabel333)
+                    .addComponent(jLabel334)
+                    .addComponent(jLabel335)
+                    .addComponent(jLabel336)
+                    .addComponent(jLabel337)
+                    .addComponent(jLabel338)
+                    .addComponent(jLabel339)
+                    .addComponent(jLabel340)
+                    .addComponent(jLabel341)
+                    .addComponent(jLabel342)
+                    .addComponent(jLabel343)
+                    .addComponent(jLabel344))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(panelMésioAnguladosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jRadio203)
+                    .addComponent(jRadio204)
+                    .addComponent(jRadio205)
+                    .addComponent(jRadio206)
+                    .addComponent(jRadio207)
+                    .addComponent(jRadio208)
+                    .addComponent(jRadio209)
+                    .addComponent(jRadio210)
+                    .addComponent(jRadio218)
+                    .addComponent(jRadio217)
+                    .addComponent(jRadio216)
+                    .addComponent(jRadio215)
+                    .addComponent(jRadio214)
+                    .addComponent(jRadio213)
+                    .addComponent(jRadio212)
+                    .addComponent(jRadio211))
+                .addGap(17, 17, 17)
+                .addGroup(panelMésioAnguladosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jRadio219)
+                    .addComponent(jRadio220)
+                    .addComponent(jRadio221)
+                    .addComponent(jRadio222)
+                    .addComponent(jRadio223)
+                    .addComponent(jRadio224)
+                    .addComponent(jRadio225)
+                    .addComponent(jRadio226)
+                    .addComponent(jRadio234)
+                    .addComponent(jRadio233)
+                    .addComponent(jRadio232)
+                    .addComponent(jRadio231)
+                    .addComponent(jRadio230)
+                    .addComponent(jRadio229)
+                    .addComponent(jRadio228)
+                    .addComponent(jRadio227))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(panelMésioAnguladosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel313)
+                    .addComponent(jLabel314)
+                    .addComponent(jLabel315)
+                    .addComponent(jLabel316)
+                    .addComponent(jLabel317)
+                    .addComponent(jLabel318)
+                    .addComponent(jLabel319)
+                    .addComponent(jLabel320)
+                    .addComponent(jLabel321)
+                    .addComponent(jLabel322)
+                    .addComponent(jLabel323)
+                    .addComponent(jLabel324)
+                    .addComponent(jLabel325)
+                    .addComponent(jLabel326)
+                    .addComponent(jLabel327)
+                    .addComponent(jLabel328))
+                .addGap(18, 18, 18)
+                .addGroup(panelMésioAnguladosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(voltar11, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(proximo11, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap())
+        );
+
+        getContentPane().add(panelMésioAngulados, "card4");
+
+        jLabel346.setFont(new java.awt.Font("Lucida Grande", 0, 18)); // NOI18N
+        jLabel346.setText("Imagem sugestiva de giroversão do dente. Sugere-se avaliação clínica.");
+
+        jRadio245.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jRadio245ActionPerformed(evt);
+            }
+        });
+
+        jRadio249.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jRadio249ActionPerformed(evt);
+            }
+        });
+
+        jRadio257.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jRadio257ActionPerformed(evt);
+            }
+        });
+
+        jLabel347.setText(" 48");
+
+        jLabel348.setText("47");
+
+        jLabel349.setText("46");
+
+        jLabel350.setText("45");
+
+        jLabel351.setText("44");
+
+        jLabel352.setText("43");
+
+        jLabel353.setText("42");
+
+        jLabel354.setText("41");
+
+        jLabel355.setText("31");
+
+        jLabel356.setText("32");
+
+        jLabel357.setText("33");
+
+        jLabel358.setText("34");
+
+        jLabel359.setText("35");
+
+        jLabel360.setText("36");
+
+        jLabel361.setText("37");
+
+        jLabel362.setText("38");
+
+        jLabel363.setText("18");
+
+        jLabel364.setText("17");
+
+        jLabel365.setText("16");
+
+        jLabel366.setText("15");
+
+        jLabel367.setText("14");
+
+        jLabel368.setText("13");
+
+        jLabel369.setText("12");
+
+        jLabel370.setText("11");
+
+        jLabel371.setText("21");
+
+        jLabel372.setText("22");
+
+        jLabel373.setText("23");
+
+        jLabel374.setText("24");
+
+        jLabel375.setText("25");
+
+        jLabel376.setText("26");
+
+        jLabel377.setText("27");
+
+        jLabel378.setText("28");
+
+        proximo12.setText("Próximo");
+        proximo12.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                proximo12ActionPerformed(evt);
+            }
+        });
+
+        voltar12.setText("Voltar");
+        voltar12.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                voltar12ActionPerformed(evt);
+            }
+        });
+
+        jLabel379.setFont(new java.awt.Font("Lucida Grande", 0, 48)); // NOI18N
+        jLabel379.setText("Laudo Fácil");
+
+        javax.swing.GroupLayout panelGiroversãoLayout = new javax.swing.GroupLayout(panelGiroversão);
+        panelGiroversão.setLayout(panelGiroversãoLayout);
+        panelGiroversãoLayout.setHorizontalGroup(
+            panelGiroversãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panelGiroversãoLayout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(voltar12, javax.swing.GroupLayout.PREFERRED_SIZE, 166, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(proximo12, javax.swing.GroupLayout.PREFERRED_SIZE, 166, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
+            .addGroup(panelGiroversãoLayout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(panelGiroversãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel346)
+                    .addGroup(panelGiroversãoLayout.createSequentialGroup()
+                        .addGroup(panelGiroversãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jLabel347)
+                            .addComponent(jRadio251))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelGiroversãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio252)
+                            .addComponent(jLabel348))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelGiroversãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio253)
+                            .addComponent(jLabel349))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelGiroversãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio254)
+                            .addComponent(jLabel350))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelGiroversãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio255)
+                            .addComponent(jLabel351))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelGiroversãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio256)
+                            .addComponent(jLabel352))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelGiroversãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio257)
+                            .addComponent(jLabel353))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelGiroversãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio258)
+                            .addComponent(jLabel354))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelGiroversãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio266)
+                            .addComponent(jLabel355))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelGiroversãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio265)
+                            .addComponent(jLabel356))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelGiroversãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio264)
+                            .addComponent(jLabel357))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelGiroversãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio263)
+                            .addComponent(jLabel358))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelGiroversãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio262)
+                            .addComponent(jLabel359))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelGiroversãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio261)
+                            .addComponent(jLabel360))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelGiroversãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio260)
+                            .addComponent(jLabel361))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelGiroversãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio259)
+                            .addComponent(jLabel362)))
+                    .addGroup(panelGiroversãoLayout.createSequentialGroup()
+                        .addGroup(panelGiroversãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jLabel363)
+                            .addComponent(jRadio235))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelGiroversãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio236)
+                            .addComponent(jLabel364))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelGiroversãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio237)
+                            .addComponent(jLabel365))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelGiroversãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio238)
+                            .addComponent(jLabel366))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelGiroversãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio239)
+                            .addComponent(jLabel367))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelGiroversãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio240)
+                            .addComponent(jLabel368))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelGiroversãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio241)
+                            .addComponent(jLabel369))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelGiroversãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio242)
+                            .addComponent(jLabel370))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelGiroversãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio250)
+                            .addComponent(jLabel371))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelGiroversãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio249)
+                            .addComponent(jLabel372))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelGiroversãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio248)
+                            .addComponent(jLabel373))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelGiroversãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio247)
+                            .addComponent(jLabel374))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelGiroversãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio246)
+                            .addComponent(jLabel375))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelGiroversãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio245)
+                            .addComponent(jLabel376))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelGiroversãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio244)
+                            .addComponent(jLabel377))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelGiroversãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio243)
+                            .addComponent(jLabel378))))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(panelGiroversãoLayout.createSequentialGroup()
+                .addComponent(jLabel379)
+                .addGap(0, 0, Short.MAX_VALUE))
+        );
+        panelGiroversãoLayout.setVerticalGroup(
+            panelGiroversãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panelGiroversãoLayout.createSequentialGroup()
+                .addComponent(jLabel379)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 45, Short.MAX_VALUE)
+                .addComponent(jLabel346)
+                .addGap(6, 6, 6)
+                .addGroup(panelGiroversãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel363)
+                    .addComponent(jLabel364)
+                    .addComponent(jLabel365)
+                    .addComponent(jLabel366)
+                    .addComponent(jLabel367)
+                    .addComponent(jLabel368)
+                    .addComponent(jLabel369)
+                    .addComponent(jLabel370)
+                    .addComponent(jLabel371)
+                    .addComponent(jLabel372)
+                    .addComponent(jLabel373)
+                    .addComponent(jLabel374)
+                    .addComponent(jLabel375)
+                    .addComponent(jLabel376)
+                    .addComponent(jLabel377)
+                    .addComponent(jLabel378))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(panelGiroversãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jRadio235)
+                    .addComponent(jRadio236)
+                    .addComponent(jRadio237)
+                    .addComponent(jRadio238)
+                    .addComponent(jRadio239)
+                    .addComponent(jRadio240)
+                    .addComponent(jRadio241)
+                    .addComponent(jRadio242)
+                    .addComponent(jRadio250)
+                    .addComponent(jRadio249)
+                    .addComponent(jRadio248)
+                    .addComponent(jRadio247)
+                    .addComponent(jRadio246)
+                    .addComponent(jRadio245)
+                    .addComponent(jRadio244)
+                    .addComponent(jRadio243))
+                .addGap(17, 17, 17)
+                .addGroup(panelGiroversãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jRadio251)
+                    .addComponent(jRadio252)
+                    .addComponent(jRadio253)
+                    .addComponent(jRadio254)
+                    .addComponent(jRadio255)
+                    .addComponent(jRadio256)
+                    .addComponent(jRadio257)
+                    .addComponent(jRadio258)
+                    .addComponent(jRadio266)
+                    .addComponent(jRadio265)
+                    .addComponent(jRadio264)
+                    .addComponent(jRadio263)
+                    .addComponent(jRadio262)
+                    .addComponent(jRadio261)
+                    .addComponent(jRadio260)
+                    .addComponent(jRadio259))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(panelGiroversãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel347)
+                    .addComponent(jLabel348)
+                    .addComponent(jLabel349)
+                    .addComponent(jLabel350)
+                    .addComponent(jLabel351)
+                    .addComponent(jLabel352)
+                    .addComponent(jLabel353)
+                    .addComponent(jLabel354)
+                    .addComponent(jLabel355)
+                    .addComponent(jLabel356)
+                    .addComponent(jLabel357)
+                    .addComponent(jLabel358)
+                    .addComponent(jLabel359)
+                    .addComponent(jLabel360)
+                    .addComponent(jLabel361)
+                    .addComponent(jLabel362))
+                .addGap(18, 18, 18)
+                .addGroup(panelGiroversãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(voltar12, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(proximo12, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap())
+        );
+
+        getContentPane().add(panelGiroversão, "card4");
+
+        jLabel380.setFont(new java.awt.Font("Lucida Grande", 0, 18)); // NOI18N
+        jLabel380.setText("Imagem sugerindo dilaceração radicular dos dentes ");
+
+        jRadio277.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jRadio277ActionPerformed(evt);
+            }
+        });
+
+        jRadio281.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jRadio281ActionPerformed(evt);
+            }
+        });
+
+        jRadio289.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jRadio289ActionPerformed(evt);
+            }
+        });
+
+        jLabel381.setText(" 48");
+
+        jLabel382.setText("47");
+
+        jLabel383.setText("46");
+
+        jLabel384.setText("45");
+
+        jLabel385.setText("44");
+
+        jLabel386.setText("43");
+
+        jLabel387.setText("42");
+
+        jLabel388.setText("41");
+
+        jLabel389.setText("31");
+
+        jLabel390.setText("32");
+
+        jLabel391.setText("33");
+
+        jLabel392.setText("34");
+
+        jLabel393.setText("35");
+
+        jLabel394.setText("36");
+
+        jLabel395.setText("37");
+
+        jLabel396.setText("38");
+
+        jLabel397.setText("18");
+
+        jLabel398.setText("17");
+
+        jLabel399.setText("16");
+
+        jLabel400.setText("15");
+
+        jLabel401.setText("14");
+
+        jLabel402.setText("13");
+
+        jLabel403.setText("12");
+
+        jLabel404.setText("11");
+
+        jLabel405.setText("21");
+
+        jLabel406.setText("22");
+
+        jLabel407.setText("23");
+
+        jLabel408.setText("24");
+
+        jLabel409.setText("25");
+
+        jLabel410.setText("26");
+
+        jLabel411.setText("27");
+
+        jLabel412.setText("28");
+
+        proximo13.setText("Próximo");
+        proximo13.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                proximo13ActionPerformed(evt);
+            }
+        });
+
+        voltar13.setText("Voltar");
+        voltar13.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                voltar13ActionPerformed(evt);
+            }
+        });
+
+        jLabel413.setFont(new java.awt.Font("Lucida Grande", 0, 48)); // NOI18N
+        jLabel413.setText("Laudo Fácil");
+
+        javax.swing.GroupLayout panelDilaceraçãoRadicularLayout = new javax.swing.GroupLayout(panelDilaceraçãoRadicular);
+        panelDilaceraçãoRadicular.setLayout(panelDilaceraçãoRadicularLayout);
+        panelDilaceraçãoRadicularLayout.setHorizontalGroup(
+            panelDilaceraçãoRadicularLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panelDilaceraçãoRadicularLayout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(voltar13, javax.swing.GroupLayout.PREFERRED_SIZE, 166, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(proximo13, javax.swing.GroupLayout.PREFERRED_SIZE, 166, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
+            .addGroup(panelDilaceraçãoRadicularLayout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(panelDilaceraçãoRadicularLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel380)
+                    .addGroup(panelDilaceraçãoRadicularLayout.createSequentialGroup()
+                        .addGroup(panelDilaceraçãoRadicularLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jLabel381)
+                            .addComponent(jRadio283))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelDilaceraçãoRadicularLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio284)
+                            .addComponent(jLabel382))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelDilaceraçãoRadicularLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio285)
+                            .addComponent(jLabel383))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelDilaceraçãoRadicularLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio286)
+                            .addComponent(jLabel384))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelDilaceraçãoRadicularLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio287)
+                            .addComponent(jLabel385))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelDilaceraçãoRadicularLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio288)
+                            .addComponent(jLabel386))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelDilaceraçãoRadicularLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio289)
+                            .addComponent(jLabel387))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelDilaceraçãoRadicularLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio290)
+                            .addComponent(jLabel388))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelDilaceraçãoRadicularLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio298)
+                            .addComponent(jLabel389))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelDilaceraçãoRadicularLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio297)
+                            .addComponent(jLabel390))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelDilaceraçãoRadicularLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio296)
+                            .addComponent(jLabel391))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelDilaceraçãoRadicularLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio295)
+                            .addComponent(jLabel392))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelDilaceraçãoRadicularLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio294)
+                            .addComponent(jLabel393))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelDilaceraçãoRadicularLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio293)
+                            .addComponent(jLabel394))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelDilaceraçãoRadicularLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio292)
+                            .addComponent(jLabel395))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelDilaceraçãoRadicularLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio291)
+                            .addComponent(jLabel396)))
+                    .addGroup(panelDilaceraçãoRadicularLayout.createSequentialGroup()
+                        .addGroup(panelDilaceraçãoRadicularLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jLabel397)
+                            .addComponent(jRadio267))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelDilaceraçãoRadicularLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio268)
+                            .addComponent(jLabel398))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelDilaceraçãoRadicularLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio269)
+                            .addComponent(jLabel399))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelDilaceraçãoRadicularLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio270)
+                            .addComponent(jLabel400))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelDilaceraçãoRadicularLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio271)
+                            .addComponent(jLabel401))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelDilaceraçãoRadicularLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio272)
+                            .addComponent(jLabel402))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelDilaceraçãoRadicularLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio273)
+                            .addComponent(jLabel403))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelDilaceraçãoRadicularLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio274)
+                            .addComponent(jLabel404))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelDilaceraçãoRadicularLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio282)
+                            .addComponent(jLabel405))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelDilaceraçãoRadicularLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio281)
+                            .addComponent(jLabel406))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelDilaceraçãoRadicularLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio280)
+                            .addComponent(jLabel407))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelDilaceraçãoRadicularLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio279)
+                            .addComponent(jLabel408))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelDilaceraçãoRadicularLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio278)
+                            .addComponent(jLabel409))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelDilaceraçãoRadicularLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio277)
+                            .addComponent(jLabel410))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelDilaceraçãoRadicularLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio276)
+                            .addComponent(jLabel411))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelDilaceraçãoRadicularLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio275)
+                            .addComponent(jLabel412))))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(panelDilaceraçãoRadicularLayout.createSequentialGroup()
+                .addComponent(jLabel413)
+                .addGap(0, 0, Short.MAX_VALUE))
+        );
+        panelDilaceraçãoRadicularLayout.setVerticalGroup(
+            panelDilaceraçãoRadicularLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panelDilaceraçãoRadicularLayout.createSequentialGroup()
+                .addComponent(jLabel413)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 45, Short.MAX_VALUE)
+                .addComponent(jLabel380)
+                .addGap(6, 6, 6)
+                .addGroup(panelDilaceraçãoRadicularLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel397)
+                    .addComponent(jLabel398)
+                    .addComponent(jLabel399)
+                    .addComponent(jLabel400)
+                    .addComponent(jLabel401)
+                    .addComponent(jLabel402)
+                    .addComponent(jLabel403)
+                    .addComponent(jLabel404)
+                    .addComponent(jLabel405)
+                    .addComponent(jLabel406)
+                    .addComponent(jLabel407)
+                    .addComponent(jLabel408)
+                    .addComponent(jLabel409)
+                    .addComponent(jLabel410)
+                    .addComponent(jLabel411)
+                    .addComponent(jLabel412))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(panelDilaceraçãoRadicularLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jRadio267)
+                    .addComponent(jRadio268)
+                    .addComponent(jRadio269)
+                    .addComponent(jRadio270)
+                    .addComponent(jRadio271)
+                    .addComponent(jRadio272)
+                    .addComponent(jRadio273)
+                    .addComponent(jRadio274)
+                    .addComponent(jRadio282)
+                    .addComponent(jRadio281)
+                    .addComponent(jRadio280)
+                    .addComponent(jRadio279)
+                    .addComponent(jRadio278)
+                    .addComponent(jRadio277)
+                    .addComponent(jRadio276)
+                    .addComponent(jRadio275))
+                .addGap(17, 17, 17)
+                .addGroup(panelDilaceraçãoRadicularLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jRadio283)
+                    .addComponent(jRadio284)
+                    .addComponent(jRadio285)
+                    .addComponent(jRadio286)
+                    .addComponent(jRadio287)
+                    .addComponent(jRadio288)
+                    .addComponent(jRadio289)
+                    .addComponent(jRadio290)
+                    .addComponent(jRadio298)
+                    .addComponent(jRadio297)
+                    .addComponent(jRadio296)
+                    .addComponent(jRadio295)
+                    .addComponent(jRadio294)
+                    .addComponent(jRadio293)
+                    .addComponent(jRadio292)
+                    .addComponent(jRadio291))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(panelDilaceraçãoRadicularLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel381)
+                    .addComponent(jLabel382)
+                    .addComponent(jLabel383)
+                    .addComponent(jLabel384)
+                    .addComponent(jLabel385)
+                    .addComponent(jLabel386)
+                    .addComponent(jLabel387)
+                    .addComponent(jLabel388)
+                    .addComponent(jLabel389)
+                    .addComponent(jLabel390)
+                    .addComponent(jLabel391)
+                    .addComponent(jLabel392)
+                    .addComponent(jLabel393)
+                    .addComponent(jLabel394)
+                    .addComponent(jLabel395)
+                    .addComponent(jLabel396))
+                .addGap(18, 18, 18)
+                .addGroup(panelDilaceraçãoRadicularLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(voltar13, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(proximo13, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap())
+        );
+
+        getContentPane().add(panelDilaceraçãoRadicular, "card4");
+
+        jLabel414.setFont(new java.awt.Font("Lucida Grande", 0, 18)); // NOI18N
+        jLabel414.setText("Imagem sugestiva de apinhamento entre os dentes. Sugere-se avaliação clínica.  ");
+
+        jRadio309.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jRadio309ActionPerformed(evt);
+            }
+        });
+
+        jRadio313.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jRadio313ActionPerformed(evt);
+            }
+        });
+
+        jRadio321.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jRadio321ActionPerformed(evt);
+            }
+        });
+
+        jLabel415.setText(" 48");
+
+        jLabel416.setText("47");
+
+        jLabel417.setText("46");
+
+        jLabel418.setText("45");
+
+        jLabel419.setText("44");
+
+        jLabel420.setText("43");
+
+        jLabel421.setText("42");
+
+        jLabel422.setText("41");
+
+        jLabel423.setText("31");
+
+        jLabel424.setText("32");
+
+        jLabel425.setText("33");
+
+        jLabel426.setText("34");
+
+        jLabel427.setText("35");
+
+        jLabel428.setText("36");
+
+        jLabel429.setText("37");
+
+        jLabel430.setText("38");
+
+        jLabel431.setText("18");
+
+        jLabel432.setText("17");
+
+        jLabel433.setText("16");
+
+        jLabel434.setText("15");
+
+        jLabel435.setText("14");
+
+        jLabel436.setText("13");
+
+        jLabel437.setText("12");
+
+        jLabel438.setText("11");
+
+        jLabel439.setText("21");
+
+        jLabel440.setText("22");
+
+        jLabel441.setText("23");
+
+        jLabel442.setText("24");
+
+        jLabel443.setText("25");
+
+        jLabel444.setText("26");
+
+        jLabel445.setText("27");
+
+        jLabel446.setText("28");
+
+        proximo14.setText("Próximo");
+        proximo14.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                proximo14ActionPerformed(evt);
+            }
+        });
+
+        voltar14.setText("Voltar");
+        voltar14.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                voltar14ActionPerformed(evt);
+            }
+        });
+
+        jLabel447.setFont(new java.awt.Font("Lucida Grande", 0, 48)); // NOI18N
+        jLabel447.setText("Laudo Fácil");
+
+        javax.swing.GroupLayout panelApinhamentoLayout = new javax.swing.GroupLayout(panelApinhamento);
+        panelApinhamento.setLayout(panelApinhamentoLayout);
+        panelApinhamentoLayout.setHorizontalGroup(
+            panelApinhamentoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panelApinhamentoLayout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(voltar14, javax.swing.GroupLayout.PREFERRED_SIZE, 166, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(proximo14, javax.swing.GroupLayout.PREFERRED_SIZE, 166, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
+            .addGroup(panelApinhamentoLayout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(panelApinhamentoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel414)
+                    .addGroup(panelApinhamentoLayout.createSequentialGroup()
+                        .addGroup(panelApinhamentoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jLabel415)
+                            .addComponent(jRadio315))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelApinhamentoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio316)
+                            .addComponent(jLabel416))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelApinhamentoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio317)
+                            .addComponent(jLabel417))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelApinhamentoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio318)
+                            .addComponent(jLabel418))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelApinhamentoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio319)
+                            .addComponent(jLabel419))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelApinhamentoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio320)
+                            .addComponent(jLabel420))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelApinhamentoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio321)
+                            .addComponent(jLabel421))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelApinhamentoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio322)
+                            .addComponent(jLabel422))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelApinhamentoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio330)
+                            .addComponent(jLabel423))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelApinhamentoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio329)
+                            .addComponent(jLabel424))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelApinhamentoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio328)
+                            .addComponent(jLabel425))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelApinhamentoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio327)
+                            .addComponent(jLabel426))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelApinhamentoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio326)
+                            .addComponent(jLabel427))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelApinhamentoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio325)
+                            .addComponent(jLabel428))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelApinhamentoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio324)
+                            .addComponent(jLabel429))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelApinhamentoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio323)
+                            .addComponent(jLabel430)))
+                    .addGroup(panelApinhamentoLayout.createSequentialGroup()
+                        .addGroup(panelApinhamentoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jLabel431)
+                            .addComponent(jRadio299))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelApinhamentoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio300)
+                            .addComponent(jLabel432))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelApinhamentoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio301)
+                            .addComponent(jLabel433))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelApinhamentoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio302)
+                            .addComponent(jLabel434))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelApinhamentoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio303)
+                            .addComponent(jLabel435))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelApinhamentoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio304)
+                            .addComponent(jLabel436))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelApinhamentoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio305)
+                            .addComponent(jLabel437))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelApinhamentoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio306)
+                            .addComponent(jLabel438))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelApinhamentoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio314)
+                            .addComponent(jLabel439))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelApinhamentoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio313)
+                            .addComponent(jLabel440))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelApinhamentoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio312)
+                            .addComponent(jLabel441))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelApinhamentoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio311)
+                            .addComponent(jLabel442))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelApinhamentoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio310)
+                            .addComponent(jLabel443))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelApinhamentoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio309)
+                            .addComponent(jLabel444))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelApinhamentoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio308)
+                            .addComponent(jLabel445))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelApinhamentoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio307)
+                            .addComponent(jLabel446))))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(panelApinhamentoLayout.createSequentialGroup()
+                .addComponent(jLabel447)
+                .addGap(0, 0, Short.MAX_VALUE))
+        );
+        panelApinhamentoLayout.setVerticalGroup(
+            panelApinhamentoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panelApinhamentoLayout.createSequentialGroup()
+                .addComponent(jLabel447)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 45, Short.MAX_VALUE)
+                .addComponent(jLabel414)
+                .addGap(6, 6, 6)
+                .addGroup(panelApinhamentoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel431)
+                    .addComponent(jLabel432)
+                    .addComponent(jLabel433)
+                    .addComponent(jLabel434)
+                    .addComponent(jLabel435)
+                    .addComponent(jLabel436)
+                    .addComponent(jLabel437)
+                    .addComponent(jLabel438)
+                    .addComponent(jLabel439)
+                    .addComponent(jLabel440)
+                    .addComponent(jLabel441)
+                    .addComponent(jLabel442)
+                    .addComponent(jLabel443)
+                    .addComponent(jLabel444)
+                    .addComponent(jLabel445)
+                    .addComponent(jLabel446))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(panelApinhamentoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jRadio299)
+                    .addComponent(jRadio300)
+                    .addComponent(jRadio301)
+                    .addComponent(jRadio302)
+                    .addComponent(jRadio303)
+                    .addComponent(jRadio304)
+                    .addComponent(jRadio305)
+                    .addComponent(jRadio306)
+                    .addComponent(jRadio314)
+                    .addComponent(jRadio313)
+                    .addComponent(jRadio312)
+                    .addComponent(jRadio311)
+                    .addComponent(jRadio310)
+                    .addComponent(jRadio309)
+                    .addComponent(jRadio308)
+                    .addComponent(jRadio307))
+                .addGap(17, 17, 17)
+                .addGroup(panelApinhamentoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jRadio315)
+                    .addComponent(jRadio316)
+                    .addComponent(jRadio317)
+                    .addComponent(jRadio318)
+                    .addComponent(jRadio319)
+                    .addComponent(jRadio320)
+                    .addComponent(jRadio321)
+                    .addComponent(jRadio322)
+                    .addComponent(jRadio330)
+                    .addComponent(jRadio329)
+                    .addComponent(jRadio328)
+                    .addComponent(jRadio327)
+                    .addComponent(jRadio326)
+                    .addComponent(jRadio325)
+                    .addComponent(jRadio324)
+                    .addComponent(jRadio323))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(panelApinhamentoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel415)
+                    .addComponent(jLabel416)
+                    .addComponent(jLabel417)
+                    .addComponent(jLabel418)
+                    .addComponent(jLabel419)
+                    .addComponent(jLabel420)
+                    .addComponent(jLabel421)
+                    .addComponent(jLabel422)
+                    .addComponent(jLabel423)
+                    .addComponent(jLabel424)
+                    .addComponent(jLabel425)
+                    .addComponent(jLabel426)
+                    .addComponent(jLabel427)
+                    .addComponent(jLabel428)
+                    .addComponent(jLabel429)
+                    .addComponent(jLabel430))
+                .addGap(18, 18, 18)
+                .addGroup(panelApinhamentoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(voltar14, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(proximo14, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap())
+        );
+
+        getContentPane().add(panelApinhamento, "card4");
+
+        jLabel448.setFont(new java.awt.Font("Lucida Grande", 0, 18)); // NOI18N
+        jLabel448.setText("   Extrusão do dente ");
+
+        jRadio341.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jRadio341ActionPerformed(evt);
+            }
+        });
+
+        jRadio345.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jRadio345ActionPerformed(evt);
+            }
+        });
+
+        jRadio353.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jRadio353ActionPerformed(evt);
+            }
+        });
+
+        jLabel449.setText(" 48");
+
+        jLabel450.setText("47");
+
+        jLabel451.setText("46");
+
+        jLabel452.setText("45");
+
+        jLabel453.setText("44");
+
+        jLabel454.setText("43");
+
+        jLabel455.setText("42");
+
+        jLabel456.setText("41");
+
+        jLabel457.setText("31");
+
+        jLabel458.setText("32");
+
+        jLabel459.setText("33");
+
+        jLabel460.setText("34");
+
+        jLabel461.setText("35");
+
+        jLabel462.setText("36");
+
+        jLabel463.setText("37");
+
+        jLabel464.setText("38");
+
+        jLabel465.setText("18");
+
+        jLabel466.setText("17");
+
+        jLabel467.setText("16");
+
+        jLabel468.setText("15");
+
+        jLabel469.setText("14");
+
+        jLabel470.setText("13");
+
+        jLabel471.setText("12");
+
+        jLabel472.setText("11");
+
+        jLabel473.setText("21");
+
+        jLabel474.setText("22");
+
+        jLabel475.setText("23");
+
+        jLabel476.setText("24");
+
+        jLabel477.setText("25");
+
+        jLabel478.setText("26");
+
+        jLabel479.setText("27");
+
+        jLabel480.setText("28");
+
+        proximo15.setText("Próximo");
+        proximo15.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                proximo15ActionPerformed(evt);
+            }
+        });
+
+        voltar15.setText("Voltar");
+        voltar15.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                voltar15ActionPerformed(evt);
+            }
+        });
+
+        jLabel481.setFont(new java.awt.Font("Lucida Grande", 0, 48)); // NOI18N
+        jLabel481.setText("Laudo Fácil");
+
+        javax.swing.GroupLayout panelExtrusãoLayout = new javax.swing.GroupLayout(panelExtrusão);
+        panelExtrusão.setLayout(panelExtrusãoLayout);
+        panelExtrusãoLayout.setHorizontalGroup(
+            panelExtrusãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panelExtrusãoLayout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(voltar15, javax.swing.GroupLayout.PREFERRED_SIZE, 166, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(proximo15, javax.swing.GroupLayout.PREFERRED_SIZE, 166, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
+            .addGroup(panelExtrusãoLayout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(panelExtrusãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel448)
+                    .addGroup(panelExtrusãoLayout.createSequentialGroup()
+                        .addGroup(panelExtrusãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jLabel449)
+                            .addComponent(jRadio347))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelExtrusãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio348)
+                            .addComponent(jLabel450))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelExtrusãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio349)
+                            .addComponent(jLabel451))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelExtrusãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio350)
+                            .addComponent(jLabel452))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelExtrusãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio351)
+                            .addComponent(jLabel453))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelExtrusãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio352)
+                            .addComponent(jLabel454))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelExtrusãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio353)
+                            .addComponent(jLabel455))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelExtrusãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio354)
+                            .addComponent(jLabel456))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelExtrusãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio362)
+                            .addComponent(jLabel457))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelExtrusãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio361)
+                            .addComponent(jLabel458))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelExtrusãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio360)
+                            .addComponent(jLabel459))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelExtrusãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio359)
+                            .addComponent(jLabel460))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelExtrusãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio358)
+                            .addComponent(jLabel461))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelExtrusãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio357)
+                            .addComponent(jLabel462))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelExtrusãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio356)
+                            .addComponent(jLabel463))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelExtrusãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio355)
+                            .addComponent(jLabel464)))
+                    .addGroup(panelExtrusãoLayout.createSequentialGroup()
+                        .addGroup(panelExtrusãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jLabel465)
+                            .addComponent(jRadio331))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelExtrusãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio332)
+                            .addComponent(jLabel466))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelExtrusãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio333)
+                            .addComponent(jLabel467))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelExtrusãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio334)
+                            .addComponent(jLabel468))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelExtrusãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio335)
+                            .addComponent(jLabel469))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelExtrusãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio336)
+                            .addComponent(jLabel470))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelExtrusãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio337)
+                            .addComponent(jLabel471))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelExtrusãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio338)
+                            .addComponent(jLabel472))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelExtrusãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio346)
+                            .addComponent(jLabel473))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelExtrusãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio345)
+                            .addComponent(jLabel474))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelExtrusãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio344)
+                            .addComponent(jLabel475))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelExtrusãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio343)
+                            .addComponent(jLabel476))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelExtrusãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio342)
+                            .addComponent(jLabel477))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelExtrusãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio341)
+                            .addComponent(jLabel478))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelExtrusãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio340)
+                            .addComponent(jLabel479))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelExtrusãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio339)
+                            .addComponent(jLabel480))))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(panelExtrusãoLayout.createSequentialGroup()
+                .addComponent(jLabel481)
+                .addGap(0, 0, Short.MAX_VALUE))
+        );
+        panelExtrusãoLayout.setVerticalGroup(
+            panelExtrusãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panelExtrusãoLayout.createSequentialGroup()
+                .addComponent(jLabel481)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 45, Short.MAX_VALUE)
+                .addComponent(jLabel448)
+                .addGap(6, 6, 6)
+                .addGroup(panelExtrusãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel465)
+                    .addComponent(jLabel466)
+                    .addComponent(jLabel467)
+                    .addComponent(jLabel468)
+                    .addComponent(jLabel469)
+                    .addComponent(jLabel470)
+                    .addComponent(jLabel471)
+                    .addComponent(jLabel472)
+                    .addComponent(jLabel473)
+                    .addComponent(jLabel474)
+                    .addComponent(jLabel475)
+                    .addComponent(jLabel476)
+                    .addComponent(jLabel477)
+                    .addComponent(jLabel478)
+                    .addComponent(jLabel479)
+                    .addComponent(jLabel480))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(panelExtrusãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jRadio331)
+                    .addComponent(jRadio332)
+                    .addComponent(jRadio333)
+                    .addComponent(jRadio334)
+                    .addComponent(jRadio335)
+                    .addComponent(jRadio336)
+                    .addComponent(jRadio337)
+                    .addComponent(jRadio338)
+                    .addComponent(jRadio346)
+                    .addComponent(jRadio345)
+                    .addComponent(jRadio344)
+                    .addComponent(jRadio343)
+                    .addComponent(jRadio342)
+                    .addComponent(jRadio341)
+                    .addComponent(jRadio340)
+                    .addComponent(jRadio339))
+                .addGap(17, 17, 17)
+                .addGroup(panelExtrusãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jRadio347)
+                    .addComponent(jRadio348)
+                    .addComponent(jRadio349)
+                    .addComponent(jRadio350)
+                    .addComponent(jRadio351)
+                    .addComponent(jRadio352)
+                    .addComponent(jRadio353)
+                    .addComponent(jRadio354)
+                    .addComponent(jRadio362)
+                    .addComponent(jRadio361)
+                    .addComponent(jRadio360)
+                    .addComponent(jRadio359)
+                    .addComponent(jRadio358)
+                    .addComponent(jRadio357)
+                    .addComponent(jRadio356)
+                    .addComponent(jRadio355))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(panelExtrusãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel449)
+                    .addComponent(jLabel450)
+                    .addComponent(jLabel451)
+                    .addComponent(jLabel452)
+                    .addComponent(jLabel453)
+                    .addComponent(jLabel454)
+                    .addComponent(jLabel455)
+                    .addComponent(jLabel456)
+                    .addComponent(jLabel457)
+                    .addComponent(jLabel458)
+                    .addComponent(jLabel459)
+                    .addComponent(jLabel460)
+                    .addComponent(jLabel461)
+                    .addComponent(jLabel462)
+                    .addComponent(jLabel463)
+                    .addComponent(jLabel464))
+                .addGap(18, 18, 18)
+                .addGroup(panelExtrusãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(voltar15, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(proximo15, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap())
+        );
+
+        getContentPane().add(panelExtrusão, "card4");
+
+        jLabel482.setFont(new java.awt.Font("Lucida Grande", 0, 18)); // NOI18N
+        jLabel482.setText("Imagem sugestiva de remodelamento apical dos dentes.");
+
+        jRadio373.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jRadio373ActionPerformed(evt);
+            }
+        });
+
+        jRadio377.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jRadio377ActionPerformed(evt);
+            }
+        });
+
+        jRadio385.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jRadio385ActionPerformed(evt);
+            }
+        });
+
+        jLabel483.setText(" 48");
+
+        jLabel484.setText("47");
+
+        jLabel485.setText("46");
+
+        jLabel486.setText("45");
+
+        jLabel487.setText("44");
+
+        jLabel488.setText("43");
+
+        jLabel489.setText("42");
+
+        jLabel490.setText("41");
+
+        jLabel491.setText("31");
+
+        jLabel492.setText("32");
+
+        jLabel493.setText("33");
+
+        jLabel494.setText("34");
+
+        jLabel495.setText("35");
+
+        jLabel496.setText("36");
+
+        jLabel497.setText("37");
+
+        jLabel498.setText("38");
+
+        jLabel499.setText("18");
+
+        jLabel500.setText("17");
+
+        jLabel501.setText("16");
+
+        jLabel502.setText("15");
+
+        jLabel503.setText("14");
+
+        jLabel504.setText("13");
+
+        jLabel505.setText("12");
+
+        jLabel506.setText("11");
+
+        jLabel507.setText("21");
+
+        jLabel508.setText("22");
+
+        jLabel509.setText("23");
+
+        jLabel510.setText("24");
+
+        jLabel511.setText("25");
+
+        jLabel512.setText("26");
+
+        jLabel513.setText("27");
+
+        jLabel514.setText("28");
+
+        proximo16.setText("Próximo");
+        proximo16.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                proximo16ActionPerformed(evt);
+            }
+        });
+
+        voltar16.setText("Voltar");
+        voltar16.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                voltar16ActionPerformed(evt);
+            }
+        });
+
+        jLabel515.setFont(new java.awt.Font("Lucida Grande", 0, 48)); // NOI18N
+        jLabel515.setText("Laudo Fácil");
+
+        javax.swing.GroupLayout panelRemodelamentoApicalLayout = new javax.swing.GroupLayout(panelRemodelamentoApical);
+        panelRemodelamentoApical.setLayout(panelRemodelamentoApicalLayout);
+        panelRemodelamentoApicalLayout.setHorizontalGroup(
+            panelRemodelamentoApicalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panelRemodelamentoApicalLayout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(voltar16, javax.swing.GroupLayout.PREFERRED_SIZE, 166, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(proximo16, javax.swing.GroupLayout.PREFERRED_SIZE, 166, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
+            .addGroup(panelRemodelamentoApicalLayout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(panelRemodelamentoApicalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel482)
+                    .addGroup(panelRemodelamentoApicalLayout.createSequentialGroup()
+                        .addGroup(panelRemodelamentoApicalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jLabel483)
+                            .addComponent(jRadio379))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelRemodelamentoApicalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio380)
+                            .addComponent(jLabel484))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelRemodelamentoApicalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio381)
+                            .addComponent(jLabel485))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelRemodelamentoApicalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio382)
+                            .addComponent(jLabel486))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelRemodelamentoApicalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio383)
+                            .addComponent(jLabel487))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelRemodelamentoApicalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio384)
+                            .addComponent(jLabel488))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelRemodelamentoApicalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio385)
+                            .addComponent(jLabel489))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelRemodelamentoApicalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio386)
+                            .addComponent(jLabel490))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelRemodelamentoApicalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio394)
+                            .addComponent(jLabel491))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelRemodelamentoApicalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio393)
+                            .addComponent(jLabel492))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelRemodelamentoApicalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio392)
+                            .addComponent(jLabel493))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelRemodelamentoApicalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio391)
+                            .addComponent(jLabel494))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelRemodelamentoApicalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio390)
+                            .addComponent(jLabel495))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelRemodelamentoApicalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio389)
+                            .addComponent(jLabel496))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelRemodelamentoApicalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio388)
+                            .addComponent(jLabel497))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelRemodelamentoApicalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio387)
+                            .addComponent(jLabel498)))
+                    .addGroup(panelRemodelamentoApicalLayout.createSequentialGroup()
+                        .addGroup(panelRemodelamentoApicalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jLabel499)
+                            .addComponent(jRadio363))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelRemodelamentoApicalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio364)
+                            .addComponent(jLabel500))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelRemodelamentoApicalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio365)
+                            .addComponent(jLabel501))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelRemodelamentoApicalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio366)
+                            .addComponent(jLabel502))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelRemodelamentoApicalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio367)
+                            .addComponent(jLabel503))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelRemodelamentoApicalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio368)
+                            .addComponent(jLabel504))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelRemodelamentoApicalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio369)
+                            .addComponent(jLabel505))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelRemodelamentoApicalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio370)
+                            .addComponent(jLabel506))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelRemodelamentoApicalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio378)
+                            .addComponent(jLabel507))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelRemodelamentoApicalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio377)
+                            .addComponent(jLabel508))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelRemodelamentoApicalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio376)
+                            .addComponent(jLabel509))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelRemodelamentoApicalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio375)
+                            .addComponent(jLabel510))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelRemodelamentoApicalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio374)
+                            .addComponent(jLabel511))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelRemodelamentoApicalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio373)
+                            .addComponent(jLabel512))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelRemodelamentoApicalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio372)
+                            .addComponent(jLabel513))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelRemodelamentoApicalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio371)
+                            .addComponent(jLabel514))))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(panelRemodelamentoApicalLayout.createSequentialGroup()
+                .addComponent(jLabel515)
+                .addGap(0, 0, Short.MAX_VALUE))
+        );
+        panelRemodelamentoApicalLayout.setVerticalGroup(
+            panelRemodelamentoApicalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panelRemodelamentoApicalLayout.createSequentialGroup()
+                .addComponent(jLabel515)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 45, Short.MAX_VALUE)
+                .addComponent(jLabel482)
+                .addGap(6, 6, 6)
+                .addGroup(panelRemodelamentoApicalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel499)
+                    .addComponent(jLabel500)
+                    .addComponent(jLabel501)
+                    .addComponent(jLabel502)
+                    .addComponent(jLabel503)
+                    .addComponent(jLabel504)
+                    .addComponent(jLabel505)
+                    .addComponent(jLabel506)
+                    .addComponent(jLabel507)
+                    .addComponent(jLabel508)
+                    .addComponent(jLabel509)
+                    .addComponent(jLabel510)
+                    .addComponent(jLabel511)
+                    .addComponent(jLabel512)
+                    .addComponent(jLabel513)
+                    .addComponent(jLabel514))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(panelRemodelamentoApicalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jRadio363)
+                    .addComponent(jRadio364)
+                    .addComponent(jRadio365)
+                    .addComponent(jRadio366)
+                    .addComponent(jRadio367)
+                    .addComponent(jRadio368)
+                    .addComponent(jRadio369)
+                    .addComponent(jRadio370)
+                    .addComponent(jRadio378)
+                    .addComponent(jRadio377)
+                    .addComponent(jRadio376)
+                    .addComponent(jRadio375)
+                    .addComponent(jRadio374)
+                    .addComponent(jRadio373)
+                    .addComponent(jRadio372)
+                    .addComponent(jRadio371))
+                .addGap(17, 17, 17)
+                .addGroup(panelRemodelamentoApicalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jRadio379)
+                    .addComponent(jRadio380)
+                    .addComponent(jRadio381)
+                    .addComponent(jRadio382)
+                    .addComponent(jRadio383)
+                    .addComponent(jRadio384)
+                    .addComponent(jRadio385)
+                    .addComponent(jRadio386)
+                    .addComponent(jRadio394)
+                    .addComponent(jRadio393)
+                    .addComponent(jRadio392)
+                    .addComponent(jRadio391)
+                    .addComponent(jRadio390)
+                    .addComponent(jRadio389)
+                    .addComponent(jRadio388)
+                    .addComponent(jRadio387))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(panelRemodelamentoApicalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel483)
+                    .addComponent(jLabel484)
+                    .addComponent(jLabel485)
+                    .addComponent(jLabel486)
+                    .addComponent(jLabel487)
+                    .addComponent(jLabel488)
+                    .addComponent(jLabel489)
+                    .addComponent(jLabel490)
+                    .addComponent(jLabel491)
+                    .addComponent(jLabel492)
+                    .addComponent(jLabel493)
+                    .addComponent(jLabel494)
+                    .addComponent(jLabel495)
+                    .addComponent(jLabel496)
+                    .addComponent(jLabel497)
+                    .addComponent(jLabel498))
+                .addGap(18, 18, 18)
+                .addGroup(panelRemodelamentoApicalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(voltar16, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(proximo16, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap())
+        );
+
+        getContentPane().add(panelRemodelamentoApical, "card4");
+
+        jLabel516.setFont(new java.awt.Font("Lucida Grande", 0, 18)); // NOI18N
+        jLabel516.setText(" Imagem radiopaca na região de periápice do dente sugestiva de esclerose óssea.");
+
+        jRadio405.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jRadio405ActionPerformed(evt);
+            }
+        });
+
+        jRadio409.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jRadio409ActionPerformed(evt);
+            }
+        });
+
+        jRadio417.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jRadio417ActionPerformed(evt);
+            }
+        });
+
+        jLabel517.setText(" 48");
+
+        jLabel518.setText("47");
+
+        jLabel519.setText("46");
+
+        jLabel520.setText("45");
+
+        jLabel521.setText("44");
+
+        jLabel522.setText("43");
+
+        jLabel523.setText("42");
+
+        jLabel524.setText("41");
+
+        jLabel525.setText("31");
+
+        jLabel526.setText("32");
+
+        jLabel527.setText("33");
+
+        jLabel528.setText("34");
+
+        jLabel529.setText("35");
+
+        jLabel530.setText("36");
+
+        jLabel531.setText("37");
+
+        jLabel532.setText("38");
+
+        jLabel533.setText("18");
+
+        jLabel534.setText("17");
+
+        jLabel535.setText("16");
+
+        jLabel536.setText("15");
+
+        jLabel537.setText("14");
+
+        jLabel538.setText("13");
+
+        jLabel539.setText("12");
+
+        jLabel540.setText("11");
+
+        jLabel541.setText("21");
+
+        jLabel542.setText("22");
+
+        jLabel543.setText("23");
+
+        jLabel544.setText("24");
+
+        jLabel545.setText("25");
+
+        jLabel546.setText("26");
+
+        jLabel547.setText("27");
+
+        jLabel548.setText("28");
+
+        proximo17.setText("Próximo");
+        proximo17.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                proximo17ActionPerformed(evt);
+            }
+        });
+
+        voltar17.setText("Voltar");
+        voltar17.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                voltar17ActionPerformed(evt);
+            }
+        });
+
+        jLabel549.setFont(new java.awt.Font("Lucida Grande", 0, 48)); // NOI18N
+        jLabel549.setText("Laudo Fácil");
+
+        javax.swing.GroupLayout panelEscleroseOsseaLayout = new javax.swing.GroupLayout(panelEscleroseOssea);
+        panelEscleroseOssea.setLayout(panelEscleroseOsseaLayout);
+        panelEscleroseOsseaLayout.setHorizontalGroup(
+            panelEscleroseOsseaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panelEscleroseOsseaLayout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(voltar17, javax.swing.GroupLayout.PREFERRED_SIZE, 166, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(proximo17, javax.swing.GroupLayout.PREFERRED_SIZE, 166, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
+            .addGroup(panelEscleroseOsseaLayout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(panelEscleroseOsseaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel516)
+                    .addGroup(panelEscleroseOsseaLayout.createSequentialGroup()
+                        .addGroup(panelEscleroseOsseaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jLabel517)
+                            .addComponent(jRadio411))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelEscleroseOsseaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio412)
+                            .addComponent(jLabel518))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelEscleroseOsseaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio413)
+                            .addComponent(jLabel519))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelEscleroseOsseaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio414)
+                            .addComponent(jLabel520))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelEscleroseOsseaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio415)
+                            .addComponent(jLabel521))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelEscleroseOsseaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio416)
+                            .addComponent(jLabel522))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelEscleroseOsseaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio417)
+                            .addComponent(jLabel523))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelEscleroseOsseaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio418)
+                            .addComponent(jLabel524))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelEscleroseOsseaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio426)
+                            .addComponent(jLabel525))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelEscleroseOsseaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio425)
+                            .addComponent(jLabel526))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelEscleroseOsseaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio424)
+                            .addComponent(jLabel527))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelEscleroseOsseaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio423)
+                            .addComponent(jLabel528))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelEscleroseOsseaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio422)
+                            .addComponent(jLabel529))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelEscleroseOsseaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio421)
+                            .addComponent(jLabel530))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelEscleroseOsseaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio420)
+                            .addComponent(jLabel531))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelEscleroseOsseaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio419)
+                            .addComponent(jLabel532)))
+                    .addGroup(panelEscleroseOsseaLayout.createSequentialGroup()
+                        .addGroup(panelEscleroseOsseaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jLabel533)
+                            .addComponent(jRadio395))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelEscleroseOsseaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio396)
+                            .addComponent(jLabel534))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelEscleroseOsseaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio397)
+                            .addComponent(jLabel535))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelEscleroseOsseaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio398)
+                            .addComponent(jLabel536))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelEscleroseOsseaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio399)
+                            .addComponent(jLabel537))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelEscleroseOsseaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio400)
+                            .addComponent(jLabel538))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelEscleroseOsseaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio401)
+                            .addComponent(jLabel539))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelEscleroseOsseaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio402)
+                            .addComponent(jLabel540))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelEscleroseOsseaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio410)
+                            .addComponent(jLabel541))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelEscleroseOsseaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio409)
+                            .addComponent(jLabel542))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelEscleroseOsseaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio408)
+                            .addComponent(jLabel543))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelEscleroseOsseaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio407)
+                            .addComponent(jLabel544))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelEscleroseOsseaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio406)
+                            .addComponent(jLabel545))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelEscleroseOsseaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio405)
+                            .addComponent(jLabel546))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelEscleroseOsseaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio404)
+                            .addComponent(jLabel547))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelEscleroseOsseaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio403)
+                            .addComponent(jLabel548))))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(panelEscleroseOsseaLayout.createSequentialGroup()
+                .addComponent(jLabel549)
+                .addGap(0, 0, Short.MAX_VALUE))
+        );
+        panelEscleroseOsseaLayout.setVerticalGroup(
+            panelEscleroseOsseaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panelEscleroseOsseaLayout.createSequentialGroup()
+                .addComponent(jLabel549)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 45, Short.MAX_VALUE)
+                .addComponent(jLabel516)
+                .addGap(6, 6, 6)
+                .addGroup(panelEscleroseOsseaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel533)
+                    .addComponent(jLabel534)
+                    .addComponent(jLabel535)
+                    .addComponent(jLabel536)
+                    .addComponent(jLabel537)
+                    .addComponent(jLabel538)
+                    .addComponent(jLabel539)
+                    .addComponent(jLabel540)
+                    .addComponent(jLabel541)
+                    .addComponent(jLabel542)
+                    .addComponent(jLabel543)
+                    .addComponent(jLabel544)
+                    .addComponent(jLabel545)
+                    .addComponent(jLabel546)
+                    .addComponent(jLabel547)
+                    .addComponent(jLabel548))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(panelEscleroseOsseaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jRadio395)
+                    .addComponent(jRadio396)
+                    .addComponent(jRadio397)
+                    .addComponent(jRadio398)
+                    .addComponent(jRadio399)
+                    .addComponent(jRadio400)
+                    .addComponent(jRadio401)
+                    .addComponent(jRadio402)
+                    .addComponent(jRadio410)
+                    .addComponent(jRadio409)
+                    .addComponent(jRadio408)
+                    .addComponent(jRadio407)
+                    .addComponent(jRadio406)
+                    .addComponent(jRadio405)
+                    .addComponent(jRadio404)
+                    .addComponent(jRadio403))
+                .addGap(17, 17, 17)
+                .addGroup(panelEscleroseOsseaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jRadio411)
+                    .addComponent(jRadio412)
+                    .addComponent(jRadio413)
+                    .addComponent(jRadio414)
+                    .addComponent(jRadio415)
+                    .addComponent(jRadio416)
+                    .addComponent(jRadio417)
+                    .addComponent(jRadio418)
+                    .addComponent(jRadio426)
+                    .addComponent(jRadio425)
+                    .addComponent(jRadio424)
+                    .addComponent(jRadio423)
+                    .addComponent(jRadio422)
+                    .addComponent(jRadio421)
+                    .addComponent(jRadio420)
+                    .addComponent(jRadio419))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(panelEscleroseOsseaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel517)
+                    .addComponent(jLabel518)
+                    .addComponent(jLabel519)
+                    .addComponent(jLabel520)
+                    .addComponent(jLabel521)
+                    .addComponent(jLabel522)
+                    .addComponent(jLabel523)
+                    .addComponent(jLabel524)
+                    .addComponent(jLabel525)
+                    .addComponent(jLabel526)
+                    .addComponent(jLabel527)
+                    .addComponent(jLabel528)
+                    .addComponent(jLabel529)
+                    .addComponent(jLabel530)
+                    .addComponent(jLabel531)
+                    .addComponent(jLabel532))
+                .addGap(18, 18, 18)
+                .addGroup(panelEscleroseOsseaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(voltar17, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(proximo17, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap())
+        );
+
+        getContentPane().add(panelEscleroseOssea, "card4");
+
+        jLabel550.setFont(new java.awt.Font("Lucida Grande", 0, 18)); // NOI18N
+        jLabel550.setText("Presença de cálculo nos dentes.  ");
+
+        jRadio437.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jRadio437ActionPerformed(evt);
+            }
+        });
+
+        jRadio441.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jRadio441ActionPerformed(evt);
+            }
+        });
+
+        jRadio449.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jRadio449ActionPerformed(evt);
+            }
+        });
+
+        jLabel551.setText(" 48");
+
+        jLabel552.setText("47");
+
+        jLabel553.setText("46");
+
+        jLabel554.setText("45");
+
+        jLabel555.setText("44");
+
+        jLabel556.setText("43");
+
+        jLabel557.setText("42");
+
+        jLabel558.setText("41");
+
+        jLabel559.setText("31");
+
+        jLabel560.setText("32");
+
+        jLabel561.setText("33");
+
+        jLabel562.setText("34");
+
+        jLabel563.setText("35");
+
+        jLabel564.setText("36");
+
+        jLabel565.setText("37");
+
+        jLabel566.setText("38");
+
+        jLabel567.setText("18");
+
+        jLabel568.setText("17");
+
+        jLabel569.setText("16");
+
+        jLabel570.setText("15");
+
+        jLabel571.setText("14");
+
+        jLabel572.setText("13");
+
+        jLabel573.setText("12");
+
+        jLabel574.setText("11");
+
+        jLabel575.setText("21");
+
+        jLabel576.setText("22");
+
+        jLabel577.setText("23");
+
+        jLabel578.setText("24");
+
+        jLabel579.setText("25");
+
+        jLabel580.setText("26");
+
+        jLabel581.setText("27");
+
+        jLabel582.setText("28");
+
+        proximo18.setText("Próximo");
+        proximo18.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                proximo18ActionPerformed(evt);
+            }
+        });
+
+        voltar18.setText("Voltar");
+        voltar18.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                voltar18ActionPerformed(evt);
+            }
+        });
+
+        jLabel583.setFont(new java.awt.Font("Lucida Grande", 0, 48)); // NOI18N
+        jLabel583.setText("Laudo Fácil");
+
+        javax.swing.GroupLayout panelPresençaCálculoLayout = new javax.swing.GroupLayout(panelPresençaCálculo);
+        panelPresençaCálculo.setLayout(panelPresençaCálculoLayout);
+        panelPresençaCálculoLayout.setHorizontalGroup(
+            panelPresençaCálculoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panelPresençaCálculoLayout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(voltar18, javax.swing.GroupLayout.PREFERRED_SIZE, 166, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(proximo18, javax.swing.GroupLayout.PREFERRED_SIZE, 166, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
+            .addGroup(panelPresençaCálculoLayout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(panelPresençaCálculoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel550)
+                    .addGroup(panelPresençaCálculoLayout.createSequentialGroup()
+                        .addGroup(panelPresençaCálculoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jLabel551)
+                            .addComponent(jRadio443))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelPresençaCálculoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio444)
+                            .addComponent(jLabel552))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelPresençaCálculoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio445)
+                            .addComponent(jLabel553))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelPresençaCálculoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio446)
+                            .addComponent(jLabel554))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelPresençaCálculoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio447)
+                            .addComponent(jLabel555))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelPresençaCálculoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio448)
+                            .addComponent(jLabel556))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelPresençaCálculoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio449)
+                            .addComponent(jLabel557))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelPresençaCálculoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio450)
+                            .addComponent(jLabel558))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelPresençaCálculoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio458)
+                            .addComponent(jLabel559))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelPresençaCálculoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio457)
+                            .addComponent(jLabel560))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelPresençaCálculoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio456)
+                            .addComponent(jLabel561))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelPresençaCálculoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio455)
+                            .addComponent(jLabel562))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelPresençaCálculoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio454)
+                            .addComponent(jLabel563))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelPresençaCálculoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio453)
+                            .addComponent(jLabel564))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelPresençaCálculoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio452)
+                            .addComponent(jLabel565))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelPresençaCálculoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio451)
+                            .addComponent(jLabel566)))
+                    .addGroup(panelPresençaCálculoLayout.createSequentialGroup()
+                        .addGroup(panelPresençaCálculoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jLabel567)
+                            .addComponent(jRadio427))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelPresençaCálculoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio428)
+                            .addComponent(jLabel568))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelPresençaCálculoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio429)
+                            .addComponent(jLabel569))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelPresençaCálculoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio430)
+                            .addComponent(jLabel570))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelPresençaCálculoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio431)
+                            .addComponent(jLabel571))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelPresençaCálculoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio432)
+                            .addComponent(jLabel572))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelPresençaCálculoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio433)
+                            .addComponent(jLabel573))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelPresençaCálculoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio434)
+                            .addComponent(jLabel574))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelPresençaCálculoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio442)
+                            .addComponent(jLabel575))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelPresençaCálculoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio441)
+                            .addComponent(jLabel576))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelPresençaCálculoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio440)
+                            .addComponent(jLabel577))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelPresençaCálculoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio439)
+                            .addComponent(jLabel578))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelPresençaCálculoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio438)
+                            .addComponent(jLabel579))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelPresençaCálculoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio437)
+                            .addComponent(jLabel580))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelPresençaCálculoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio436)
+                            .addComponent(jLabel581))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelPresençaCálculoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio435)
+                            .addComponent(jLabel582))))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(panelPresençaCálculoLayout.createSequentialGroup()
+                .addComponent(jLabel583)
+                .addGap(0, 0, Short.MAX_VALUE))
+        );
+        panelPresençaCálculoLayout.setVerticalGroup(
+            panelPresençaCálculoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panelPresençaCálculoLayout.createSequentialGroup()
+                .addComponent(jLabel583)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 45, Short.MAX_VALUE)
+                .addComponent(jLabel550)
+                .addGap(6, 6, 6)
+                .addGroup(panelPresençaCálculoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel567)
+                    .addComponent(jLabel568)
+                    .addComponent(jLabel569)
+                    .addComponent(jLabel570)
+                    .addComponent(jLabel571)
+                    .addComponent(jLabel572)
+                    .addComponent(jLabel573)
+                    .addComponent(jLabel574)
+                    .addComponent(jLabel575)
+                    .addComponent(jLabel576)
+                    .addComponent(jLabel577)
+                    .addComponent(jLabel578)
+                    .addComponent(jLabel579)
+                    .addComponent(jLabel580)
+                    .addComponent(jLabel581)
+                    .addComponent(jLabel582))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(panelPresençaCálculoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jRadio427)
+                    .addComponent(jRadio428)
+                    .addComponent(jRadio429)
+                    .addComponent(jRadio430)
+                    .addComponent(jRadio431)
+                    .addComponent(jRadio432)
+                    .addComponent(jRadio433)
+                    .addComponent(jRadio434)
+                    .addComponent(jRadio442)
+                    .addComponent(jRadio441)
+                    .addComponent(jRadio440)
+                    .addComponent(jRadio439)
+                    .addComponent(jRadio438)
+                    .addComponent(jRadio437)
+                    .addComponent(jRadio436)
+                    .addComponent(jRadio435))
+                .addGap(17, 17, 17)
+                .addGroup(panelPresençaCálculoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jRadio443)
+                    .addComponent(jRadio444)
+                    .addComponent(jRadio445)
+                    .addComponent(jRadio446)
+                    .addComponent(jRadio447)
+                    .addComponent(jRadio448)
+                    .addComponent(jRadio449)
+                    .addComponent(jRadio450)
+                    .addComponent(jRadio458)
+                    .addComponent(jRadio457)
+                    .addComponent(jRadio456)
+                    .addComponent(jRadio455)
+                    .addComponent(jRadio454)
+                    .addComponent(jRadio453)
+                    .addComponent(jRadio452)
+                    .addComponent(jRadio451))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(panelPresençaCálculoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel551)
+                    .addComponent(jLabel552)
+                    .addComponent(jLabel553)
+                    .addComponent(jLabel554)
+                    .addComponent(jLabel555)
+                    .addComponent(jLabel556)
+                    .addComponent(jLabel557)
+                    .addComponent(jLabel558)
+                    .addComponent(jLabel559)
+                    .addComponent(jLabel560)
+                    .addComponent(jLabel561)
+                    .addComponent(jLabel562)
+                    .addComponent(jLabel563)
+                    .addComponent(jLabel564)
+                    .addComponent(jLabel565)
+                    .addComponent(jLabel566))
+                .addGap(18, 18, 18)
+                .addGroup(panelPresençaCálculoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(voltar18, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(proximo18, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap())
+        );
+
+        getContentPane().add(panelPresençaCálculo, "card4");
+
+        jLabel584.setFont(new java.awt.Font("Lucida Grande", 0, 18)); // NOI18N
+        jLabel584.setText(" Imagem radiolúcida na região do dente ausente compatível com extração dentária/alvéolo em reparação. ");
+
+        jRadio469.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jRadio469ActionPerformed(evt);
+            }
+        });
+
+        jRadio473.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jRadio473ActionPerformed(evt);
+            }
+        });
+
+        jRadio481.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jRadio481ActionPerformed(evt);
+            }
+        });
+
+        jLabel585.setText(" 48");
+
+        jLabel586.setText("47");
+
+        jLabel587.setText("46");
+
+        jLabel588.setText("45");
+
+        jLabel589.setText("44");
+
+        jLabel590.setText("43");
+
+        jLabel591.setText("42");
+
+        jLabel592.setText("41");
+
+        jLabel593.setText("31");
+
+        jLabel594.setText("32");
+
+        jLabel595.setText("33");
+
+        jLabel596.setText("34");
+
+        jLabel597.setText("35");
+
+        jLabel598.setText("36");
+
+        jLabel599.setText("37");
+
+        jLabel600.setText("38");
+
+        jLabel601.setText("18");
+
+        jLabel602.setText("17");
+
+        jLabel603.setText("16");
+
+        jLabel604.setText("15");
+
+        jLabel605.setText("14");
+
+        jLabel606.setText("13");
+
+        jLabel607.setText("12");
+
+        jLabel608.setText("11");
+
+        jLabel609.setText("21");
+
+        jLabel610.setText("22");
+
+        jLabel611.setText("23");
+
+        jLabel612.setText("24");
+
+        jLabel613.setText("25");
+
+        jLabel614.setText("26");
+
+        jLabel615.setText("27");
+
+        jLabel616.setText("28");
+
+        proximo19.setText("Próximo");
+        proximo19.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                proximo19ActionPerformed(evt);
+            }
+        });
+
+        voltar19.setText("Voltar");
+        voltar19.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                voltar19ActionPerformed(evt);
+            }
+        });
+
+        jLabel617.setFont(new java.awt.Font("Lucida Grande", 0, 48)); // NOI18N
+        jLabel617.setText("Laudo Fácil");
+
+        javax.swing.GroupLayout panelExtraçãoDentáriaAlvéoloLayout = new javax.swing.GroupLayout(panelExtraçãoDentáriaAlvéolo);
+        panelExtraçãoDentáriaAlvéolo.setLayout(panelExtraçãoDentáriaAlvéoloLayout);
+        panelExtraçãoDentáriaAlvéoloLayout.setHorizontalGroup(
+            panelExtraçãoDentáriaAlvéoloLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panelExtraçãoDentáriaAlvéoloLayout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(voltar19, javax.swing.GroupLayout.PREFERRED_SIZE, 166, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(proximo19, javax.swing.GroupLayout.PREFERRED_SIZE, 166, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
+            .addGroup(panelExtraçãoDentáriaAlvéoloLayout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(panelExtraçãoDentáriaAlvéoloLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel584)
+                    .addGroup(panelExtraçãoDentáriaAlvéoloLayout.createSequentialGroup()
+                        .addGroup(panelExtraçãoDentáriaAlvéoloLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jLabel585)
+                            .addComponent(jRadio475))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelExtraçãoDentáriaAlvéoloLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio476)
+                            .addComponent(jLabel586))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelExtraçãoDentáriaAlvéoloLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio477)
+                            .addComponent(jLabel587))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelExtraçãoDentáriaAlvéoloLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio478)
+                            .addComponent(jLabel588))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelExtraçãoDentáriaAlvéoloLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio479)
+                            .addComponent(jLabel589))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelExtraçãoDentáriaAlvéoloLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio480)
+                            .addComponent(jLabel590))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelExtraçãoDentáriaAlvéoloLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio481)
+                            .addComponent(jLabel591))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelExtraçãoDentáriaAlvéoloLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio482)
+                            .addComponent(jLabel592))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelExtraçãoDentáriaAlvéoloLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio490)
+                            .addComponent(jLabel593))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelExtraçãoDentáriaAlvéoloLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio489)
+                            .addComponent(jLabel594))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelExtraçãoDentáriaAlvéoloLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio488)
+                            .addComponent(jLabel595))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelExtraçãoDentáriaAlvéoloLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio487)
+                            .addComponent(jLabel596))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelExtraçãoDentáriaAlvéoloLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio486)
+                            .addComponent(jLabel597))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelExtraçãoDentáriaAlvéoloLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio485)
+                            .addComponent(jLabel598))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelExtraçãoDentáriaAlvéoloLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio484)
+                            .addComponent(jLabel599))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelExtraçãoDentáriaAlvéoloLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio483)
+                            .addComponent(jLabel600)))
+                    .addGroup(panelExtraçãoDentáriaAlvéoloLayout.createSequentialGroup()
+                        .addGroup(panelExtraçãoDentáriaAlvéoloLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jLabel601)
+                            .addComponent(jRadio459))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelExtraçãoDentáriaAlvéoloLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio460)
+                            .addComponent(jLabel602))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelExtraçãoDentáriaAlvéoloLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio461)
+                            .addComponent(jLabel603))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelExtraçãoDentáriaAlvéoloLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio462)
+                            .addComponent(jLabel604))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelExtraçãoDentáriaAlvéoloLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio463)
+                            .addComponent(jLabel605))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelExtraçãoDentáriaAlvéoloLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio464)
+                            .addComponent(jLabel606))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelExtraçãoDentáriaAlvéoloLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio465)
+                            .addComponent(jLabel607))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelExtraçãoDentáriaAlvéoloLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio466)
+                            .addComponent(jLabel608))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelExtraçãoDentáriaAlvéoloLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio474)
+                            .addComponent(jLabel609))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelExtraçãoDentáriaAlvéoloLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio473)
+                            .addComponent(jLabel610))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelExtraçãoDentáriaAlvéoloLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio472)
+                            .addComponent(jLabel611))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelExtraçãoDentáriaAlvéoloLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio471)
+                            .addComponent(jLabel612))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelExtraçãoDentáriaAlvéoloLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio470)
+                            .addComponent(jLabel613))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelExtraçãoDentáriaAlvéoloLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio469)
+                            .addComponent(jLabel614))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelExtraçãoDentáriaAlvéoloLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio468)
+                            .addComponent(jLabel615))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelExtraçãoDentáriaAlvéoloLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio467)
+                            .addComponent(jLabel616))))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(panelExtraçãoDentáriaAlvéoloLayout.createSequentialGroup()
+                .addComponent(jLabel617)
+                .addGap(0, 0, Short.MAX_VALUE))
+        );
+        panelExtraçãoDentáriaAlvéoloLayout.setVerticalGroup(
+            panelExtraçãoDentáriaAlvéoloLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panelExtraçãoDentáriaAlvéoloLayout.createSequentialGroup()
+                .addComponent(jLabel617)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 45, Short.MAX_VALUE)
+                .addComponent(jLabel584)
+                .addGap(6, 6, 6)
+                .addGroup(panelExtraçãoDentáriaAlvéoloLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel601)
+                    .addComponent(jLabel602)
+                    .addComponent(jLabel603)
+                    .addComponent(jLabel604)
+                    .addComponent(jLabel605)
+                    .addComponent(jLabel606)
+                    .addComponent(jLabel607)
+                    .addComponent(jLabel608)
+                    .addComponent(jLabel609)
+                    .addComponent(jLabel610)
+                    .addComponent(jLabel611)
+                    .addComponent(jLabel612)
+                    .addComponent(jLabel613)
+                    .addComponent(jLabel614)
+                    .addComponent(jLabel615)
+                    .addComponent(jLabel616))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(panelExtraçãoDentáriaAlvéoloLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jRadio459)
+                    .addComponent(jRadio460)
+                    .addComponent(jRadio461)
+                    .addComponent(jRadio462)
+                    .addComponent(jRadio463)
+                    .addComponent(jRadio464)
+                    .addComponent(jRadio465)
+                    .addComponent(jRadio466)
+                    .addComponent(jRadio474)
+                    .addComponent(jRadio473)
+                    .addComponent(jRadio472)
+                    .addComponent(jRadio471)
+                    .addComponent(jRadio470)
+                    .addComponent(jRadio469)
+                    .addComponent(jRadio468)
+                    .addComponent(jRadio467))
+                .addGap(17, 17, 17)
+                .addGroup(panelExtraçãoDentáriaAlvéoloLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jRadio475)
+                    .addComponent(jRadio476)
+                    .addComponent(jRadio477)
+                    .addComponent(jRadio478)
+                    .addComponent(jRadio479)
+                    .addComponent(jRadio480)
+                    .addComponent(jRadio481)
+                    .addComponent(jRadio482)
+                    .addComponent(jRadio490)
+                    .addComponent(jRadio489)
+                    .addComponent(jRadio488)
+                    .addComponent(jRadio487)
+                    .addComponent(jRadio486)
+                    .addComponent(jRadio485)
+                    .addComponent(jRadio484)
+                    .addComponent(jRadio483))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(panelExtraçãoDentáriaAlvéoloLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel585)
+                    .addComponent(jLabel586)
+                    .addComponent(jLabel587)
+                    .addComponent(jLabel588)
+                    .addComponent(jLabel589)
+                    .addComponent(jLabel590)
+                    .addComponent(jLabel591)
+                    .addComponent(jLabel592)
+                    .addComponent(jLabel593)
+                    .addComponent(jLabel594)
+                    .addComponent(jLabel595)
+                    .addComponent(jLabel596)
+                    .addComponent(jLabel597)
+                    .addComponent(jLabel598)
+                    .addComponent(jLabel599)
+                    .addComponent(jLabel600))
+                .addGap(18, 18, 18)
+                .addGroup(panelExtraçãoDentáriaAlvéoloLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(voltar19, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(proximo19, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap())
+        );
+
+        getContentPane().add(panelExtraçãoDentáriaAlvéolo, "card4");
+
+        jLabel618.setFont(new java.awt.Font("Lucida Grande", 0, 18)); // NOI18N
+        jLabel618.setText("Imagem sugestiva de remodelamento apical dos dentes.");
+
+        jRadio501.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jRadio501ActionPerformed(evt);
+            }
+        });
+
+        jRadio505.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jRadio505ActionPerformed(evt);
+            }
+        });
+
+        jRadio513.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jRadio513ActionPerformed(evt);
+            }
+        });
+
+        jLabel619.setText(" 48");
+
+        jLabel620.setText("47");
+
+        jLabel621.setText("46");
+
+        jLabel622.setText("45");
+
+        jLabel623.setText("44");
+
+        jLabel624.setText("43");
+
+        jLabel625.setText("42");
+
+        jLabel626.setText("41");
+
+        jLabel627.setText("31");
+
+        jLabel628.setText("32");
+
+        jLabel629.setText("33");
+
+        jLabel630.setText("34");
+
+        jLabel631.setText("35");
+
+        jLabel632.setText("36");
+
+        jLabel633.setText("37");
+
+        jLabel634.setText("38");
+
+        jLabel635.setText("18");
+
+        jLabel636.setText("17");
+
+        jLabel637.setText("16");
+
+        jLabel638.setText("15");
+
+        jLabel639.setText("14");
+
+        jLabel640.setText("13");
+
+        jLabel641.setText("12");
+
+        jLabel642.setText("11");
+
+        jLabel643.setText("21");
+
+        jLabel644.setText("22");
+
+        jLabel645.setText("23");
+
+        jLabel646.setText("24");
+
+        jLabel647.setText("25");
+
+        jLabel648.setText("26");
+
+        jLabel649.setText("27");
+
+        jLabel650.setText("28");
+
+        proximo20.setText("Próximo");
+        proximo20.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                proximo20ActionPerformed(evt);
+            }
+        });
+
+        voltar20.setText("Voltar");
+        voltar20.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                voltar20ActionPerformed(evt);
+            }
+        });
+
+        jLabel651.setFont(new java.awt.Font("Lucida Grande", 0, 48)); // NOI18N
+        jLabel651.setText("Laudo Fácil");
+
+        javax.swing.GroupLayout panelRemodelamentoApical4Layout = new javax.swing.GroupLayout(panelRemodelamentoApical4);
+        panelRemodelamentoApical4.setLayout(panelRemodelamentoApical4Layout);
+        panelRemodelamentoApical4Layout.setHorizontalGroup(
+            panelRemodelamentoApical4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panelRemodelamentoApical4Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(voltar20, javax.swing.GroupLayout.PREFERRED_SIZE, 166, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(proximo20, javax.swing.GroupLayout.PREFERRED_SIZE, 166, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
+            .addGroup(panelRemodelamentoApical4Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(panelRemodelamentoApical4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel618)
+                    .addGroup(panelRemodelamentoApical4Layout.createSequentialGroup()
+                        .addGroup(panelRemodelamentoApical4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jLabel619)
+                            .addComponent(jRadio507))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelRemodelamentoApical4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio508)
+                            .addComponent(jLabel620))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelRemodelamentoApical4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio509)
+                            .addComponent(jLabel621))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelRemodelamentoApical4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio510)
+                            .addComponent(jLabel622))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelRemodelamentoApical4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio511)
+                            .addComponent(jLabel623))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelRemodelamentoApical4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio512)
+                            .addComponent(jLabel624))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelRemodelamentoApical4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio513)
+                            .addComponent(jLabel625))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelRemodelamentoApical4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio514)
+                            .addComponent(jLabel626))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelRemodelamentoApical4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio522)
+                            .addComponent(jLabel627))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelRemodelamentoApical4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio521)
+                            .addComponent(jLabel628))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelRemodelamentoApical4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio520)
+                            .addComponent(jLabel629))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelRemodelamentoApical4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio519)
+                            .addComponent(jLabel630))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelRemodelamentoApical4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio518)
+                            .addComponent(jLabel631))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelRemodelamentoApical4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio517)
+                            .addComponent(jLabel632))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelRemodelamentoApical4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio516)
+                            .addComponent(jLabel633))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelRemodelamentoApical4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio515)
+                            .addComponent(jLabel634)))
+                    .addGroup(panelRemodelamentoApical4Layout.createSequentialGroup()
+                        .addGroup(panelRemodelamentoApical4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jLabel635)
+                            .addComponent(jRadio491))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelRemodelamentoApical4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio492)
+                            .addComponent(jLabel636))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelRemodelamentoApical4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio493)
+                            .addComponent(jLabel637))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelRemodelamentoApical4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio494)
+                            .addComponent(jLabel638))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelRemodelamentoApical4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio495)
+                            .addComponent(jLabel639))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelRemodelamentoApical4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio496)
+                            .addComponent(jLabel640))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelRemodelamentoApical4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio497)
+                            .addComponent(jLabel641))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelRemodelamentoApical4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio498)
+                            .addComponent(jLabel642))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelRemodelamentoApical4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio506)
+                            .addComponent(jLabel643))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelRemodelamentoApical4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio505)
+                            .addComponent(jLabel644))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelRemodelamentoApical4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio504)
+                            .addComponent(jLabel645))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelRemodelamentoApical4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio503)
+                            .addComponent(jLabel646))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelRemodelamentoApical4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio502)
+                            .addComponent(jLabel647))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelRemodelamentoApical4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio501)
+                            .addComponent(jLabel648))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelRemodelamentoApical4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio500)
+                            .addComponent(jLabel649))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelRemodelamentoApical4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jRadio499)
+                            .addComponent(jLabel650))))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(panelRemodelamentoApical4Layout.createSequentialGroup()
+                .addComponent(jLabel651)
+                .addGap(0, 0, Short.MAX_VALUE))
+        );
+        panelRemodelamentoApical4Layout.setVerticalGroup(
+            panelRemodelamentoApical4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panelRemodelamentoApical4Layout.createSequentialGroup()
+                .addComponent(jLabel651)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 45, Short.MAX_VALUE)
+                .addComponent(jLabel618)
+                .addGap(6, 6, 6)
+                .addGroup(panelRemodelamentoApical4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel635)
+                    .addComponent(jLabel636)
+                    .addComponent(jLabel637)
+                    .addComponent(jLabel638)
+                    .addComponent(jLabel639)
+                    .addComponent(jLabel640)
+                    .addComponent(jLabel641)
+                    .addComponent(jLabel642)
+                    .addComponent(jLabel643)
+                    .addComponent(jLabel644)
+                    .addComponent(jLabel645)
+                    .addComponent(jLabel646)
+                    .addComponent(jLabel647)
+                    .addComponent(jLabel648)
+                    .addComponent(jLabel649)
+                    .addComponent(jLabel650))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(panelRemodelamentoApical4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jRadio491)
+                    .addComponent(jRadio492)
+                    .addComponent(jRadio493)
+                    .addComponent(jRadio494)
+                    .addComponent(jRadio495)
+                    .addComponent(jRadio496)
+                    .addComponent(jRadio497)
+                    .addComponent(jRadio498)
+                    .addComponent(jRadio506)
+                    .addComponent(jRadio505)
+                    .addComponent(jRadio504)
+                    .addComponent(jRadio503)
+                    .addComponent(jRadio502)
+                    .addComponent(jRadio501)
+                    .addComponent(jRadio500)
+                    .addComponent(jRadio499))
+                .addGap(17, 17, 17)
+                .addGroup(panelRemodelamentoApical4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jRadio507)
+                    .addComponent(jRadio508)
+                    .addComponent(jRadio509)
+                    .addComponent(jRadio510)
+                    .addComponent(jRadio511)
+                    .addComponent(jRadio512)
+                    .addComponent(jRadio513)
+                    .addComponent(jRadio514)
+                    .addComponent(jRadio522)
+                    .addComponent(jRadio521)
+                    .addComponent(jRadio520)
+                    .addComponent(jRadio519)
+                    .addComponent(jRadio518)
+                    .addComponent(jRadio517)
+                    .addComponent(jRadio516)
+                    .addComponent(jRadio515))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(panelRemodelamentoApical4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel619)
+                    .addComponent(jLabel620)
+                    .addComponent(jLabel621)
+                    .addComponent(jLabel622)
+                    .addComponent(jLabel623)
+                    .addComponent(jLabel624)
+                    .addComponent(jLabel625)
+                    .addComponent(jLabel626)
+                    .addComponent(jLabel627)
+                    .addComponent(jLabel628)
+                    .addComponent(jLabel629)
+                    .addComponent(jLabel630)
+                    .addComponent(jLabel631)
+                    .addComponent(jLabel632)
+                    .addComponent(jLabel633)
+                    .addComponent(jLabel634))
+                .addGap(18, 18, 18)
+                .addGroup(panelRemodelamentoApical4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(voltar20, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(proximo20, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap())
+        );
+
+        getContentPane().add(panelRemodelamentoApical4, "card4");
+
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
     private void proximo1jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_proximo1jButton1ActionPerformed
-        panelInicial1.setVisible(false);
+        panelInicial.setVisible(false);
         panelDentesAusentes2.setVisible(true);
 
         // TODO add your handling code here:
@@ -992,22 +7073,22 @@ public class NewJFrame extends javax.swing.JFrame {
 
     private void proximo4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_proximo4ActionPerformed
         panelDentesAusentes2.setVisible(false);
-        panelDentesCarie.setVisible(true);
+        panelRaizResidual.setVisible(true);
         // TODO add your handling code here:
     }//GEN-LAST:event_proximo4ActionPerformed
 
     private void voltar4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_voltar4ActionPerformed
-        panelInicial1.setVisible(true);
+        panelInicial.setVisible(true);
         panelDentesAusentes2.setVisible(false);
     }//GEN-LAST:event_voltar4ActionPerformed
 
-    private void jRadioButton115ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton115ActionPerformed
+    private void jRadio26ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadio26ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton115ActionPerformed
+    }//GEN-LAST:event_jRadio26ActionPerformed
 
-    private void jRadioButton127ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton127ActionPerformed
+    private void jRadio42ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadio42ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton127ActionPerformed
+    }//GEN-LAST:event_jRadio42ActionPerformed
 
     private void proximo5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_proximo5ActionPerformed
         // TODO add your handling code here:
@@ -1018,6 +7099,313 @@ public class NewJFrame extends javax.swing.JFrame {
         panelDentesCarie.setVisible(false);
         // TODO add your handling code here:
     }//GEN-LAST:event_voltar5ActionPerformed
+
+    private void jRadio22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadio22ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jRadio22ActionPerformed
+
+    private void jRadio53ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadio53ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jRadio53ActionPerformed
+
+    private void jRadio57ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadio57ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jRadio57ActionPerformed
+
+    private void jRadio65ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadio65ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jRadio65ActionPerformed
+
+    private void proximo6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_proximo6ActionPerformed
+        panelImplantes.setVisible(true);
+        panelRaizResidual.setVisible(false);// TODO add your handling code here:
+    }//GEN-LAST:event_proximo6ActionPerformed
+
+    private void voltar6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_voltar6ActionPerformed
+        panelDentesAusentes2.setVisible(true);
+        panelRaizResidual.setVisible(false);   // TODO add your handling code here:
+    }//GEN-LAST:event_voltar6ActionPerformed
+
+    private void jRadio85ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadio85ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jRadio85ActionPerformed
+
+    private void jRadio89ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadio89ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jRadio89ActionPerformed
+
+    private void jRadio97ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadio97ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jRadio97ActionPerformed
+
+    private void proximo7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_proximo7ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_proximo7ActionPerformed
+
+    private void voltar7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_voltar7ActionPerformed
+        panelImplantes.setVisible(false);
+        panelRaizResidual.setVisible(true);        // TODO add your handling code here:
+    }//GEN-LAST:event_voltar7ActionPerformed
+
+    private void jRadio117ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadio117ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jRadio117ActionPerformed
+
+    private void jRadio121ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadio121ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jRadio121ActionPerformed
+
+    private void jRadio129ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadio129ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jRadio129ActionPerformed
+
+    private void proximo8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_proximo8ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_proximo8ActionPerformed
+
+    private void voltar8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_voltar8ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_voltar8ActionPerformed
+
+    private void jRadio149ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadio149ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jRadio149ActionPerformed
+
+    private void jRadio153ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadio153ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jRadio153ActionPerformed
+
+    private void jRadio161ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadio161ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jRadio161ActionPerformed
+
+    private void proximo9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_proximo9ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_proximo9ActionPerformed
+
+    private void voltar9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_voltar9ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_voltar9ActionPerformed
+
+    private void jRadio181ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadio181ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jRadio181ActionPerformed
+
+    private void jRadio185ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadio185ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jRadio185ActionPerformed
+
+    private void jRadio193ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadio193ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jRadio193ActionPerformed
+
+    private void proximo10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_proximo10ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_proximo10ActionPerformed
+
+    private void voltar10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_voltar10ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_voltar10ActionPerformed
+
+    private void jRadio213ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadio213ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jRadio213ActionPerformed
+
+    private void jRadio217ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadio217ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jRadio217ActionPerformed
+
+    private void jRadio225ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadio225ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jRadio225ActionPerformed
+
+    private void proximo11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_proximo11ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_proximo11ActionPerformed
+
+    private void voltar11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_voltar11ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_voltar11ActionPerformed
+
+    private void jRadio245ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadio245ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jRadio245ActionPerformed
+
+    private void jRadio249ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadio249ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jRadio249ActionPerformed
+
+    private void jRadio257ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadio257ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jRadio257ActionPerformed
+
+    private void proximo12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_proximo12ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_proximo12ActionPerformed
+
+    private void voltar12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_voltar12ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_voltar12ActionPerformed
+
+    private void jRadio277ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadio277ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jRadio277ActionPerformed
+
+    private void jRadio281ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadio281ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jRadio281ActionPerformed
+
+    private void jRadio289ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadio289ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jRadio289ActionPerformed
+
+    private void proximo13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_proximo13ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_proximo13ActionPerformed
+
+    private void voltar13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_voltar13ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_voltar13ActionPerformed
+
+    private void jRadio309ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadio309ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jRadio309ActionPerformed
+
+    private void jRadio313ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadio313ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jRadio313ActionPerformed
+
+    private void jRadio321ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadio321ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jRadio321ActionPerformed
+
+    private void proximo14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_proximo14ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_proximo14ActionPerformed
+
+    private void voltar14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_voltar14ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_voltar14ActionPerformed
+
+    private void jRadio341ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadio341ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jRadio341ActionPerformed
+
+    private void jRadio345ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadio345ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jRadio345ActionPerformed
+
+    private void jRadio353ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadio353ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jRadio353ActionPerformed
+
+    private void proximo15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_proximo15ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_proximo15ActionPerformed
+
+    private void voltar15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_voltar15ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_voltar15ActionPerformed
+
+    private void jRadio373ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadio373ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jRadio373ActionPerformed
+
+    private void jRadio377ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadio377ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jRadio377ActionPerformed
+
+    private void jRadio385ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadio385ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jRadio385ActionPerformed
+
+    private void proximo16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_proximo16ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_proximo16ActionPerformed
+
+    private void voltar16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_voltar16ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_voltar16ActionPerformed
+
+    private void jRadio405ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadio405ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jRadio405ActionPerformed
+
+    private void jRadio409ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadio409ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jRadio409ActionPerformed
+
+    private void jRadio417ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadio417ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jRadio417ActionPerformed
+
+    private void proximo17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_proximo17ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_proximo17ActionPerformed
+
+    private void voltar17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_voltar17ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_voltar17ActionPerformed
+
+    private void jRadio437ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadio437ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jRadio437ActionPerformed
+
+    private void jRadio441ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadio441ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jRadio441ActionPerformed
+
+    private void jRadio449ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadio449ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jRadio449ActionPerformed
+
+    private void proximo18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_proximo18ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_proximo18ActionPerformed
+
+    private void voltar18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_voltar18ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_voltar18ActionPerformed
+
+    private void jRadio469ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadio469ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jRadio469ActionPerformed
+
+    private void jRadio473ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadio473ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jRadio473ActionPerformed
+
+    private void jRadio481ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadio481ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jRadio481ActionPerformed
+
+    private void proximo19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_proximo19ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_proximo19ActionPerformed
+
+    private void voltar19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_voltar19ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_voltar19ActionPerformed
+
+    private void jRadio501ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadio501ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jRadio501ActionPerformed
+
+    private void jRadio505ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadio505ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jRadio505ActionPerformed
+
+    private void jRadio513ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadio513ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jRadio513ActionPerformed
+
+    private void proximo20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_proximo20ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_proximo20ActionPerformed
+
+    private void voltar20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_voltar20ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_voltar20ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -1111,63 +7499,573 @@ public class NewJFrame extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel143;
     private javax.swing.JLabel jLabel144;
     private javax.swing.JLabel jLabel145;
+    private javax.swing.JLabel jLabel146;
+    private javax.swing.JLabel jLabel147;
+    private javax.swing.JLabel jLabel148;
+    private javax.swing.JLabel jLabel149;
     private javax.swing.JLabel jLabel15;
+    private javax.swing.JLabel jLabel150;
+    private javax.swing.JLabel jLabel151;
+    private javax.swing.JLabel jLabel152;
+    private javax.swing.JLabel jLabel153;
+    private javax.swing.JLabel jLabel154;
+    private javax.swing.JLabel jLabel155;
+    private javax.swing.JLabel jLabel156;
+    private javax.swing.JLabel jLabel157;
+    private javax.swing.JLabel jLabel158;
+    private javax.swing.JLabel jLabel159;
     private javax.swing.JLabel jLabel16;
+    private javax.swing.JLabel jLabel160;
+    private javax.swing.JLabel jLabel161;
+    private javax.swing.JLabel jLabel162;
+    private javax.swing.JLabel jLabel163;
+    private javax.swing.JLabel jLabel164;
+    private javax.swing.JLabel jLabel165;
+    private javax.swing.JLabel jLabel166;
+    private javax.swing.JLabel jLabel167;
+    private javax.swing.JLabel jLabel168;
+    private javax.swing.JLabel jLabel169;
     private javax.swing.JLabel jLabel17;
+    private javax.swing.JLabel jLabel170;
+    private javax.swing.JLabel jLabel171;
+    private javax.swing.JLabel jLabel172;
+    private javax.swing.JLabel jLabel173;
+    private javax.swing.JLabel jLabel174;
+    private javax.swing.JLabel jLabel175;
+    private javax.swing.JLabel jLabel176;
+    private javax.swing.JLabel jLabel177;
+    private javax.swing.JLabel jLabel178;
+    private javax.swing.JLabel jLabel179;
     private javax.swing.JLabel jLabel18;
+    private javax.swing.JLabel jLabel180;
+    private javax.swing.JLabel jLabel181;
+    private javax.swing.JLabel jLabel182;
+    private javax.swing.JLabel jLabel183;
+    private javax.swing.JLabel jLabel184;
+    private javax.swing.JLabel jLabel185;
+    private javax.swing.JLabel jLabel186;
+    private javax.swing.JLabel jLabel187;
+    private javax.swing.JLabel jLabel188;
+    private javax.swing.JLabel jLabel189;
     private javax.swing.JLabel jLabel19;
+    private javax.swing.JLabel jLabel190;
+    private javax.swing.JLabel jLabel191;
+    private javax.swing.JLabel jLabel192;
+    private javax.swing.JLabel jLabel193;
+    private javax.swing.JLabel jLabel194;
+    private javax.swing.JLabel jLabel195;
+    private javax.swing.JLabel jLabel196;
+    private javax.swing.JLabel jLabel197;
+    private javax.swing.JLabel jLabel198;
+    private javax.swing.JLabel jLabel199;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel20;
+    private javax.swing.JLabel jLabel200;
+    private javax.swing.JLabel jLabel201;
+    private javax.swing.JLabel jLabel202;
+    private javax.swing.JLabel jLabel203;
+    private javax.swing.JLabel jLabel204;
+    private javax.swing.JLabel jLabel205;
+    private javax.swing.JLabel jLabel206;
+    private javax.swing.JLabel jLabel207;
+    private javax.swing.JLabel jLabel208;
+    private javax.swing.JLabel jLabel209;
     private javax.swing.JLabel jLabel21;
+    private javax.swing.JLabel jLabel210;
+    private javax.swing.JLabel jLabel211;
+    private javax.swing.JLabel jLabel212;
+    private javax.swing.JLabel jLabel213;
+    private javax.swing.JLabel jLabel214;
+    private javax.swing.JLabel jLabel215;
+    private javax.swing.JLabel jLabel216;
+    private javax.swing.JLabel jLabel217;
+    private javax.swing.JLabel jLabel218;
+    private javax.swing.JLabel jLabel219;
     private javax.swing.JLabel jLabel22;
+    private javax.swing.JLabel jLabel220;
+    private javax.swing.JLabel jLabel221;
+    private javax.swing.JLabel jLabel222;
+    private javax.swing.JLabel jLabel223;
+    private javax.swing.JLabel jLabel224;
+    private javax.swing.JLabel jLabel225;
+    private javax.swing.JLabel jLabel226;
+    private javax.swing.JLabel jLabel227;
+    private javax.swing.JLabel jLabel228;
+    private javax.swing.JLabel jLabel229;
     private javax.swing.JLabel jLabel23;
+    private javax.swing.JLabel jLabel230;
+    private javax.swing.JLabel jLabel231;
+    private javax.swing.JLabel jLabel232;
+    private javax.swing.JLabel jLabel233;
+    private javax.swing.JLabel jLabel234;
+    private javax.swing.JLabel jLabel235;
+    private javax.swing.JLabel jLabel236;
+    private javax.swing.JLabel jLabel237;
+    private javax.swing.JLabel jLabel238;
+    private javax.swing.JLabel jLabel239;
     private javax.swing.JLabel jLabel24;
+    private javax.swing.JLabel jLabel240;
+    private javax.swing.JLabel jLabel241;
+    private javax.swing.JLabel jLabel242;
+    private javax.swing.JLabel jLabel243;
+    private javax.swing.JLabel jLabel244;
+    private javax.swing.JLabel jLabel245;
+    private javax.swing.JLabel jLabel246;
+    private javax.swing.JLabel jLabel247;
+    private javax.swing.JLabel jLabel248;
+    private javax.swing.JLabel jLabel249;
     private javax.swing.JLabel jLabel25;
+    private javax.swing.JLabel jLabel250;
+    private javax.swing.JLabel jLabel251;
+    private javax.swing.JLabel jLabel252;
+    private javax.swing.JLabel jLabel253;
+    private javax.swing.JLabel jLabel254;
+    private javax.swing.JLabel jLabel255;
+    private javax.swing.JLabel jLabel256;
+    private javax.swing.JLabel jLabel257;
+    private javax.swing.JLabel jLabel258;
+    private javax.swing.JLabel jLabel259;
     private javax.swing.JLabel jLabel26;
+    private javax.swing.JLabel jLabel260;
+    private javax.swing.JLabel jLabel261;
+    private javax.swing.JLabel jLabel262;
+    private javax.swing.JLabel jLabel263;
+    private javax.swing.JLabel jLabel264;
+    private javax.swing.JLabel jLabel265;
+    private javax.swing.JLabel jLabel266;
+    private javax.swing.JLabel jLabel267;
+    private javax.swing.JLabel jLabel268;
+    private javax.swing.JLabel jLabel269;
     private javax.swing.JLabel jLabel27;
+    private javax.swing.JLabel jLabel270;
+    private javax.swing.JLabel jLabel271;
+    private javax.swing.JLabel jLabel272;
+    private javax.swing.JLabel jLabel273;
+    private javax.swing.JLabel jLabel274;
+    private javax.swing.JLabel jLabel275;
+    private javax.swing.JLabel jLabel276;
+    private javax.swing.JLabel jLabel277;
+    private javax.swing.JLabel jLabel278;
+    private javax.swing.JLabel jLabel279;
     private javax.swing.JLabel jLabel28;
+    private javax.swing.JLabel jLabel280;
+    private javax.swing.JLabel jLabel281;
+    private javax.swing.JLabel jLabel282;
+    private javax.swing.JLabel jLabel283;
+    private javax.swing.JLabel jLabel284;
+    private javax.swing.JLabel jLabel285;
+    private javax.swing.JLabel jLabel286;
+    private javax.swing.JLabel jLabel287;
+    private javax.swing.JLabel jLabel288;
+    private javax.swing.JLabel jLabel289;
     private javax.swing.JLabel jLabel29;
+    private javax.swing.JLabel jLabel290;
+    private javax.swing.JLabel jLabel291;
+    private javax.swing.JLabel jLabel292;
+    private javax.swing.JLabel jLabel293;
+    private javax.swing.JLabel jLabel294;
+    private javax.swing.JLabel jLabel295;
+    private javax.swing.JLabel jLabel296;
+    private javax.swing.JLabel jLabel297;
+    private javax.swing.JLabel jLabel298;
+    private javax.swing.JLabel jLabel299;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel30;
+    private javax.swing.JLabel jLabel300;
+    private javax.swing.JLabel jLabel301;
+    private javax.swing.JLabel jLabel302;
+    private javax.swing.JLabel jLabel303;
+    private javax.swing.JLabel jLabel304;
+    private javax.swing.JLabel jLabel305;
+    private javax.swing.JLabel jLabel306;
+    private javax.swing.JLabel jLabel307;
+    private javax.swing.JLabel jLabel308;
+    private javax.swing.JLabel jLabel309;
     private javax.swing.JLabel jLabel31;
+    private javax.swing.JLabel jLabel310;
+    private javax.swing.JLabel jLabel311;
+    private javax.swing.JLabel jLabel312;
+    private javax.swing.JLabel jLabel313;
+    private javax.swing.JLabel jLabel314;
+    private javax.swing.JLabel jLabel315;
+    private javax.swing.JLabel jLabel316;
+    private javax.swing.JLabel jLabel317;
+    private javax.swing.JLabel jLabel318;
+    private javax.swing.JLabel jLabel319;
     private javax.swing.JLabel jLabel32;
+    private javax.swing.JLabel jLabel320;
+    private javax.swing.JLabel jLabel321;
+    private javax.swing.JLabel jLabel322;
+    private javax.swing.JLabel jLabel323;
+    private javax.swing.JLabel jLabel324;
+    private javax.swing.JLabel jLabel325;
+    private javax.swing.JLabel jLabel326;
+    private javax.swing.JLabel jLabel327;
+    private javax.swing.JLabel jLabel328;
+    private javax.swing.JLabel jLabel329;
     private javax.swing.JLabel jLabel33;
+    private javax.swing.JLabel jLabel330;
+    private javax.swing.JLabel jLabel331;
+    private javax.swing.JLabel jLabel332;
+    private javax.swing.JLabel jLabel333;
+    private javax.swing.JLabel jLabel334;
+    private javax.swing.JLabel jLabel335;
+    private javax.swing.JLabel jLabel336;
+    private javax.swing.JLabel jLabel337;
+    private javax.swing.JLabel jLabel338;
+    private javax.swing.JLabel jLabel339;
     private javax.swing.JLabel jLabel34;
+    private javax.swing.JLabel jLabel340;
+    private javax.swing.JLabel jLabel341;
+    private javax.swing.JLabel jLabel342;
+    private javax.swing.JLabel jLabel343;
+    private javax.swing.JLabel jLabel344;
+    private javax.swing.JLabel jLabel345;
+    private javax.swing.JLabel jLabel346;
+    private javax.swing.JLabel jLabel347;
+    private javax.swing.JLabel jLabel348;
+    private javax.swing.JLabel jLabel349;
     private javax.swing.JLabel jLabel35;
+    private javax.swing.JLabel jLabel350;
+    private javax.swing.JLabel jLabel351;
+    private javax.swing.JLabel jLabel352;
+    private javax.swing.JLabel jLabel353;
+    private javax.swing.JLabel jLabel354;
+    private javax.swing.JLabel jLabel355;
+    private javax.swing.JLabel jLabel356;
+    private javax.swing.JLabel jLabel357;
+    private javax.swing.JLabel jLabel358;
+    private javax.swing.JLabel jLabel359;
     private javax.swing.JLabel jLabel36;
+    private javax.swing.JLabel jLabel360;
+    private javax.swing.JLabel jLabel361;
+    private javax.swing.JLabel jLabel362;
+    private javax.swing.JLabel jLabel363;
+    private javax.swing.JLabel jLabel364;
+    private javax.swing.JLabel jLabel365;
+    private javax.swing.JLabel jLabel366;
+    private javax.swing.JLabel jLabel367;
+    private javax.swing.JLabel jLabel368;
+    private javax.swing.JLabel jLabel369;
     private javax.swing.JLabel jLabel37;
+    private javax.swing.JLabel jLabel370;
+    private javax.swing.JLabel jLabel371;
+    private javax.swing.JLabel jLabel372;
+    private javax.swing.JLabel jLabel373;
+    private javax.swing.JLabel jLabel374;
+    private javax.swing.JLabel jLabel375;
+    private javax.swing.JLabel jLabel376;
+    private javax.swing.JLabel jLabel377;
+    private javax.swing.JLabel jLabel378;
+    private javax.swing.JLabel jLabel379;
     private javax.swing.JLabel jLabel38;
+    private javax.swing.JLabel jLabel380;
+    private javax.swing.JLabel jLabel381;
+    private javax.swing.JLabel jLabel382;
+    private javax.swing.JLabel jLabel383;
+    private javax.swing.JLabel jLabel384;
+    private javax.swing.JLabel jLabel385;
+    private javax.swing.JLabel jLabel386;
+    private javax.swing.JLabel jLabel387;
+    private javax.swing.JLabel jLabel388;
+    private javax.swing.JLabel jLabel389;
     private javax.swing.JLabel jLabel39;
+    private javax.swing.JLabel jLabel390;
+    private javax.swing.JLabel jLabel391;
+    private javax.swing.JLabel jLabel392;
+    private javax.swing.JLabel jLabel393;
+    private javax.swing.JLabel jLabel394;
+    private javax.swing.JLabel jLabel395;
+    private javax.swing.JLabel jLabel396;
+    private javax.swing.JLabel jLabel397;
+    private javax.swing.JLabel jLabel398;
+    private javax.swing.JLabel jLabel399;
+    private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel40;
+    private javax.swing.JLabel jLabel400;
+    private javax.swing.JLabel jLabel401;
+    private javax.swing.JLabel jLabel402;
+    private javax.swing.JLabel jLabel403;
+    private javax.swing.JLabel jLabel404;
+    private javax.swing.JLabel jLabel405;
+    private javax.swing.JLabel jLabel406;
+    private javax.swing.JLabel jLabel407;
+    private javax.swing.JLabel jLabel408;
+    private javax.swing.JLabel jLabel409;
     private javax.swing.JLabel jLabel41;
+    private javax.swing.JLabel jLabel410;
+    private javax.swing.JLabel jLabel411;
+    private javax.swing.JLabel jLabel412;
+    private javax.swing.JLabel jLabel413;
+    private javax.swing.JLabel jLabel414;
+    private javax.swing.JLabel jLabel415;
+    private javax.swing.JLabel jLabel416;
+    private javax.swing.JLabel jLabel417;
+    private javax.swing.JLabel jLabel418;
+    private javax.swing.JLabel jLabel419;
     private javax.swing.JLabel jLabel42;
+    private javax.swing.JLabel jLabel420;
+    private javax.swing.JLabel jLabel421;
+    private javax.swing.JLabel jLabel422;
+    private javax.swing.JLabel jLabel423;
+    private javax.swing.JLabel jLabel424;
+    private javax.swing.JLabel jLabel425;
+    private javax.swing.JLabel jLabel426;
+    private javax.swing.JLabel jLabel427;
+    private javax.swing.JLabel jLabel428;
+    private javax.swing.JLabel jLabel429;
     private javax.swing.JLabel jLabel43;
+    private javax.swing.JLabel jLabel430;
+    private javax.swing.JLabel jLabel431;
+    private javax.swing.JLabel jLabel432;
+    private javax.swing.JLabel jLabel433;
+    private javax.swing.JLabel jLabel434;
+    private javax.swing.JLabel jLabel435;
+    private javax.swing.JLabel jLabel436;
+    private javax.swing.JLabel jLabel437;
+    private javax.swing.JLabel jLabel438;
+    private javax.swing.JLabel jLabel439;
     private javax.swing.JLabel jLabel44;
+    private javax.swing.JLabel jLabel440;
+    private javax.swing.JLabel jLabel441;
+    private javax.swing.JLabel jLabel442;
+    private javax.swing.JLabel jLabel443;
+    private javax.swing.JLabel jLabel444;
+    private javax.swing.JLabel jLabel445;
+    private javax.swing.JLabel jLabel446;
+    private javax.swing.JLabel jLabel447;
+    private javax.swing.JLabel jLabel448;
+    private javax.swing.JLabel jLabel449;
     private javax.swing.JLabel jLabel45;
+    private javax.swing.JLabel jLabel450;
+    private javax.swing.JLabel jLabel451;
+    private javax.swing.JLabel jLabel452;
+    private javax.swing.JLabel jLabel453;
+    private javax.swing.JLabel jLabel454;
+    private javax.swing.JLabel jLabel455;
+    private javax.swing.JLabel jLabel456;
+    private javax.swing.JLabel jLabel457;
+    private javax.swing.JLabel jLabel458;
+    private javax.swing.JLabel jLabel459;
     private javax.swing.JLabel jLabel46;
+    private javax.swing.JLabel jLabel460;
+    private javax.swing.JLabel jLabel461;
+    private javax.swing.JLabel jLabel462;
+    private javax.swing.JLabel jLabel463;
+    private javax.swing.JLabel jLabel464;
+    private javax.swing.JLabel jLabel465;
+    private javax.swing.JLabel jLabel466;
+    private javax.swing.JLabel jLabel467;
+    private javax.swing.JLabel jLabel468;
+    private javax.swing.JLabel jLabel469;
     private javax.swing.JLabel jLabel47;
+    private javax.swing.JLabel jLabel470;
+    private javax.swing.JLabel jLabel471;
+    private javax.swing.JLabel jLabel472;
+    private javax.swing.JLabel jLabel473;
+    private javax.swing.JLabel jLabel474;
+    private javax.swing.JLabel jLabel475;
+    private javax.swing.JLabel jLabel476;
+    private javax.swing.JLabel jLabel477;
+    private javax.swing.JLabel jLabel478;
+    private javax.swing.JLabel jLabel479;
     private javax.swing.JLabel jLabel48;
+    private javax.swing.JLabel jLabel480;
+    private javax.swing.JLabel jLabel481;
+    private javax.swing.JLabel jLabel482;
+    private javax.swing.JLabel jLabel483;
+    private javax.swing.JLabel jLabel484;
+    private javax.swing.JLabel jLabel485;
+    private javax.swing.JLabel jLabel486;
+    private javax.swing.JLabel jLabel487;
+    private javax.swing.JLabel jLabel488;
+    private javax.swing.JLabel jLabel489;
     private javax.swing.JLabel jLabel49;
+    private javax.swing.JLabel jLabel490;
+    private javax.swing.JLabel jLabel491;
+    private javax.swing.JLabel jLabel492;
+    private javax.swing.JLabel jLabel493;
+    private javax.swing.JLabel jLabel494;
+    private javax.swing.JLabel jLabel495;
+    private javax.swing.JLabel jLabel496;
+    private javax.swing.JLabel jLabel497;
+    private javax.swing.JLabel jLabel498;
+    private javax.swing.JLabel jLabel499;
+    private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel50;
+    private javax.swing.JLabel jLabel500;
+    private javax.swing.JLabel jLabel501;
+    private javax.swing.JLabel jLabel502;
+    private javax.swing.JLabel jLabel503;
+    private javax.swing.JLabel jLabel504;
+    private javax.swing.JLabel jLabel505;
+    private javax.swing.JLabel jLabel506;
+    private javax.swing.JLabel jLabel507;
+    private javax.swing.JLabel jLabel508;
+    private javax.swing.JLabel jLabel509;
     private javax.swing.JLabel jLabel51;
+    private javax.swing.JLabel jLabel510;
+    private javax.swing.JLabel jLabel511;
+    private javax.swing.JLabel jLabel512;
+    private javax.swing.JLabel jLabel513;
+    private javax.swing.JLabel jLabel514;
+    private javax.swing.JLabel jLabel515;
+    private javax.swing.JLabel jLabel516;
+    private javax.swing.JLabel jLabel517;
+    private javax.swing.JLabel jLabel518;
+    private javax.swing.JLabel jLabel519;
     private javax.swing.JLabel jLabel52;
+    private javax.swing.JLabel jLabel520;
+    private javax.swing.JLabel jLabel521;
+    private javax.swing.JLabel jLabel522;
+    private javax.swing.JLabel jLabel523;
+    private javax.swing.JLabel jLabel524;
+    private javax.swing.JLabel jLabel525;
+    private javax.swing.JLabel jLabel526;
+    private javax.swing.JLabel jLabel527;
+    private javax.swing.JLabel jLabel528;
+    private javax.swing.JLabel jLabel529;
     private javax.swing.JLabel jLabel53;
+    private javax.swing.JLabel jLabel530;
+    private javax.swing.JLabel jLabel531;
+    private javax.swing.JLabel jLabel532;
+    private javax.swing.JLabel jLabel533;
+    private javax.swing.JLabel jLabel534;
+    private javax.swing.JLabel jLabel535;
+    private javax.swing.JLabel jLabel536;
+    private javax.swing.JLabel jLabel537;
+    private javax.swing.JLabel jLabel538;
+    private javax.swing.JLabel jLabel539;
     private javax.swing.JLabel jLabel54;
+    private javax.swing.JLabel jLabel540;
+    private javax.swing.JLabel jLabel541;
+    private javax.swing.JLabel jLabel542;
+    private javax.swing.JLabel jLabel543;
+    private javax.swing.JLabel jLabel544;
+    private javax.swing.JLabel jLabel545;
+    private javax.swing.JLabel jLabel546;
+    private javax.swing.JLabel jLabel547;
+    private javax.swing.JLabel jLabel548;
+    private javax.swing.JLabel jLabel549;
     private javax.swing.JLabel jLabel55;
+    private javax.swing.JLabel jLabel550;
+    private javax.swing.JLabel jLabel551;
+    private javax.swing.JLabel jLabel552;
+    private javax.swing.JLabel jLabel553;
+    private javax.swing.JLabel jLabel554;
+    private javax.swing.JLabel jLabel555;
+    private javax.swing.JLabel jLabel556;
+    private javax.swing.JLabel jLabel557;
+    private javax.swing.JLabel jLabel558;
+    private javax.swing.JLabel jLabel559;
     private javax.swing.JLabel jLabel56;
+    private javax.swing.JLabel jLabel560;
+    private javax.swing.JLabel jLabel561;
+    private javax.swing.JLabel jLabel562;
+    private javax.swing.JLabel jLabel563;
+    private javax.swing.JLabel jLabel564;
+    private javax.swing.JLabel jLabel565;
+    private javax.swing.JLabel jLabel566;
+    private javax.swing.JLabel jLabel567;
+    private javax.swing.JLabel jLabel568;
+    private javax.swing.JLabel jLabel569;
     private javax.swing.JLabel jLabel57;
+    private javax.swing.JLabel jLabel570;
+    private javax.swing.JLabel jLabel571;
+    private javax.swing.JLabel jLabel572;
+    private javax.swing.JLabel jLabel573;
+    private javax.swing.JLabel jLabel574;
+    private javax.swing.JLabel jLabel575;
+    private javax.swing.JLabel jLabel576;
+    private javax.swing.JLabel jLabel577;
+    private javax.swing.JLabel jLabel578;
+    private javax.swing.JLabel jLabel579;
     private javax.swing.JLabel jLabel58;
+    private javax.swing.JLabel jLabel580;
+    private javax.swing.JLabel jLabel581;
+    private javax.swing.JLabel jLabel582;
+    private javax.swing.JLabel jLabel583;
+    private javax.swing.JLabel jLabel584;
+    private javax.swing.JLabel jLabel585;
+    private javax.swing.JLabel jLabel586;
+    private javax.swing.JLabel jLabel587;
+    private javax.swing.JLabel jLabel588;
+    private javax.swing.JLabel jLabel589;
     private javax.swing.JLabel jLabel59;
+    private javax.swing.JLabel jLabel590;
+    private javax.swing.JLabel jLabel591;
+    private javax.swing.JLabel jLabel592;
+    private javax.swing.JLabel jLabel593;
+    private javax.swing.JLabel jLabel594;
+    private javax.swing.JLabel jLabel595;
+    private javax.swing.JLabel jLabel596;
+    private javax.swing.JLabel jLabel597;
+    private javax.swing.JLabel jLabel598;
+    private javax.swing.JLabel jLabel599;
+    private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel60;
+    private javax.swing.JLabel jLabel600;
+    private javax.swing.JLabel jLabel601;
+    private javax.swing.JLabel jLabel602;
+    private javax.swing.JLabel jLabel603;
+    private javax.swing.JLabel jLabel604;
+    private javax.swing.JLabel jLabel605;
+    private javax.swing.JLabel jLabel606;
+    private javax.swing.JLabel jLabel607;
+    private javax.swing.JLabel jLabel608;
+    private javax.swing.JLabel jLabel609;
     private javax.swing.JLabel jLabel61;
+    private javax.swing.JLabel jLabel610;
+    private javax.swing.JLabel jLabel611;
+    private javax.swing.JLabel jLabel612;
+    private javax.swing.JLabel jLabel613;
+    private javax.swing.JLabel jLabel614;
+    private javax.swing.JLabel jLabel615;
+    private javax.swing.JLabel jLabel616;
+    private javax.swing.JLabel jLabel617;
+    private javax.swing.JLabel jLabel618;
+    private javax.swing.JLabel jLabel619;
     private javax.swing.JLabel jLabel62;
+    private javax.swing.JLabel jLabel620;
+    private javax.swing.JLabel jLabel621;
+    private javax.swing.JLabel jLabel622;
+    private javax.swing.JLabel jLabel623;
+    private javax.swing.JLabel jLabel624;
+    private javax.swing.JLabel jLabel625;
+    private javax.swing.JLabel jLabel626;
+    private javax.swing.JLabel jLabel627;
+    private javax.swing.JLabel jLabel628;
+    private javax.swing.JLabel jLabel629;
     private javax.swing.JLabel jLabel63;
+    private javax.swing.JLabel jLabel630;
+    private javax.swing.JLabel jLabel631;
+    private javax.swing.JLabel jLabel632;
+    private javax.swing.JLabel jLabel633;
+    private javax.swing.JLabel jLabel634;
+    private javax.swing.JLabel jLabel635;
+    private javax.swing.JLabel jLabel636;
+    private javax.swing.JLabel jLabel637;
+    private javax.swing.JLabel jLabel638;
+    private javax.swing.JLabel jLabel639;
     private javax.swing.JLabel jLabel64;
+    private javax.swing.JLabel jLabel640;
+    private javax.swing.JLabel jLabel641;
+    private javax.swing.JLabel jLabel642;
+    private javax.swing.JLabel jLabel643;
+    private javax.swing.JLabel jLabel644;
+    private javax.swing.JLabel jLabel645;
+    private javax.swing.JLabel jLabel646;
+    private javax.swing.JLabel jLabel647;
+    private javax.swing.JLabel jLabel648;
+    private javax.swing.JLabel jLabel649;
     private javax.swing.JLabel jLabel65;
+    private javax.swing.JLabel jLabel650;
+    private javax.swing.JLabel jLabel651;
     private javax.swing.JLabel jLabel66;
     private javax.swing.JLabel jLabel67;
     private javax.swing.JLabel jLabel68;
     private javax.swing.JLabel jLabel69;
+    private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel70;
     private javax.swing.JLabel jLabel71;
     private javax.swing.JLabel jLabel72;
@@ -1200,6 +8098,518 @@ public class NewJFrame extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel97;
     private javax.swing.JLabel jLabel98;
     private javax.swing.JLabel jLabel99;
+    private javax.swing.JRadioButton jRadio100;
+    private javax.swing.JRadioButton jRadio101;
+    private javax.swing.JRadioButton jRadio102;
+    private javax.swing.JRadioButton jRadio103;
+    private javax.swing.JRadioButton jRadio104;
+    private javax.swing.JRadioButton jRadio105;
+    private javax.swing.JRadioButton jRadio106;
+    private javax.swing.JRadioButton jRadio107;
+    private javax.swing.JRadioButton jRadio108;
+    private javax.swing.JRadioButton jRadio109;
+    private javax.swing.JRadioButton jRadio11;
+    private javax.swing.JRadioButton jRadio110;
+    private javax.swing.JRadioButton jRadio111;
+    private javax.swing.JRadioButton jRadio112;
+    private javax.swing.JRadioButton jRadio113;
+    private javax.swing.JRadioButton jRadio114;
+    private javax.swing.JRadioButton jRadio115;
+    private javax.swing.JRadioButton jRadio116;
+    private javax.swing.JRadioButton jRadio117;
+    private javax.swing.JRadioButton jRadio118;
+    private javax.swing.JRadioButton jRadio119;
+    private javax.swing.JRadioButton jRadio12;
+    private javax.swing.JRadioButton jRadio120;
+    private javax.swing.JRadioButton jRadio121;
+    private javax.swing.JRadioButton jRadio122;
+    private javax.swing.JRadioButton jRadio123;
+    private javax.swing.JRadioButton jRadio124;
+    private javax.swing.JRadioButton jRadio125;
+    private javax.swing.JRadioButton jRadio126;
+    private javax.swing.JRadioButton jRadio127;
+    private javax.swing.JRadioButton jRadio128;
+    private javax.swing.JRadioButton jRadio129;
+    private javax.swing.JRadioButton jRadio13;
+    private javax.swing.JRadioButton jRadio130;
+    private javax.swing.JRadioButton jRadio131;
+    private javax.swing.JRadioButton jRadio132;
+    private javax.swing.JRadioButton jRadio133;
+    private javax.swing.JRadioButton jRadio134;
+    private javax.swing.JRadioButton jRadio135;
+    private javax.swing.JRadioButton jRadio136;
+    private javax.swing.JRadioButton jRadio137;
+    private javax.swing.JRadioButton jRadio138;
+    private javax.swing.JRadioButton jRadio139;
+    private javax.swing.JRadioButton jRadio14;
+    private javax.swing.JRadioButton jRadio140;
+    private javax.swing.JRadioButton jRadio141;
+    private javax.swing.JRadioButton jRadio142;
+    private javax.swing.JRadioButton jRadio143;
+    private javax.swing.JRadioButton jRadio144;
+    private javax.swing.JRadioButton jRadio145;
+    private javax.swing.JRadioButton jRadio146;
+    private javax.swing.JRadioButton jRadio147;
+    private javax.swing.JRadioButton jRadio148;
+    private javax.swing.JRadioButton jRadio149;
+    private javax.swing.JRadioButton jRadio15;
+    private javax.swing.JRadioButton jRadio150;
+    private javax.swing.JRadioButton jRadio151;
+    private javax.swing.JRadioButton jRadio152;
+    private javax.swing.JRadioButton jRadio153;
+    private javax.swing.JRadioButton jRadio154;
+    private javax.swing.JRadioButton jRadio155;
+    private javax.swing.JRadioButton jRadio156;
+    private javax.swing.JRadioButton jRadio157;
+    private javax.swing.JRadioButton jRadio158;
+    private javax.swing.JRadioButton jRadio159;
+    private javax.swing.JRadioButton jRadio16;
+    private javax.swing.JRadioButton jRadio160;
+    private javax.swing.JRadioButton jRadio161;
+    private javax.swing.JRadioButton jRadio162;
+    private javax.swing.JRadioButton jRadio163;
+    private javax.swing.JRadioButton jRadio164;
+    private javax.swing.JRadioButton jRadio165;
+    private javax.swing.JRadioButton jRadio166;
+    private javax.swing.JRadioButton jRadio167;
+    private javax.swing.JRadioButton jRadio168;
+    private javax.swing.JRadioButton jRadio169;
+    private javax.swing.JRadioButton jRadio17;
+    private javax.swing.JRadioButton jRadio170;
+    private javax.swing.JRadioButton jRadio171;
+    private javax.swing.JRadioButton jRadio172;
+    private javax.swing.JRadioButton jRadio173;
+    private javax.swing.JRadioButton jRadio174;
+    private javax.swing.JRadioButton jRadio175;
+    private javax.swing.JRadioButton jRadio176;
+    private javax.swing.JRadioButton jRadio177;
+    private javax.swing.JRadioButton jRadio178;
+    private javax.swing.JRadioButton jRadio179;
+    private javax.swing.JRadioButton jRadio18;
+    private javax.swing.JRadioButton jRadio180;
+    private javax.swing.JRadioButton jRadio181;
+    private javax.swing.JRadioButton jRadio182;
+    private javax.swing.JRadioButton jRadio183;
+    private javax.swing.JRadioButton jRadio184;
+    private javax.swing.JRadioButton jRadio185;
+    private javax.swing.JRadioButton jRadio186;
+    private javax.swing.JRadioButton jRadio187;
+    private javax.swing.JRadioButton jRadio188;
+    private javax.swing.JRadioButton jRadio189;
+    private javax.swing.JRadioButton jRadio19;
+    private javax.swing.JRadioButton jRadio190;
+    private javax.swing.JRadioButton jRadio191;
+    private javax.swing.JRadioButton jRadio192;
+    private javax.swing.JRadioButton jRadio193;
+    private javax.swing.JRadioButton jRadio194;
+    private javax.swing.JRadioButton jRadio195;
+    private javax.swing.JRadioButton jRadio196;
+    private javax.swing.JRadioButton jRadio197;
+    private javax.swing.JRadioButton jRadio198;
+    private javax.swing.JRadioButton jRadio199;
+    private javax.swing.JRadioButton jRadio20;
+    private javax.swing.JRadioButton jRadio200;
+    private javax.swing.JRadioButton jRadio201;
+    private javax.swing.JRadioButton jRadio202;
+    private javax.swing.JRadioButton jRadio203;
+    private javax.swing.JRadioButton jRadio204;
+    private javax.swing.JRadioButton jRadio205;
+    private javax.swing.JRadioButton jRadio206;
+    private javax.swing.JRadioButton jRadio207;
+    private javax.swing.JRadioButton jRadio208;
+    private javax.swing.JRadioButton jRadio209;
+    private javax.swing.JRadioButton jRadio21;
+    private javax.swing.JRadioButton jRadio210;
+    private javax.swing.JRadioButton jRadio211;
+    private javax.swing.JRadioButton jRadio212;
+    private javax.swing.JRadioButton jRadio213;
+    private javax.swing.JRadioButton jRadio214;
+    private javax.swing.JRadioButton jRadio215;
+    private javax.swing.JRadioButton jRadio216;
+    private javax.swing.JRadioButton jRadio217;
+    private javax.swing.JRadioButton jRadio218;
+    private javax.swing.JRadioButton jRadio219;
+    private javax.swing.JRadioButton jRadio22;
+    private javax.swing.JRadioButton jRadio220;
+    private javax.swing.JRadioButton jRadio221;
+    private javax.swing.JRadioButton jRadio222;
+    private javax.swing.JRadioButton jRadio223;
+    private javax.swing.JRadioButton jRadio224;
+    private javax.swing.JRadioButton jRadio225;
+    private javax.swing.JRadioButton jRadio226;
+    private javax.swing.JRadioButton jRadio227;
+    private javax.swing.JRadioButton jRadio228;
+    private javax.swing.JRadioButton jRadio229;
+    private javax.swing.JRadioButton jRadio23;
+    private javax.swing.JRadioButton jRadio230;
+    private javax.swing.JRadioButton jRadio231;
+    private javax.swing.JRadioButton jRadio232;
+    private javax.swing.JRadioButton jRadio233;
+    private javax.swing.JRadioButton jRadio234;
+    private javax.swing.JRadioButton jRadio235;
+    private javax.swing.JRadioButton jRadio236;
+    private javax.swing.JRadioButton jRadio237;
+    private javax.swing.JRadioButton jRadio238;
+    private javax.swing.JRadioButton jRadio239;
+    private javax.swing.JRadioButton jRadio24;
+    private javax.swing.JRadioButton jRadio240;
+    private javax.swing.JRadioButton jRadio241;
+    private javax.swing.JRadioButton jRadio242;
+    private javax.swing.JRadioButton jRadio243;
+    private javax.swing.JRadioButton jRadio244;
+    private javax.swing.JRadioButton jRadio245;
+    private javax.swing.JRadioButton jRadio246;
+    private javax.swing.JRadioButton jRadio247;
+    private javax.swing.JRadioButton jRadio248;
+    private javax.swing.JRadioButton jRadio249;
+    private javax.swing.JRadioButton jRadio25;
+    private javax.swing.JRadioButton jRadio250;
+    private javax.swing.JRadioButton jRadio251;
+    private javax.swing.JRadioButton jRadio252;
+    private javax.swing.JRadioButton jRadio253;
+    private javax.swing.JRadioButton jRadio254;
+    private javax.swing.JRadioButton jRadio255;
+    private javax.swing.JRadioButton jRadio256;
+    private javax.swing.JRadioButton jRadio257;
+    private javax.swing.JRadioButton jRadio258;
+    private javax.swing.JRadioButton jRadio259;
+    private javax.swing.JRadioButton jRadio26;
+    private javax.swing.JRadioButton jRadio260;
+    private javax.swing.JRadioButton jRadio261;
+    private javax.swing.JRadioButton jRadio262;
+    private javax.swing.JRadioButton jRadio263;
+    private javax.swing.JRadioButton jRadio264;
+    private javax.swing.JRadioButton jRadio265;
+    private javax.swing.JRadioButton jRadio266;
+    private javax.swing.JRadioButton jRadio267;
+    private javax.swing.JRadioButton jRadio268;
+    private javax.swing.JRadioButton jRadio269;
+    private javax.swing.JRadioButton jRadio27;
+    private javax.swing.JRadioButton jRadio270;
+    private javax.swing.JRadioButton jRadio271;
+    private javax.swing.JRadioButton jRadio272;
+    private javax.swing.JRadioButton jRadio273;
+    private javax.swing.JRadioButton jRadio274;
+    private javax.swing.JRadioButton jRadio275;
+    private javax.swing.JRadioButton jRadio276;
+    private javax.swing.JRadioButton jRadio277;
+    private javax.swing.JRadioButton jRadio278;
+    private javax.swing.JRadioButton jRadio279;
+    private javax.swing.JRadioButton jRadio28;
+    private javax.swing.JRadioButton jRadio280;
+    private javax.swing.JRadioButton jRadio281;
+    private javax.swing.JRadioButton jRadio282;
+    private javax.swing.JRadioButton jRadio283;
+    private javax.swing.JRadioButton jRadio284;
+    private javax.swing.JRadioButton jRadio285;
+    private javax.swing.JRadioButton jRadio286;
+    private javax.swing.JRadioButton jRadio287;
+    private javax.swing.JRadioButton jRadio288;
+    private javax.swing.JRadioButton jRadio289;
+    private javax.swing.JRadioButton jRadio29;
+    private javax.swing.JRadioButton jRadio290;
+    private javax.swing.JRadioButton jRadio291;
+    private javax.swing.JRadioButton jRadio292;
+    private javax.swing.JRadioButton jRadio293;
+    private javax.swing.JRadioButton jRadio294;
+    private javax.swing.JRadioButton jRadio295;
+    private javax.swing.JRadioButton jRadio296;
+    private javax.swing.JRadioButton jRadio297;
+    private javax.swing.JRadioButton jRadio298;
+    private javax.swing.JRadioButton jRadio299;
+    private javax.swing.JRadioButton jRadio30;
+    private javax.swing.JRadioButton jRadio300;
+    private javax.swing.JRadioButton jRadio301;
+    private javax.swing.JRadioButton jRadio302;
+    private javax.swing.JRadioButton jRadio303;
+    private javax.swing.JRadioButton jRadio304;
+    private javax.swing.JRadioButton jRadio305;
+    private javax.swing.JRadioButton jRadio306;
+    private javax.swing.JRadioButton jRadio307;
+    private javax.swing.JRadioButton jRadio308;
+    private javax.swing.JRadioButton jRadio309;
+    private javax.swing.JRadioButton jRadio31;
+    private javax.swing.JRadioButton jRadio310;
+    private javax.swing.JRadioButton jRadio311;
+    private javax.swing.JRadioButton jRadio312;
+    private javax.swing.JRadioButton jRadio313;
+    private javax.swing.JRadioButton jRadio314;
+    private javax.swing.JRadioButton jRadio315;
+    private javax.swing.JRadioButton jRadio316;
+    private javax.swing.JRadioButton jRadio317;
+    private javax.swing.JRadioButton jRadio318;
+    private javax.swing.JRadioButton jRadio319;
+    private javax.swing.JRadioButton jRadio32;
+    private javax.swing.JRadioButton jRadio320;
+    private javax.swing.JRadioButton jRadio321;
+    private javax.swing.JRadioButton jRadio322;
+    private javax.swing.JRadioButton jRadio323;
+    private javax.swing.JRadioButton jRadio324;
+    private javax.swing.JRadioButton jRadio325;
+    private javax.swing.JRadioButton jRadio326;
+    private javax.swing.JRadioButton jRadio327;
+    private javax.swing.JRadioButton jRadio328;
+    private javax.swing.JRadioButton jRadio329;
+    private javax.swing.JRadioButton jRadio33;
+    private javax.swing.JRadioButton jRadio330;
+    private javax.swing.JRadioButton jRadio331;
+    private javax.swing.JRadioButton jRadio332;
+    private javax.swing.JRadioButton jRadio333;
+    private javax.swing.JRadioButton jRadio334;
+    private javax.swing.JRadioButton jRadio335;
+    private javax.swing.JRadioButton jRadio336;
+    private javax.swing.JRadioButton jRadio337;
+    private javax.swing.JRadioButton jRadio338;
+    private javax.swing.JRadioButton jRadio339;
+    private javax.swing.JRadioButton jRadio34;
+    private javax.swing.JRadioButton jRadio340;
+    private javax.swing.JRadioButton jRadio341;
+    private javax.swing.JRadioButton jRadio342;
+    private javax.swing.JRadioButton jRadio343;
+    private javax.swing.JRadioButton jRadio344;
+    private javax.swing.JRadioButton jRadio345;
+    private javax.swing.JRadioButton jRadio346;
+    private javax.swing.JRadioButton jRadio347;
+    private javax.swing.JRadioButton jRadio348;
+    private javax.swing.JRadioButton jRadio349;
+    private javax.swing.JRadioButton jRadio35;
+    private javax.swing.JRadioButton jRadio350;
+    private javax.swing.JRadioButton jRadio351;
+    private javax.swing.JRadioButton jRadio352;
+    private javax.swing.JRadioButton jRadio353;
+    private javax.swing.JRadioButton jRadio354;
+    private javax.swing.JRadioButton jRadio355;
+    private javax.swing.JRadioButton jRadio356;
+    private javax.swing.JRadioButton jRadio357;
+    private javax.swing.JRadioButton jRadio358;
+    private javax.swing.JRadioButton jRadio359;
+    private javax.swing.JRadioButton jRadio36;
+    private javax.swing.JRadioButton jRadio360;
+    private javax.swing.JRadioButton jRadio361;
+    private javax.swing.JRadioButton jRadio362;
+    private javax.swing.JRadioButton jRadio363;
+    private javax.swing.JRadioButton jRadio364;
+    private javax.swing.JRadioButton jRadio365;
+    private javax.swing.JRadioButton jRadio366;
+    private javax.swing.JRadioButton jRadio367;
+    private javax.swing.JRadioButton jRadio368;
+    private javax.swing.JRadioButton jRadio369;
+    private javax.swing.JRadioButton jRadio37;
+    private javax.swing.JRadioButton jRadio370;
+    private javax.swing.JRadioButton jRadio371;
+    private javax.swing.JRadioButton jRadio372;
+    private javax.swing.JRadioButton jRadio373;
+    private javax.swing.JRadioButton jRadio374;
+    private javax.swing.JRadioButton jRadio375;
+    private javax.swing.JRadioButton jRadio376;
+    private javax.swing.JRadioButton jRadio377;
+    private javax.swing.JRadioButton jRadio378;
+    private javax.swing.JRadioButton jRadio379;
+    private javax.swing.JRadioButton jRadio38;
+    private javax.swing.JRadioButton jRadio380;
+    private javax.swing.JRadioButton jRadio381;
+    private javax.swing.JRadioButton jRadio382;
+    private javax.swing.JRadioButton jRadio383;
+    private javax.swing.JRadioButton jRadio384;
+    private javax.swing.JRadioButton jRadio385;
+    private javax.swing.JRadioButton jRadio386;
+    private javax.swing.JRadioButton jRadio387;
+    private javax.swing.JRadioButton jRadio388;
+    private javax.swing.JRadioButton jRadio389;
+    private javax.swing.JRadioButton jRadio39;
+    private javax.swing.JRadioButton jRadio390;
+    private javax.swing.JRadioButton jRadio391;
+    private javax.swing.JRadioButton jRadio392;
+    private javax.swing.JRadioButton jRadio393;
+    private javax.swing.JRadioButton jRadio394;
+    private javax.swing.JRadioButton jRadio395;
+    private javax.swing.JRadioButton jRadio396;
+    private javax.swing.JRadioButton jRadio397;
+    private javax.swing.JRadioButton jRadio398;
+    private javax.swing.JRadioButton jRadio399;
+    private javax.swing.JRadioButton jRadio40;
+    private javax.swing.JRadioButton jRadio400;
+    private javax.swing.JRadioButton jRadio401;
+    private javax.swing.JRadioButton jRadio402;
+    private javax.swing.JRadioButton jRadio403;
+    private javax.swing.JRadioButton jRadio404;
+    private javax.swing.JRadioButton jRadio405;
+    private javax.swing.JRadioButton jRadio406;
+    private javax.swing.JRadioButton jRadio407;
+    private javax.swing.JRadioButton jRadio408;
+    private javax.swing.JRadioButton jRadio409;
+    private javax.swing.JRadioButton jRadio41;
+    private javax.swing.JRadioButton jRadio410;
+    private javax.swing.JRadioButton jRadio411;
+    private javax.swing.JRadioButton jRadio412;
+    private javax.swing.JRadioButton jRadio413;
+    private javax.swing.JRadioButton jRadio414;
+    private javax.swing.JRadioButton jRadio415;
+    private javax.swing.JRadioButton jRadio416;
+    private javax.swing.JRadioButton jRadio417;
+    private javax.swing.JRadioButton jRadio418;
+    private javax.swing.JRadioButton jRadio419;
+    private javax.swing.JRadioButton jRadio42;
+    private javax.swing.JRadioButton jRadio420;
+    private javax.swing.JRadioButton jRadio421;
+    private javax.swing.JRadioButton jRadio422;
+    private javax.swing.JRadioButton jRadio423;
+    private javax.swing.JRadioButton jRadio424;
+    private javax.swing.JRadioButton jRadio425;
+    private javax.swing.JRadioButton jRadio426;
+    private javax.swing.JRadioButton jRadio427;
+    private javax.swing.JRadioButton jRadio428;
+    private javax.swing.JRadioButton jRadio429;
+    private javax.swing.JRadioButton jRadio43;
+    private javax.swing.JRadioButton jRadio430;
+    private javax.swing.JRadioButton jRadio431;
+    private javax.swing.JRadioButton jRadio432;
+    private javax.swing.JRadioButton jRadio433;
+    private javax.swing.JRadioButton jRadio434;
+    private javax.swing.JRadioButton jRadio435;
+    private javax.swing.JRadioButton jRadio436;
+    private javax.swing.JRadioButton jRadio437;
+    private javax.swing.JRadioButton jRadio438;
+    private javax.swing.JRadioButton jRadio439;
+    private javax.swing.JRadioButton jRadio44;
+    private javax.swing.JRadioButton jRadio440;
+    private javax.swing.JRadioButton jRadio441;
+    private javax.swing.JRadioButton jRadio442;
+    private javax.swing.JRadioButton jRadio443;
+    private javax.swing.JRadioButton jRadio444;
+    private javax.swing.JRadioButton jRadio445;
+    private javax.swing.JRadioButton jRadio446;
+    private javax.swing.JRadioButton jRadio447;
+    private javax.swing.JRadioButton jRadio448;
+    private javax.swing.JRadioButton jRadio449;
+    private javax.swing.JRadioButton jRadio45;
+    private javax.swing.JRadioButton jRadio450;
+    private javax.swing.JRadioButton jRadio451;
+    private javax.swing.JRadioButton jRadio452;
+    private javax.swing.JRadioButton jRadio453;
+    private javax.swing.JRadioButton jRadio454;
+    private javax.swing.JRadioButton jRadio455;
+    private javax.swing.JRadioButton jRadio456;
+    private javax.swing.JRadioButton jRadio457;
+    private javax.swing.JRadioButton jRadio458;
+    private javax.swing.JRadioButton jRadio459;
+    private javax.swing.JRadioButton jRadio46;
+    private javax.swing.JRadioButton jRadio460;
+    private javax.swing.JRadioButton jRadio461;
+    private javax.swing.JRadioButton jRadio462;
+    private javax.swing.JRadioButton jRadio463;
+    private javax.swing.JRadioButton jRadio464;
+    private javax.swing.JRadioButton jRadio465;
+    private javax.swing.JRadioButton jRadio466;
+    private javax.swing.JRadioButton jRadio467;
+    private javax.swing.JRadioButton jRadio468;
+    private javax.swing.JRadioButton jRadio469;
+    private javax.swing.JRadioButton jRadio47;
+    private javax.swing.JRadioButton jRadio470;
+    private javax.swing.JRadioButton jRadio471;
+    private javax.swing.JRadioButton jRadio472;
+    private javax.swing.JRadioButton jRadio473;
+    private javax.swing.JRadioButton jRadio474;
+    private javax.swing.JRadioButton jRadio475;
+    private javax.swing.JRadioButton jRadio476;
+    private javax.swing.JRadioButton jRadio477;
+    private javax.swing.JRadioButton jRadio478;
+    private javax.swing.JRadioButton jRadio479;
+    private javax.swing.JRadioButton jRadio48;
+    private javax.swing.JRadioButton jRadio480;
+    private javax.swing.JRadioButton jRadio481;
+    private javax.swing.JRadioButton jRadio482;
+    private javax.swing.JRadioButton jRadio483;
+    private javax.swing.JRadioButton jRadio484;
+    private javax.swing.JRadioButton jRadio485;
+    private javax.swing.JRadioButton jRadio486;
+    private javax.swing.JRadioButton jRadio487;
+    private javax.swing.JRadioButton jRadio488;
+    private javax.swing.JRadioButton jRadio489;
+    private javax.swing.JRadioButton jRadio49;
+    private javax.swing.JRadioButton jRadio490;
+    private javax.swing.JRadioButton jRadio491;
+    private javax.swing.JRadioButton jRadio492;
+    private javax.swing.JRadioButton jRadio493;
+    private javax.swing.JRadioButton jRadio494;
+    private javax.swing.JRadioButton jRadio495;
+    private javax.swing.JRadioButton jRadio496;
+    private javax.swing.JRadioButton jRadio497;
+    private javax.swing.JRadioButton jRadio498;
+    private javax.swing.JRadioButton jRadio499;
+    private javax.swing.JRadioButton jRadio50;
+    private javax.swing.JRadioButton jRadio500;
+    private javax.swing.JRadioButton jRadio501;
+    private javax.swing.JRadioButton jRadio502;
+    private javax.swing.JRadioButton jRadio503;
+    private javax.swing.JRadioButton jRadio504;
+    private javax.swing.JRadioButton jRadio505;
+    private javax.swing.JRadioButton jRadio506;
+    private javax.swing.JRadioButton jRadio507;
+    private javax.swing.JRadioButton jRadio508;
+    private javax.swing.JRadioButton jRadio509;
+    private javax.swing.JRadioButton jRadio51;
+    private javax.swing.JRadioButton jRadio510;
+    private javax.swing.JRadioButton jRadio511;
+    private javax.swing.JRadioButton jRadio512;
+    private javax.swing.JRadioButton jRadio513;
+    private javax.swing.JRadioButton jRadio514;
+    private javax.swing.JRadioButton jRadio515;
+    private javax.swing.JRadioButton jRadio516;
+    private javax.swing.JRadioButton jRadio517;
+    private javax.swing.JRadioButton jRadio518;
+    private javax.swing.JRadioButton jRadio519;
+    private javax.swing.JRadioButton jRadio52;
+    private javax.swing.JRadioButton jRadio520;
+    private javax.swing.JRadioButton jRadio521;
+    private javax.swing.JRadioButton jRadio522;
+    private javax.swing.JRadioButton jRadio53;
+    private javax.swing.JRadioButton jRadio54;
+    private javax.swing.JRadioButton jRadio55;
+    private javax.swing.JRadioButton jRadio56;
+    private javax.swing.JRadioButton jRadio57;
+    private javax.swing.JRadioButton jRadio58;
+    private javax.swing.JRadioButton jRadio59;
+    private javax.swing.JRadioButton jRadio60;
+    private javax.swing.JRadioButton jRadio61;
+    private javax.swing.JRadioButton jRadio62;
+    private javax.swing.JRadioButton jRadio63;
+    private javax.swing.JRadioButton jRadio64;
+    private javax.swing.JRadioButton jRadio65;
+    private javax.swing.JRadioButton jRadio66;
+    private javax.swing.JRadioButton jRadio67;
+    private javax.swing.JRadioButton jRadio68;
+    private javax.swing.JRadioButton jRadio69;
+    private javax.swing.JRadioButton jRadio70;
+    private javax.swing.JRadioButton jRadio71;
+    private javax.swing.JRadioButton jRadio72;
+    private javax.swing.JRadioButton jRadio73;
+    private javax.swing.JRadioButton jRadio74;
+    private javax.swing.JRadioButton jRadio75;
+    private javax.swing.JRadioButton jRadio76;
+    private javax.swing.JRadioButton jRadio77;
+    private javax.swing.JRadioButton jRadio78;
+    private javax.swing.JRadioButton jRadio79;
+    private javax.swing.JRadioButton jRadio80;
+    private javax.swing.JRadioButton jRadio81;
+    private javax.swing.JRadioButton jRadio82;
+    private javax.swing.JRadioButton jRadio83;
+    private javax.swing.JRadioButton jRadio84;
+    private javax.swing.JRadioButton jRadio85;
+    private javax.swing.JRadioButton jRadio86;
+    private javax.swing.JRadioButton jRadio87;
+    private javax.swing.JRadioButton jRadio88;
+    private javax.swing.JRadioButton jRadio89;
+    private javax.swing.JRadioButton jRadio90;
+    private javax.swing.JRadioButton jRadio91;
+    private javax.swing.JRadioButton jRadio92;
+    private javax.swing.JRadioButton jRadio93;
+    private javax.swing.JRadioButton jRadio94;
+    private javax.swing.JRadioButton jRadio95;
+    private javax.swing.JRadioButton jRadio96;
+    private javax.swing.JRadioButton jRadio97;
+    private javax.swing.JRadioButton jRadio98;
+    private javax.swing.JRadioButton jRadio99;
     private javax.swing.JRadioButton jRadioButton100;
     private javax.swing.JRadioButton jRadioButton101;
     private javax.swing.JRadioButton jRadioButton102;
@@ -1207,41 +8617,9 @@ public class NewJFrame extends javax.swing.JFrame {
     private javax.swing.JRadioButton jRadioButton104;
     private javax.swing.JRadioButton jRadioButton105;
     private javax.swing.JRadioButton jRadioButton106;
-    private javax.swing.JRadioButton jRadioButton107;
-    private javax.swing.JRadioButton jRadioButton108;
-    private javax.swing.JRadioButton jRadioButton109;
     private javax.swing.JRadioButton jRadioButton11;
-    private javax.swing.JRadioButton jRadioButton110;
-    private javax.swing.JRadioButton jRadioButton111;
-    private javax.swing.JRadioButton jRadioButton112;
-    private javax.swing.JRadioButton jRadioButton113;
-    private javax.swing.JRadioButton jRadioButton114;
-    private javax.swing.JRadioButton jRadioButton115;
-    private javax.swing.JRadioButton jRadioButton116;
-    private javax.swing.JRadioButton jRadioButton117;
-    private javax.swing.JRadioButton jRadioButton118;
-    private javax.swing.JRadioButton jRadioButton119;
     private javax.swing.JRadioButton jRadioButton12;
-    private javax.swing.JRadioButton jRadioButton120;
-    private javax.swing.JRadioButton jRadioButton121;
-    private javax.swing.JRadioButton jRadioButton122;
-    private javax.swing.JRadioButton jRadioButton123;
-    private javax.swing.JRadioButton jRadioButton124;
-    private javax.swing.JRadioButton jRadioButton125;
-    private javax.swing.JRadioButton jRadioButton126;
-    private javax.swing.JRadioButton jRadioButton127;
-    private javax.swing.JRadioButton jRadioButton128;
-    private javax.swing.JRadioButton jRadioButton129;
     private javax.swing.JRadioButton jRadioButton13;
-    private javax.swing.JRadioButton jRadioButton130;
-    private javax.swing.JRadioButton jRadioButton131;
-    private javax.swing.JRadioButton jRadioButton132;
-    private javax.swing.JRadioButton jRadioButton133;
-    private javax.swing.JRadioButton jRadioButton134;
-    private javax.swing.JRadioButton jRadioButton135;
-    private javax.swing.JRadioButton jRadioButton136;
-    private javax.swing.JRadioButton jRadioButton137;
-    private javax.swing.JRadioButton jRadioButton138;
     private javax.swing.JRadioButton jRadioButton14;
     private javax.swing.JRadioButton jRadioButton15;
     private javax.swing.JRadioButton jRadioButton16;
@@ -1332,21 +8710,66 @@ public class NewJFrame extends javax.swing.JFrame {
     private javax.swing.JComboBox<String> mesPaciente;
     private javax.swing.JTextField nomeDoutor;
     private javax.swing.JTextField nomePaciente;
+    private javax.swing.JPanel panelApinhamento;
     private javax.swing.JPanel panelDentesAusentes;
     private javax.swing.JPanel panelDentesAusentes1;
     private javax.swing.JPanel panelDentesAusentes2;
     private javax.swing.JPanel panelDentesCarie;
-    private javax.swing.JPanel panelInicial1;
+    private javax.swing.JPanel panelDilaceraçãoRadicular;
+    private javax.swing.JPanel panelEscleroseOssea;
+    private javax.swing.JPanel panelExtraçãoDentáriaAlvéolo;
+    private javax.swing.JPanel panelExtrusão;
+    private javax.swing.JPanel panelGiroversão;
+    private javax.swing.JPanel panelImplantes;
+    private javax.swing.JPanel panelInicial;
+    private javax.swing.JPanel panelLesãoOsseaPeriapical;
+    private javax.swing.JPanel panelMésioAngulados;
+    private javax.swing.JPanel panelNúcleoMetálicoIntraCanal;
+    private javax.swing.JPanel panelPresençaCálculo;
+    private javax.swing.JPanel panelRaizResidual;
+    private javax.swing.JPanel panelRemodelamentoApical;
+    private javax.swing.JPanel panelRemodelamentoApical4;
+    private javax.swing.JPanel panelTratamentoEndodôntico;
     private javax.swing.JButton proximo1;
+    private javax.swing.JButton proximo10;
+    private javax.swing.JButton proximo11;
+    private javax.swing.JButton proximo12;
+    private javax.swing.JButton proximo13;
+    private javax.swing.JButton proximo14;
+    private javax.swing.JButton proximo15;
+    private javax.swing.JButton proximo16;
+    private javax.swing.JButton proximo17;
+    private javax.swing.JButton proximo18;
+    private javax.swing.JButton proximo19;
     private javax.swing.JButton proximo2;
+    private javax.swing.JButton proximo20;
     private javax.swing.JButton proximo3;
     private javax.swing.JButton proximo4;
     private javax.swing.JButton proximo5;
+    private javax.swing.JButton proximo6;
+    private javax.swing.JButton proximo7;
+    private javax.swing.JButton proximo8;
+    private javax.swing.JButton proximo9;
     private javax.swing.JComboBox<String> sexoPaciente;
     private javax.swing.JComboBox<String> tipoExame;
+    private javax.swing.JButton voltar10;
+    private javax.swing.JButton voltar11;
+    private javax.swing.JButton voltar12;
+    private javax.swing.JButton voltar13;
+    private javax.swing.JButton voltar14;
+    private javax.swing.JButton voltar15;
+    private javax.swing.JButton voltar16;
+    private javax.swing.JButton voltar17;
+    private javax.swing.JButton voltar18;
+    private javax.swing.JButton voltar19;
     private javax.swing.JButton voltar2;
+    private javax.swing.JButton voltar20;
     private javax.swing.JButton voltar3;
     private javax.swing.JButton voltar4;
     private javax.swing.JButton voltar5;
+    private javax.swing.JButton voltar6;
+    private javax.swing.JButton voltar7;
+    private javax.swing.JButton voltar8;
+    private javax.swing.JButton voltar9;
     // End of variables declaration//GEN-END:variables
 }
